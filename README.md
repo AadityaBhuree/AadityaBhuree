@@ -38,11 +38,12 @@
   "core_competence": [
     "Machine Learning",
     "Computer Vision / CNNs",
+    "Reinforcement Learning (Q-Learning / DQN)",
     "Python Desktop GUI Architectures",
     "Full-Stack Web APIs (FastAPI/Flask)"
   ],
   "learning_loop": {
-    "currently_optimizing": "Deep Learning / MLOps / Voice AI Agents",
+    "currently_optimizing": "Reinforcement Learning (PPO/DQN) / MLOps / Voice AI Agents",
     "goal": "Bridge the gap between model prototyping and enterprise deployment"
   }
 }
@@ -91,6 +92,17 @@
     * **Optimizer**: Adam (learning_rate=0.001)
     * **Val Accuracy**: ~98.4%
     * **Latency**: ~12ms inference per frame
+</details>
+
+<details>
+  <summary>📂 <b><code>reinforcement-learning-sandbox/</code></b> — Agent Training & Environments</summary>
+  <br />
+
+  ### 🤖 Reinforcement Learning Interest & Sandbox
+  * **Core Algorithms**: Deep Q-Networks (DQN), Proximal Policy Optimization (PPO), Q-Learning, and Policy Gradients.
+  * **Simulation Toolkits**: Farama Foundation **Gymnasium** (formerly OpenAI Gym) for custom environment integration and training.
+  * **Framework Preferences**: **Stable-Baselines3** and custom PyTorch agents for solving control/decision tasks.
+  * **Current Focus**: Designing efficient reward function models to optimize action policy convergence in continuous state-space environments.
 </details>
 
 <details>
