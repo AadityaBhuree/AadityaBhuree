@@ -35,6 +35,7 @@
   "os": "Ubuntu 22.04 LTS / Windows 11 Pro",
   "uptime": "22 years",
   "shell": "/bin/bash",
+  "internship_status": "Actively seeking Machine Learning / Computer Vision / Full-Stack Internships",
   "core_competence": [
     "Machine Learning",
     "Computer Vision / CNNs",
@@ -44,7 +45,11 @@
   ],
   "learning_loop": {
     "currently_optimizing": "Reinforcement Learning (PPO/DQN) / MLOps / Voice AI Agents",
-    "goal": "Bridge the gap between model prototyping and enterprise deployment"
+    "professional_values": [
+      "Extreme Ownership",
+      "Loyalty & Long-Term Commitment",
+      "Proactive Work Ethic & Documentation Integrity"
+    ]
   }
 }
 ```
@@ -58,6 +63,17 @@
 <br />
 
 > **Tip:** Click on the folders below to expand and explore my portfolio, tech stack, and model metrics! 👇
+
+<details>
+  <summary>🤝 <b><font size="3" color="#ff75b5">internship-ready/</font></b> — Core Values & Vows to the Team</summary>
+  <br />
+
+  ### 💼 Professional Vows & Vibe
+  * **Loyalty & Team Alignment**: I don't build in isolation. When developing the **Used Car Price Predictor**, I focused on making sure the Python scikit-learn models were cleanly integrated with a **FastAPI** backend so frontend developers could consume the API reliably. I align my code to fit team standards.
+  * **Proactive Work Ethic ("Workfull")**: I don't stop at raw prototypes. For the **Hand Gesture Recognition System**, I optimized the custom CNN layer parameters and OpenCV image feeds to bring live inference latency down to ~12ms, ensuring high performance.
+  * **Extreme Ownership**: I write code that is built to last. For the **WellCare Hospital Management System** and **Institute Manager**, I designed clean multi-table relational architectures in **MySQL** with strict schema validations and structured desktop GUIs in **CustomTkinter** rather than basic scripts. If a database transaction or layout edge case breaks, I debug it systematically.
+  * **Long-Term Mindset**: I treat internships as a dedication to a code base. My goal is to write clean, self-documenting code with clear commits so that the next developer can pick up exactly where I left off.
+</details>
 
 <details>
   <summary>📂 <b><font size="3" color="#bb9af7">core-engine/</font></b> — Tech DNA & Focus Areas</summary>
