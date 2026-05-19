@@ -1,15 +1,15 @@
 <!-- Animated Header -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6c63ff&height=200&section=header&text=Aditya%20Bhure&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=30&desc=Python%20%E2%80%A2%20Machine%20Learning%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descSize=16&descAlignY=52&descAlign=50" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6c63ff&height=200&section=header&text=Aditya%20Bhure&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=30&desc=Aspiring%20AI/ML%20Engineer%20%E2%80%A2%20Backend%20Developer%20%E2%80%A2%20Python%20%E2%80%A2%20GenAI&descSize=16&descAlignY=52&descAlign=50" />
 </div>
 
 <!-- Quick Links / Badges -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/aditya-bhure" target="_blank">
+  <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   &nbsp;
-  <a href="mailto:adityabhure@gmail.com" target="_blank">
+  <a href="mailto:aadityabhure03@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   &nbsp;
@@ -21,7 +21,7 @@
 <!-- Typing Animation simulating CLI shell -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=90&lines=%24+init+aditya-bhure-intelligence-system...;%24+loading+neural_networks.weights...;%24+status%3A+ready+to+ship+production+models+%F0%9F%9A%80;%24+always_learning+%3D+True" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=90&lines=%24+python+-c+%22import+aditya%22;Role%3A+AI%2FML+Engineer+%26+Backend+Dev;Focus%3A+FastAPI%2C+ML%2C+DL+%26+GenAI;Status%3A+Open+for+Internships%21" alt="Typing SVG" />
   </a>
 </p>
 
