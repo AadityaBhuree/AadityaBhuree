@@ -27,7 +27,7 @@
 
 ---
 
-## 🖥️ `adityabhure@system:~$`
+## 🖥️ <font color="#bb9af7">`adityabhure@system:~$`</font>
 
 ```json
 {
@@ -51,12 +51,16 @@
 
 ---
 
-## 📁 `interactive-directory-explorer/`
+<br />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Interactive%20Directory%20Explorer&fontSize=18&fontColor=ffffff&fontAlignY=50" />
+</div>
+<br />
 
 > **Tip:** Click on the folders below to expand and explore my portfolio, tech stack, and model metrics! 👇
 
 <details>
-  <summary>📂 <b><code>core-engine/</code></b> — Tech DNA & Focus Areas</summary>
+  <summary>📂 <b><font size="3" color="#bb9af7">core-engine/</font></b> — Tech DNA & Focus Areas</summary>
   <br />
 
   ### ⚡ Technical Capabilities
@@ -71,10 +75,21 @@
   ```
   Python Core ➜ CustomTkinter GUIs ➜ MySQL schemas ➜ FastAPI & Web Dev ➜ scikit-learn ➜ OpenCV & CNNs ➜ PyTorch/TensorFlow ➜ MLOps (Current Focus)
   ```
+
+  ### 📊 Core Skills & Confidence Levels
+  
+  | Skill Area | Confidence Level | Years of Exp |
+  | :--- | :--- | :--- |
+  | **Python (Core & Desktop)** | <img src="https://geps.dev/progress/95?successColor=6c63ff" alt="95%" /> | 5+ Years |
+  | **TensorFlow / OpenCV / CNNs** | <img src="https://geps.dev/progress/85?successColor=6c63ff" alt="85%" /> | 3+ Years |
+  | **FastAPI / Flask Web Backends** | <img src="https://geps.dev/progress/80?successColor=6c63ff" alt="80%" /> | 2+ Years |
+  | **Reinforcement Learning** | <img src="https://geps.dev/progress/70?successColor=6c63ff" alt="70%" /> | 1+ Year |
+  | **MySQL Databases** | <img src="https://geps.dev/progress/75?successColor=6c63ff" alt="75%" /> | 2+ Years |
+
 </details>
 
 <details>
-  <summary>📂 <b><code>computer-vision-zoo/</code></b> — Gesture Recognition & Deep Learning</summary>
+  <summary>📂 <b><font size="3" color="#7aa2f7">computer-vision-zoo/</font></b> — Gesture Recognition & Deep Learning</summary>
   <br />
 
   ### ✋ Hand Gesture Recognition System
@@ -95,7 +110,7 @@
 </details>
 
 <details>
-  <summary>📂 <b><code>reinforcement-learning-sandbox/</code></b> — Agent Training & Environments</summary>
+  <summary>🤖 <b><font size="3" color="#9ece6a">reinforcement-learning-sandbox/</font></b> — Agent Training & Environments</summary>
   <br />
 
   ### 🤖 Reinforcement Learning Interest & Sandbox
@@ -106,7 +121,7 @@
 </details>
 
 <details>
-  <summary>📂 <b><code>web-ml-pipelines/</code></b> — End-to-End Prediction Web Apps</summary>
+  <summary>📂 <b><font size="3" color="#e0af68">web-ml-pipelines/</font></b> — End-to-End Prediction Web Apps</summary>
   <br />
 
   ### 🚗 Used Car Price Predictor
@@ -122,7 +137,7 @@
 </details>
 
 <details>
-  <summary>📂 <b><code>enterprise-systems/</code></b> — CRUD & Hospital Management</summary>
+  <summary>📂 <b><font size="3" color="#f7768e">enterprise-systems/</font></b> — CRUD & Hospital Management</summary>
   <br />
 
   ### 🏥 WellCare Hospital System
@@ -135,7 +150,7 @@
 </details>
 
 <details>
-  <summary>📂 <b><code>tech-stack-badger/</code></b> — Visual Badges</summary>
+  <summary>🛠️ <b><font size="3" color="#89ddff">tech-stack-badger/</font></b> — Visual Badges</summary>
   <br />
 
   <div align="center">
@@ -160,18 +175,26 @@
 
 ---
 
-## 🛠️ `build-tracks.csv`
+<br />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Build%20Track%20Manifest&fontSize=18&fontColor=ffffff&fontAlignY=50" />
+</div>
+<br />
 
 | Project / Track | Purpose | Core Technologies | Status |
 | :--- | :--- | :--- | :--- |
-| **Used Car Predictor** | Predicting used car values with a responsive React dashboard. | React, FastAPI, scikit-learn, Pandas | `✅ Shipped` |
-| **Gesture Recognition** | Real-time hand posture classification from custom CNN weights. | Python, OpenCV, TensorFlow/Keras | `✅ Shipped` |
-| **WellCare Hospital** | Secure hospital admin desk tool with dynamic PDF reports. | Python, CustomTkinter, MySQL, ReportLab | `✅ Shipped` |
-| **Institute Manager** | CRUD directory helper for tracking admissions and class logs. | Python, PIL, MySQL, Tkinter | `✅ Shipped` |
+| **Used Car Predictor** | Predicting used car values with a responsive React dashboard. | React, FastAPI, scikit-learn, Pandas | <img src="https://img.shields.io/badge/Status-Shipped-success?style=flat-square&color=2eb872" alt="Shipped" /> |
+| **Gesture Recognition** | Real-time hand posture classification from custom CNN weights. | Python, OpenCV, TensorFlow/Keras | <img src="https://img.shields.io/badge/Status-Shipped-success?style=flat-square&color=2eb872" alt="Shipped" /> |
+| **WellCare Hospital** | Secure hospital admin desk tool with dynamic PDF reports. | Python, CustomTkinter, MySQL, ReportLab | <img src="https://img.shields.io/badge/Status-Shipped-success?style=flat-square&color=2eb872" alt="Shipped" /> |
+| **Institute Manager** | CRUD directory helper for tracking admissions and class logs. | Python, PIL, MySQL, Tkinter | <img src="https://img.shields.io/badge/Status-Shipped-success?style=flat-square&color=2eb872" alt="Shipped" /> |
 
 ---
 
-## 📊 `analytics.display()`
+<br />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Developer%20Metrics%20%26%20Stats&fontSize=18&fontColor=ffffff&fontAlignY=50" />
+</div>
+<br />
 
 <div align="center">
   <img height="185em" src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&ring_color=6C63FF&count_private=true&include_all_commits=true" alt="Aditya's GitHub Stats"/>
@@ -198,7 +221,11 @@
 
 ---
 
-## 🐍 `snake-contribution.gif`
+<br />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Contribution%20Snake%20Game&fontSize=18&fontColor=ffffff&fontAlignY=50" />
+</div>
+<br />
 
 <div align="center">
   <picture>
