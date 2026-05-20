@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    
+    <!-- Drop Shadow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="100%" height="100%" rx="16" fill="url(#bgGrad)" stroke="#312e81" stroke-width="2"/>
+  
+  <!-- Subtle Decorative Mesh Grid Pattern -->
+  <g opacity="0.08">
+    <path d="M 0,25 L 800,25 M 0,50 L 800,50 M 0,75 L 800,75 M 0,100 L 800,100 M 0,125 L 800,125 M 0,150 L 800,150 M 0,175 L 800,175 M 0,200 L 800,200 M 0,225 L 800,225" stroke="#ffffff" stroke-width="1" />
+    <path d="M 50,0 L 50,250 M 100,0 L 100,250 M 150,0 L 150,250 M 200,0 L 200,250 M 250,0 L 250,250 M 300,0 L 300,250 M 350,0 L 350,250 M 400,0 L 400,250 M 450,0 L 450,250 M 500,0 L 500,250 M 550,0 L 550,250 M 600,0 L 600,250 M 650,0 L 650,250 M 700,0 L 700,250 M 750,0 L 750,250" stroke="#ffffff" stroke-width="1" />
+  </g>
+
+  <!-- Abstract Tech Shapes / Background Glows -->
+  <circle cx="700" cy="50" r="100" fill="#6366f1" opacity="0.15" filter="url(#glow)" />
+  <circle cx="100" cy="200" r="80" fill="#ec4899" opacity="0.1" filter="url(#glow)" />
+
+  <!-- Coding/Tech Icons & Accent Line -->
+  <path d="M 40,30 L 760,30" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Title / Name -->
+  <text x="60" y="95" font-family="'Inter', system-ui, sans-serif" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="1">
+    Aditya Bhure
+  </text>
+  
+  <!-- Subtitle / Bio -->
+  <text x="60" y="140" font-family="'Inter', system-ui, sans-serif" font-size="20" font-weight="600" fill="url(#accentGrad)" letter-spacing="0.5">
+    AI/ML Engineer &amp; Backend Developer
+  </text>
+  
+  <!-- Core Skills Tagline / Badges style inside SVG -->
+  <g transform="translate(60, 175)">
+    <!-- Bullet 1: Deep Learning -->
+    <rect x="0" y="0" width="145" height="30" rx="8" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+    <text x="12" y="19" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc">⚡ Deep Learning</text>
+    
+    <!-- Bullet 2: Computer Vision -->
+    <rect x="160" y="0" width="155" height="30" rx="8" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+    <text x="12" y="19" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc">👁️ Computer Vision</text>
+
+    <!-- Bullet 3: FastAPI Backend -->
+    <rect x="330" y="0" width="180" height="30" rx="8" fill="#1e1b4b" stroke="#312e81" stroke-width="1" />
+    <text x="12" y="19" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc">🚀 Backend APIs (FastAPI)</text>
+  </g>
+  
+  <!-- Dynamic Terminal Window Mockup on the right -->
+  <g transform="translate(560, 60)" opacity="0.85">
+    <rect width="200" height="130" rx="8" fill="#030712" stroke="#1f2937" stroke-width="1.5" />
+    <!-- Terminal Header Buttons -->
+    <circle cx="15" cy="15" r="5" fill="#ef4444" />
+    <circle cx="30" cy="15" r="5" fill="#f59e0b" />
+    <circle cx="45" cy="15" r="5" fill="#10b981" />
+    
+    <!-- Terminal Text -->
+    <text x="15" y="45" font-family="'JetBrains Mono', monospace" font-size="11" fill="#9ca3af">$ python3</text>
+    <text x="15" y="65" font-family="'JetBrains Mono', monospace" font-size="11" fill="#10b981">>>> import aditya</text>
+    <text x="15" y="85" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38bdf8">>>> aditya.status</text>
+    <text x="15" y="105" font-family="'JetBrains Mono', monospace" font-size="11" fill="#e879f9">'ready_for_impact'</text>
+  </g>
+
+  <!-- Bottom Accent / Status -->
+  <path d="M 40,225 L 760,225" stroke="#1e293b" stroke-width="1" />
+</svg>

@@ -1,6 +1,6 @@
 <!-- Animated Header -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6c63ff&height=200&section=header&text=Aditya%20Bhure&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=30&desc=Aspiring%20AI/ML%20Engineer%20%E2%80%A2%20Backend%20Developer%20%E2%80%A2%20Python%20%E2%80%A2%20GenAI&descSize=16&descAlignY=52&descAlign=50" />
+  <img width="100%" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/banner.svg" alt="Aditya Bhure" />
 </div>
 
 <!-- Quick Links / Badges -->
@@ -58,32 +58,32 @@
 
 <br />
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Interactive%20Directory%20Explorer&fontSize=18&fontColor=ffffff&fontAlignY=50" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Developer%20Profile%20&amp;%20Ethos&fontSize=18&fontColor=ffffff&fontAlignY=50" />
 </div>
 <br />
 
-> **Tip:** Click on the folders below to expand and explore my portfolio, tech stack, and model metrics! 👇
+> **Explore my technical path, development philosophy, and stack details below! 👇**
 
 <details>
-  <summary>🤝 <b><font size="3" color="#ff75b5">internship-ready/</font></b> — Core Values & Vows to the Team</summary>
+  <summary>🤝 <b><font size="3" color="#ff75b5">coding-philosophy/</font></b> — Engineering Vows & Dedication</summary>
   <br />
 
-  ### 💼 Professional Vows & Vibe
-  * **Loyalty & Team Alignment**: I don't build in isolation. When developing the **Used Car Price Predictor**, I focused on making sure the Python scikit-learn models were cleanly integrated with a **FastAPI** backend so frontend developers could consume the API reliably. I align my code to fit team standards.
-  * **Proactive Work Ethic ("Workfull")**: I don't stop at raw prototypes. For the **Hand Gesture Recognition System**, I optimized the custom CNN layer parameters and OpenCV image feeds to bring live inference latency down to ~12ms, ensuring high performance.
-  * **Extreme Ownership**: I write code that is built to last. For the **WellCare Hospital Management System** and **Institute Manager**, I designed clean multi-table relational architectures in **MySQL** with strict schema validations and structured desktop GUIs in **CustomTkinter** rather than basic scripts. If a database transaction or layout edge case breaks, I debug it systematically.
-  * **Long-Term Mindset**: I treat internships as a dedication to a code base. My goal is to write clean, self-documenting code with clear commits so that the next developer can pick up exactly where I left off.
+  ### 💼 Core Coding Ethos
+  * **Unwavering Dedication**: Coding is not just my field; it is my craft. I am dedicated to writing clean, reliable, and high-performance code. I focus deeply on solving problems methodically, debugging systems from first principles, and refining code quality iteratively.
+  * **Extreme Ownership**: I take complete responsibility for the code I ship. From relational database constraints to responsive UI layout alignment and API safety layers, I make sure the code is structured, extensible, and thoroughly documented.
+  * **Proactive Performance Tuning**: I don't stop at raw prototypes. I continuously profile execution time, optimize algorithm structures, and build clean interfaces to ensure high performance under load.
+  * **Long-Term Codebase Mindset**: I write self-documenting code with clear comments, standard linting rules, and modular structures. My goal is to build software that is easy to maintain, scale, and collaborate on.
 </details>
 
 <details>
-  <summary>📂 <b><font size="3" color="#bb9af7">core-engine/</font></b> — Tech DNA & Focus Areas</summary>
+  <summary>📂 <b><font size="3" color="#bb9af7">core-capabilities/</font></b> — Tech DNA & Roadmap</summary>
   <br />
 
   ### ⚡ Technical Capabilities
   
-  * **AI/ML Workflows**: Custom CNN architectures, computer vision object/gesture tracking, supervised learning classifiers, regression modeling, feature engineering pipelines.
+  * **AI/ML Workflows**: Custom CNN architectures, supervised learning classifiers, regression modeling, feature engineering pipelines.
   * **Backend Engineering**: REST APIs using **FastAPI** & **Flask**, secure token-based user authentication, role-based access control (RBAC).
-  * **Database Architectures**: Multi-table relationships, SQL schema validation, indexing, and CRUD transactions inside **MySQL**.
+  * **Database Architectures**: Multi-table relationships, SQL schema validation, indexing, and CRUD transactions.
   * **Desktop Architectures**: Clean, responsive modern GUIs using **CustomTkinter** with dynamic frame rendering and real-time state management.
 
   ### 🛣️ Learning Roadmap
@@ -92,7 +92,7 @@
   Python Core ➜ CustomTkinter GUIs ➜ MySQL schemas ➜ FastAPI & Web Dev ➜ scikit-learn ➜ OpenCV & CNNs ➜ PyTorch/TensorFlow ➜ MLOps (Current Focus)
   ```
 
-  ### 📊 Core Skills & Confidence Levels
+  ### 📊 Skills Matrix & Confidence Levels
   
   | Skill Area | Confidence Level | Years of Exp |
   | :--- | :--- | :--- |
@@ -105,31 +105,10 @@
 </details>
 
 <details>
-  <summary>📂 <b><font size="3" color="#7aa2f7">computer-vision-zoo/</font></b> — Gesture Recognition & Deep Learning</summary>
+  <summary>🤖 <b><font size="3" color="#9ece6a">learning-sandbox/</font></b> — Advanced Research Interests</summary>
   <br />
 
-  ### ✋ Hand Gesture Recognition System
-  * **Description**: Real-time hand gesture tracking system powered by a custom-trained deep CNN model, integrated with OpenCV.
-  * **Model Zoo Architecture**:
-    ```
-    Input Image (64x64x1) 
-      ➜ Conv2D (32 filters, 3x3) + ReLU ➜ MaxPooling2D (2x2) + Dropout(0.25)
-      ➜ Conv2D (64 filters, 3x3) + ReLU ➜ MaxPooling2D (2x2) + Dropout(0.25)
-      ➜ Conv2D (128 filters, 3x3) + ReLU ➜ MaxPooling2D (2x2) + Dropout(0.4)
-      ➜ Flatten ➜ Dense (512 units) + ReLU + Dropout(0.5) ➜ Dense (Output Class probabilities)
-    ```
-  * **Training Diagnostics**:
-    * **Epochs**: 50 (with EarlyStopping & ReduceLROnPlateau callbacks)
-    * **Optimizer**: Adam (learning_rate=0.001)
-    * **Val Accuracy**: ~98.4%
-    * **Latency**: ~12ms inference per frame
-</details>
-
-<details>
-  <summary>🤖 <b><font size="3" color="#9ece6a">reinforcement-learning-sandbox/</font></b> — Agent Training & Environments</summary>
-  <br />
-
-  ### 🤖 Reinforcement Learning Interest & Sandbox
+  ### 🤖 Reinforcement Learning & Optimization
   * **Core Algorithms**: Deep Q-Networks (DQN), Proximal Policy Optimization (PPO), Q-Learning, and Policy Gradients.
   * **Simulation Toolkits**: Farama Foundation **Gymnasium** (formerly OpenAI Gym) for custom environment integration and training.
   * **Framework Preferences**: **Stable-Baselines3** and custom PyTorch agents for solving control/decision tasks.
@@ -137,36 +116,7 @@
 </details>
 
 <details>
-  <summary>📂 <b><font size="3" color="#e0af68">web-ml-pipelines/</font></b> — End-to-End Prediction Web Apps</summary>
-  <br />
-
-  ### 🚗 Used Car Price Predictor
-  * **Core Pipeline**: Data pre-processing, outliner removal, categorical mapping, feature scaling, training regression models (Random Forest, Gradient Boosting), and pickle serialization.
-  * **Web Architecture**:
-    ```
-    React Frontend (User enters details)
-      ➜ REST Request (JSON payload)
-      ➜ FastAPI App (Loads pickled ML pipeline, infers model prediction)
-      ➜ Response JSON (Predicted price returned to dashboard)
-    ```
-  * **Highlights**: Combines a modern React dashboard with a lightweight FastAPI wrapper, showing complete web deployment competence.
-</details>
-
-<details>
-  <summary>📂 <b><font size="3" color="#f7768e">enterprise-systems/</font></b> — CRUD & Hospital Management</summary>
-  <br />
-
-  ### 🏥 WellCare Hospital System
-  * **Features**: Dynamic patient onboarding, billing management, live statistical analytics dashboard, role-based login (Doctor, Admin, Receptionist), automated PDF prescription rendering.
-  * **GUI Design**: Styled completely with CustomTkinter for dark/light responsive interface, modular code base separating SQL model layer from GUI components.
-
-  ### 🎓 Institute Management System
-  * **Features**: Staff/student records database, course enrollment tracking, enquiry follow-up, secure authentication, multi-frame navigation.
-  * **Design**: Uses Pillow (PIL) for image assets processing and direct multi-table relationships inside MySQL.
-</details>
-
-<details>
-  <summary>🛠️ <b><font size="3" color="#89ddff">tech-stack-badger/</font></b> — Visual Badges</summary>
+  <summary>🛠️ <b><font size="3" color="#89ddff">tech-stack/</font></b> — Visual Badges</summary>
   <br />
 
   <div align="center">
@@ -193,53 +143,7 @@
 
 <br />
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Build%20Track%20Manifest&fontSize=18&fontColor=ffffff&fontAlignY=50" />
-</div>
-<br />
-
-| Project / Track | Purpose | Core Technologies | Status |
-| :--- | :--- | :--- | :--- |
-| **Used Car Predictor** | Predicting used car values with a responsive React dashboard. | React, FastAPI, scikit-learn, Pandas | <img src="https://img.shields.io/badge/Status-Shipped-success?style=flat-square&color=2eb872" alt="Shipped" /> |
-| **Gesture Recognition** | Real-time hand posture classification from custom CNN weights. | Python, OpenCV, TensorFlow/Keras | <img src="https://img.shields.io/badge/Status-Shipped-success?style=flat-square&color=2eb872" alt="Shipped" /> |
-| **WellCare Hospital** | Secure hospital admin desk tool with dynamic PDF reports. | Python, CustomTkinter, MySQL, ReportLab | <img src="https://img.shields.io/badge/Status-Shipped-success?style=flat-square&color=2eb872" alt="Shipped" /> |
-| **Institute Manager** | CRUD directory helper for tracking admissions and class logs. | Python, PIL, MySQL, Tkinter | <img src="https://img.shields.io/badge/Status-Shipped-success?style=flat-square&color=2eb872" alt="Shipped" /> |
-
----
-
-<br />
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Developer%20Metrics%20%26%20Stats&fontSize=18&fontColor=ffffff&fontAlignY=50" />
-</div>
-<br />
-
-<div align="center">
-  <img height="185em" src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&ring_color=6C63FF&count_private=true&include_all_commits=true" alt="Aditya's GitHub Stats"/>
-  <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AadityaBhuree&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&langs_count=8" alt="Top Languages"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AadityaBhuree&theme=tokyonight_duo&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF&area_color=6C63FF&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="95%"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AadityaBhuree&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" width="100%"/>
-</div>
-
----
-
-<br />
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Contribution%20Snake%20Game&fontSize=18&fontColor=ffffff&fontAlignY=50" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c63ff,100:9b51e0&height=35&text=Activity%20&amp;%20Contributions&fontSize=18&fontColor=ffffff&fontAlignY=50" />
 </div>
 <br />
 
@@ -260,8 +164,3 @@
   <br /><br />
   <img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=for-the-badge&color=6c63ff&label=SYSTEM+VISITS" alt="Profile Views"/>
 </div>
-
-<br/>
-
-<!-- Footer Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6c63ff&height=120&section=footer"/>
