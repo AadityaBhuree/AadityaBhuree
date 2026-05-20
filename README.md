@@ -62,61 +62,73 @@
 </div>
 <br />
 
-> **Explore my technical path, development philosophy, and stack details below! 👇**
+### 💼 Core Coding Ethos & Vows
+* **Unwavering Dedication**: Coding is not just my field; it is my craft. I am dedicated to writing clean, reliable, and high-performance code. I focus deeply on solving problems methodically, debugging systems from first principles, and refining code quality iteratively.
+* **Extreme Ownership**: I take complete responsibility for the code I ship. From database safety constraints to responsive UI layout alignments and API schema validations, I make sure my software is robust, extensible, and self-documenting.
+* **Continuous Optimization**: I don't stop at raw prototypes. I continuously profile execution times, optimize algorithm structures, and build clean, secure interfaces to ensure high performance.
+
+---
+
+## 🛠️ Technical Landscape & Skills
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 Programming &amp; Backend</h3>
+      <ul>
+        <li><b>Python</b> (OOP, Scripting, Automation)</li>
+        <li><b>FastAPI</b> (API Routing, Schema Validation)</li>
+        <li><b>CRUD Operations</b> &amp; RESTful Design</li>
+        <li><b>JSON Handling</b> &amp; Serialization</li>
+        <li><b>HTTP Methods &amp; APIs</b></li>
+        <li><b>Problem Solving</b> &amp; DSA</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 AI / ML Engineering</h3>
+      <ul>
+        <li><b>Machine Learning Fundamentals</b></li>
+        <li><b>Deep Learning Basics</b> (CNNs, Feedforward)</li>
+        <li><b>Data Preprocessing</b> &amp; Pipelines</li>
+        <li><b>Model Training Basics</b> &amp; Diagnostics</li>
+        <li><b>Generative AI Concepts</b></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔧 Databases &amp; Tooling</h3>
+      <ul>
+        <li><b>SQL</b> (MySQL, PostgreSQL schemas)</li>
+        <li><b>Git &amp; GitHub</b> (Version Control, Workflows)</li>
+        <li><b>Virtual Environments</b> (venv, poetry)</li>
+        <li><b>Postman</b> (API Testing &amp; Debugging)</li>
+        <li><b>VS Code</b> &amp; Development Environments</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 Core Concepts &amp; Learning Loop</h3>
+      <ul>
+        <li><b>Data Structures &amp; Algorithms</b></li>
+        <li><b>OOP in Python</b></li>
+        <li><b>Basic System Design</b></li>
+        <li><b>Currently Optimizing:</b>
+          <ul>
+            <li>Advanced FastAPI &amp; JWT Authentication</li>
+            <li>Model Deployment &amp; Docker</li>
+            <li>GenAI Applications</li>
+            <li>Cloud &amp; Scalable Systems</li>
+          </ul>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br />
 
 <details>
-  <summary>🤝 <b><font size="3" color="#ff75b5">coding-philosophy/</font></b> — Engineering Vows & Dedication</summary>
-  <br />
-
-  ### 💼 Core Coding Ethos
-  * **Unwavering Dedication**: Coding is not just my field; it is my craft. I am dedicated to writing clean, reliable, and high-performance code. I focus deeply on solving problems methodically, debugging systems from first principles, and refining code quality iteratively.
-  * **Extreme Ownership**: I take complete responsibility for the code I ship. From relational database constraints to responsive UI layout alignment and API safety layers, I make sure the code is structured, extensible, and thoroughly documented.
-  * **Proactive Performance Tuning**: I don't stop at raw prototypes. I continuously profile execution time, optimize algorithm structures, and build clean interfaces to ensure high performance under load.
-  * **Long-Term Codebase Mindset**: I write self-documenting code with clear comments, standard linting rules, and modular structures. My goal is to build software that is easy to maintain, scale, and collaborate on.
-</details>
-
-<details>
-  <summary>📂 <b><font size="3" color="#bb9af7">core-capabilities/</font></b> — Tech DNA & Roadmap</summary>
-  <br />
-
-  ### ⚡ Technical Capabilities
-  
-  * **AI/ML Workflows**: Custom CNN architectures, supervised learning classifiers, regression modeling, feature engineering pipelines.
-  * **Backend Engineering**: REST APIs using **FastAPI** & **Flask**, secure token-based user authentication, role-based access control (RBAC).
-  * **Database Architectures**: Multi-table relationships, SQL schema validation, indexing, and CRUD transactions.
-  * **Desktop Architectures**: Clean, responsive modern GUIs using **CustomTkinter** with dynamic frame rendering and real-time state management.
-
-  ### 🛣️ Learning Roadmap
-  
-  ```
-  Python Core ➜ CustomTkinter GUIs ➜ MySQL schemas ➜ FastAPI & Web Dev ➜ scikit-learn ➜ OpenCV & CNNs ➜ PyTorch/TensorFlow ➜ MLOps (Current Focus)
-  ```
-
-  ### 📊 Skills Matrix & Confidence Levels
-  
-  | Skill Area | Confidence Level | Years of Exp |
-  | :--- | :--- | :--- |
-  | **Python (Core & Desktop)** | <img src="https://geps.dev/progress/95?successColor=6c63ff" alt="95%" /> | 5+ Years |
-  | **TensorFlow / OpenCV / CNNs** | <img src="https://geps.dev/progress/85?successColor=6c63ff" alt="85%" /> | 3+ Years |
-  | **FastAPI / Flask Web Backends** | <img src="https://geps.dev/progress/80?successColor=6c63ff" alt="80%" /> | 2+ Years |
-  | **Reinforcement Learning** | <img src="https://geps.dev/progress/70?successColor=6c63ff" alt="70%" /> | 1+ Year |
-  | **MySQL Databases** | <img src="https://geps.dev/progress/75?successColor=6c63ff" alt="75%" /> | 2+ Years |
-
-</details>
-
-<details>
-  <summary>🤖 <b><font size="3" color="#9ece6a">learning-sandbox/</font></b> — Advanced Research Interests</summary>
-  <br />
-
-  ### 🤖 Reinforcement Learning & Optimization
-  * **Core Algorithms**: Deep Q-Networks (DQN), Proximal Policy Optimization (PPO), Q-Learning, and Policy Gradients.
-  * **Simulation Toolkits**: Farama Foundation **Gymnasium** (formerly OpenAI Gym) for custom environment integration and training.
-  * **Framework Preferences**: **Stable-Baselines3** and custom PyTorch agents for solving control/decision tasks.
-  * **Current Focus**: Designing efficient reward function models to optimize action policy convergence in continuous state-space environments.
-</details>
-
-<details>
-  <summary>🛠️ <b><font size="3" color="#89ddff">tech-stack/</font></b> — Visual Badges</summary>
+  <summary>🛠️ <b><font size="3" color="#89ddff">tech-stack-visualizer/</font></b> — Tech Stack Badges</summary>
   <br />
 
   <div align="center">
