@@ -209,10 +209,10 @@
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=05050A&title_color=00FFFF&text_color=C7D2FE&icon_color=8B5CF6" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.shion.dev/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=05050A&title_color=00FFFF&text_color=C7D2FE&icon_color=8B5CF6" alt="GitHub Stats" />
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AadityaBhuree&layout=compact&hide_border=true&bg_color=05050A&title_color=00FFFF&text_color=C7D2FE&icon_color=8B5CF6" alt="Top Languages" />
+        <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AadityaBhuree&layout=compact&hide_border=true&bg_color=05050A&title_color=00FFFF&text_color=C7D2FE&icon_color=8B5CF6" alt="Top Languages" />
       </td>
     </tr>
   </table>
