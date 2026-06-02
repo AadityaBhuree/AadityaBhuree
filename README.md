@@ -22,7 +22,7 @@
   </a>
   &nbsp;
   <a href="./resume.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-00C853?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" />
+    <img src="https://img.shields.io/badge/Resume-00C853?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" />
   </a>
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=for-the-badge&color=00ffff&label=VISITS" alt="Visits" />
