@@ -1,4 +1,4 @@
-name: 📊 Update Profile README
+name: 📊 Refresh Profile
 
 on:
   schedule:
@@ -6,20 +6,20 @@ on:
   workflow_dispatch:      # Manual trigger
 
 jobs:
-  update-readme:
-    name: Refresh Profile Stats
+  refresh:
+    name: Update Stats
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: 📅 Update last-active timestamp
+      - name: ℹ️ Generate last-updated badge
         run: |
-          echo "Profile last refreshed: $(date -u '+%Y-%m-%d %H:%M UTC')" > .last-updated
+          echo "Last refreshed: $(date -u '+%Y-%m-%d %H:%M UTC')" > .last-updated
 
       - name: ⏫ Commit & Push
         run: |
           git config user.name "Aditya Bhure"
           git config user.email "aadityabhure03@gmail.com"
           git add .last-updated
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: refresh profile stats [automated]"
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: refresh profile [automated]"
           git push

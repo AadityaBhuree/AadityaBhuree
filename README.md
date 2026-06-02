@@ -32,7 +32,7 @@
 {
   "name": "Aditya Bhure",
   "role": "AI/ML Engineer & Backend Developer",
-  "status": "Actively seeking ML / CV / Full-Stack Internships (2026)",
+  "status": "Seeking ML / CV / Full-Stack Internships (2026)",
   "core": ["ML/DL", "Computer Vision", "RL", "FastAPI", "Python"],
   "learning": [
     "LLM Inference & Optimization",
@@ -70,15 +70,11 @@
 
 ## `~/.spotlight`
 
-> **🚀 BookRecommender** — My flagship ML project
->
-> A production-grade book recommendation system with 3 ML engines (Popularity, Content-Based, Collaborative Filtering). 10K books, 6M ratings, live on Streamlit Cloud.
->
-> `Python` `scikit-learn` `Streamlit` `pandas` `scipy`
+> **🚀 BookRecommender** — A production-grade book recommendation system with 3 ML engines (Popularity, Content-Based, Collaborative Filtering). 10K books, 6M ratings — live on Streamlit Cloud.
 
 <p align="center">
   <a href="https://github.com/AadityaBhuree/Goodbook-Recommender">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AadityaBhuree&repo=Goodbook-Recommender&theme=react&bg_color=161B22&title_color=00FFFF&icon_color=8B5CF6&hide_border=true&show_owner=false" alt="BookRecommender" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AadityaBhuree&repo=Goodbook-Recommender&bg_color=161B22&title_color=00FFFF&icon_color=8B5CF6&text_color=C7D2FE&hide_border=true&show_owner=false" alt="BookRecommender" />
   </a>
 </p>
 
@@ -114,7 +110,9 @@
 ## `~/.stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,bash,linux,tensorflow,pytorch,opencv,sklearn,fastapi,flask,mysql,postgres,mongodb,redis,docker,kubernetes,git,github,vscode,jupyter,postman&theme=dark&perline=8" alt="Skills" />
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,bash,linux,tensorflow,pytorch,opencv,sklearn&theme=dark&perline=10" alt="Languages & ML" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,mysql,postgres,mongodb,redis,docker,kubernetes,git,github,vscode,jupyter,postman&theme=dark&perline=13" alt="Backend & Tools" />
   <br />
   <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
@@ -154,16 +152,24 @@
 
 ## `~/.ethos`
 
-> **🎯 Dedication** — Clean, reliable, high-performance code through methodical problem-solving.
-> **⚡ Ownership** — From DB constraints to pixel alignment, I own every layer.
-> **📈 Optimization** — Profile, iterate, never settle for a prototype.
+> **🎯 Dedication** — Clean, reliable code through methodical problem-solving.
+> **⚡ Ownership** — Every layer, from DB to UI, is my responsibility.
+> **📈 Optimization** — Profile. Iterate. Never settle for a prototype.
+
+---
+
+## `~/.downtime`
+
+- **Book:** `Designing Machine Learning Systems` — Chip Huyen
+- **Goal:** Ship an LLM + RAG project with clean evaluation, API design, and CI/CD
+- **Belief:** Better AI comes from clear data, honest metrics, and dependable tooling
 
 ---
 
 ## `~/.collab`
 
 <p align="center">
-  Building LLM tools, retrieval systems, or AI pipelines? Let's collaborate.
+  Building LLM tools, retrieval systems, or AI pipelines? Let's talk.
   <br /><br />
   <a href="mailto:aadityabhure03@gmail.com">
     <img src="https://img.shields.io/badge/Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" />
