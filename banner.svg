@@ -7,17 +7,17 @@
       <stop offset="100%" stop-color="#0B0E14"/>
     </linearGradient>
 
-    <!-- Subtle blue accent -->
-    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#818CF8"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
+    <!-- Indigo accent gradient -->
+    <linearGradient id="indigoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
     </linearGradient>
 
-    <!-- Teal accent -->
-    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2DD4BF"/>
-      <stop offset="100%" stop-color="#0891B2"/>
+    <!-- Violet accent gradient -->
+    <linearGradient id="violetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
     </linearGradient>
 
     <!-- Glow filters -->
@@ -61,82 +61,79 @@
   <rect width="1000" height="300" fill="url(#vignette)"/>
 
   <!-- Top accent line with animation -->
-  <rect x="0" y="0" width="1000" height="2" fill="url(#blueGrad)" opacity="0.8">
+  <rect x="0" y="0" width="1000" height="2" fill="url(#indigoGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.8;0.4;0.8" dur="4s" repeatCount="indefinite"/>
   </rect>
 
   <!-- ===== LEFT SIDE: Abstract data visualization ===== -->
 
   <!-- Data flow arcs -->
-  <path d="M 40 220 Q 100 160 160 220" fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.15"/>
-  <path d="M 60 230 Q 120 170 180 230" fill="none" stroke="#818CF8" stroke-width="1" opacity="0.12"/>
-  <path d="M 30 210 Q 90 150 150 210" fill="none" stroke="#2DD4BF" stroke-width="1" opacity="0.1"/>
+  <path d="M 40 220 Q 100 160 160 220" fill="none" stroke="#6366F1" stroke-width="1" opacity="0.15"/>
+  <path d="M 60 230 Q 120 170 180 230" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.12"/>
+  <path d="M 30 210 Q 90 150 150 210" fill="none" stroke="#A78BFA" stroke-width="1" opacity="0.1"/>
 
   <!-- Minimal neural network nodes (subtle, elegant) -->
   <g opacity="0.5">
     <!-- Layer 1 -->
-    <circle cx="50" cy="60" r="3" fill="#38BDF8" filter="url(#glowSoft)"/>
-    <circle cx="50" cy="100" r="3" fill="#38BDF8" filter="url(#glowSoft)"/>
-    <circle cx="50" cy="140" r="3" fill="#38BDF8" filter="url(#glowSoft)"/>
-    <circle cx="50" cy="180" r="3" fill="#38BDF8" filter="url(#glowSoft)"/>
+    <circle cx="50" cy="60" r="3" fill="#6366F1" filter="url(#glowSoft)"/>
+    <circle cx="50" cy="100" r="3" fill="#6366F1" filter="url(#glowSoft)"/>
+    <circle cx="50" cy="140" r="3" fill="#6366F1" filter="url(#glowSoft)"/>
+    <circle cx="50" cy="180" r="3" fill="#6366F1" filter="url(#glowSoft)"/>
 
     <!-- Layer 2 -->
-    <circle cx="120" cy="50" r="2.5" fill="#818CF8" filter="url(#glowSoft)"/>
-    <circle cx="120" cy="90" r="2.5" fill="#818CF8" filter="url(#glowSoft)"/>
-    <circle cx="120" cy="130" r="2.5" fill="#818CF8" filter="url(#glowSoft)"/>
-    <circle cx="120" cy="170" r="2.5" fill="#818CF8" filter="url(#glowSoft)"/>
-    <circle cx="120" cy="210" r="2.5" fill="#818CF8" filter="url(#glowSoft)"/>
+    <circle cx="120" cy="50" r="2.5" fill="#8B5CF6" filter="url(#glowSoft)"/>
+    <circle cx="120" cy="90" r="2.5" fill="#8B5CF6" filter="url(#glowSoft)"/>
+    <circle cx="120" cy="130" r="2.5" fill="#8B5CF6" filter="url(#glowSoft)"/>
+    <circle cx="120" cy="170" r="2.5" fill="#8B5CF6" filter="url(#glowSoft)"/>
+    <circle cx="120" cy="210" r="2.5" fill="#8B5CF6" filter="url(#glowSoft)"/>
 
     <!-- Layer 3 -->
-    <circle cx="190" cy="70" r="3" fill="#38BDF8" filter="url(#glowSoft)"/>
-    <circle cx="190" cy="120" r="3" fill="#38BDF8" filter="url(#glowSoft)"/>
-    <circle cx="190" cy="170" r="3" fill="#38BDF8" filter="url(#glowSoft)"/>
+    <circle cx="190" cy="70" r="3" fill="#6366F1" filter="url(#glowSoft)"/>
+    <circle cx="190" cy="120" r="3" fill="#6366F1" filter="url(#glowSoft)"/>
+    <circle cx="190" cy="170" r="3" fill="#6366F1" filter="url(#glowSoft)"/>
 
     <!-- Layer 4 (output, pulsing) -->
-    <circle cx="250" cy="90" r="3.5" fill="#2DD4BF" filter="url(#glowSoft)">
+    <circle cx="250" cy="90" r="3.5" fill="#A78BFA" filter="url(#glowSoft)">
       <animate attributeName="r" values="3.5;4.5;3.5" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="250" cy="150" r="3.5" fill="#2DD4BF" filter="url(#glowSoft)">
+    <circle cx="250" cy="150" r="3.5" fill="#A78BFA" filter="url(#glowSoft)">
       <animate attributeName="r" values="3.5;4.5;3.5" dur="3s" repeatCount="indefinite" begin="0.5s"/>
     </circle>
 
     <!-- Connection lines (very faint) -->
     <g stroke-width="0.3" opacity="0.15">
-      <!-- L1->L2 -->
-      <line x1="53" y1="60" x2="117" y2="50" stroke="#38BDF8"/>
-      <line x1="53" y1="60" x2="117" y2="90" stroke="#38BDF8"/>
-      <line x1="53" y1="100" x2="117" y2="50" stroke="#818CF8"/>
-      <line x1="53" y1="100" x2="117" y2="90" stroke="#818CF8"/>
-      <line x1="53" y1="100" x2="117" y2="130" stroke="#818CF8"/>
-      <line x1="53" y1="140" x2="117" y2="130" stroke="#38BDF8"/>
-      <line x1="53" y1="140" x2="117" y2="170" stroke="#38BDF8"/>
-      <line x1="53" y1="180" x2="117" y2="170" stroke="#818CF8"/>
-      <line x1="53" y1="180" x2="117" y2="210" stroke="#818CF8"/>
-      <!-- L2->L3 -->
-      <line x1="122" y1="50" x2="187" y2="70" stroke="#818CF8"/>
-      <line x1="122" y1="90" x2="187" y2="70" stroke="#818CF8"/>
-      <line x1="122" y1="90" x2="187" y2="120" stroke="#818CF8"/>
-      <line x1="122" y1="130" x2="187" y2="120" stroke="#818CF8"/>
-      <line x1="122" y1="130" x2="187" y2="170" stroke="#818CF8"/>
-      <line x1="122" y1="170" x2="187" y2="120" stroke="#818CF8"/>
-      <line x1="122" y1="170" x2="187" y2="170" stroke="#818CF8"/>
-      <line x1="122" y1="210" x2="187" y2="170" stroke="#818CF8"/>
-      <!-- L3->L4 -->
-      <line x1="193" y1="70" x2="247" y2="90" stroke="#38BDF8"/>
-      <line x1="193" y1="120" x2="247" y2="90" stroke="#38BDF8"/>
-      <line x1="193" y1="120" x2="247" y2="150" stroke="#38BDF8"/>
-      <line x1="193" y1="170" x2="247" y2="150" stroke="#38BDF8"/>
+      <line x1="53" y1="60" x2="117" y2="50" stroke="#6366F1"/>
+      <line x1="53" y1="60" x2="117" y2="90" stroke="#6366F1"/>
+      <line x1="53" y1="100" x2="117" y2="50" stroke="#8B5CF6"/>
+      <line x1="53" y1="100" x2="117" y2="90" stroke="#8B5CF6"/>
+      <line x1="53" y1="100" x2="117" y2="130" stroke="#8B5CF6"/>
+      <line x1="53" y1="140" x2="117" y2="130" stroke="#6366F1"/>
+      <line x1="53" y1="140" x2="117" y2="170" stroke="#6366F1"/>
+      <line x1="53" y1="180" x2="117" y2="170" stroke="#8B5CF6"/>
+      <line x1="53" y1="180" x2="117" y2="210" stroke="#8B5CF6"/>
+      <line x1="122" y1="50" x2="187" y2="70" stroke="#8B5CF6"/>
+      <line x1="122" y1="90" x2="187" y2="70" stroke="#8B5CF6"/>
+      <line x1="122" y1="90" x2="187" y2="120" stroke="#8B5CF6"/>
+      <line x1="122" y1="130" x2="187" y2="120" stroke="#8B5CF6"/>
+      <line x1="122" y1="130" x2="187" y2="170" stroke="#8B5CF6"/>
+      <line x1="122" y1="170" x2="187" y2="120" stroke="#8B5CF6"/>
+      <line x1="122" y1="170" x2="187" y2="170" stroke="#8B5CF6"/>
+      <line x1="122" y1="210" x2="187" y2="170" stroke="#8B5CF6"/>
+      <line x1="193" y1="70" x2="247" y2="90" stroke="#6366F1"/>
+      <line x1="193" y1="120" x2="247" y2="90" stroke="#6366F1"/>
+      <line x1="193" y1="120" x2="247" y2="150" stroke="#6366F1"/>
+      <line x1="193" y1="170" x2="247" y2="150" stroke="#6366F1"/>
     </g>
   </g>
 
   <!-- Floating data particles -->
-  <circle r="1.5" fill="#38BDF8" opacity="0.4">
+  <circle r="1.5" fill="#6366F1" opacity="0.4">
     <animateMotion dur="12s" repeatCount="indefinite" path="M30,30 Q80,10 130,40 Q180,70 230,30"/>
   </circle>
-  <circle r="1" fill="#818CF8" opacity="0.3">
+  <circle r="1" fill="#8B5CF6" opacity="0.3">
     <animateMotion dur="15s" repeatCount="indefinite" path="M40,200 Q100,230 160,200 Q220,170 280,200"/>
   </circle>
-  <circle r="1.5" fill="#2DD4BF" opacity="0.35">
+  <circle r="1.5" fill="#A78BFA" opacity="0.35">
     <animateMotion dur="10s" repeatCount="indefinite" path="M20,120 Q70,90 130,110 Q190,130 240,100"/>
   </circle>
 
@@ -146,7 +143,7 @@
   <rect x="320" y="30" width="640" height="240" rx="12" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1"/>
 
   <!-- Inner glow at top of card -->
-  <rect x="320" y="30" width="640" height="60" rx="12" fill="url(#blueGrad)" opacity="0.03"/>
+  <rect x="320" y="30" width="640" height="60" rx="12" fill="url(#indigoGrad)" opacity="0.03"/>
 
   <!-- Name -->
   <text x="640" y="85" font-family="'Inter', 'Segoe UI', -apple-system, sans-serif" font-size="36" font-weight="700" fill="#F1F5F9" text-anchor="middle" letter-spacing="-0.5">
@@ -155,26 +152,26 @@
 
   <!-- Divider line under name -->
   <line x1="400" y1="100" x2="880" y2="100" stroke="#334155" stroke-width="1"/>
-  <line x1="540" y1="100" x2="700" y2="100" stroke="#38BDF8" stroke-width="1" opacity="0.6">
+  <line x1="540" y1="100" x2="700" y2="100" stroke="#6366F1" stroke-width="1" opacity="0.6">
     <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
   </line>
 
   <!-- Title badges -->
   <g transform="translate(420, 120)">
-    <rect x="0" y="0" width="100" height="24" rx="6" fill="#38BDF8" fill-opacity="0.1" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3">
-      <animate attributeName="fill-opacity" values="0.1;0.15;0.1" dur="6s" repeatCount="indefinite"/>
+    <rect x="0" y="0" width="100" height="24" rx="6" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-width="0.5" stroke-opacity="0.4">
+      <animate attributeName="fill-opacity" values="0.12;0.18;0.12" dur="6s" repeatCount="indefinite"/>
     </rect>
-    <text x="50" y="16" font-family="'Inter', sans-serif" font-size="11" fill="#38BDF8" text-anchor="middle" font-weight="500">AI / ML Engineer</text>
+    <text x="50" y="16" font-family="'Inter', sans-serif" font-size="11" fill="#818CF8" text-anchor="middle" font-weight="500">AI / ML Engineer</text>
 
-    <rect x="110" y="0" width="120" height="24" rx="6" fill="#818CF8" fill-opacity="0.1" stroke="#818CF8" stroke-width="0.5" stroke-opacity="0.3">
-      <animate attributeName="fill-opacity" values="0.1;0.15;0.1" dur="6s" repeatCount="indefinite" begin="1s"/>
+    <rect x="110" y="0" width="120" height="24" rx="6" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-width="0.5" stroke-opacity="0.4">
+      <animate attributeName="fill-opacity" values="0.12;0.18;0.12" dur="6s" repeatCount="indefinite" begin="1s"/>
     </rect>
-    <text x="170" y="16" font-family="'Inter', sans-serif" font-size="11" fill="#818CF8" text-anchor="middle" font-weight="500">Backend Developer</text>
+    <text x="170" y="16" font-family="'Inter', sans-serif" font-size="11" fill="#A78BFA" text-anchor="middle" font-weight="500">Backend Developer</text>
 
-    <rect x="240" y="0" width="100" height="24" rx="6" fill="#2DD4BF" fill-opacity="0.1" stroke="#2DD4BF" stroke-width="0.5" stroke-opacity="0.3">
-      <animate attributeName="fill-opacity" values="0.1;0.15;0.1" dur="6s" repeatCount="indefinite" begin="2s"/>
+    <rect x="240" y="0" width="100" height="24" rx="6" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-width="0.5" stroke-opacity="0.4">
+      <animate attributeName="fill-opacity" values="0.12;0.18;0.12" dur="6s" repeatCount="indefinite" begin="2s"/>
     </rect>
-    <text x="290" y="16" font-family="'Inter', sans-serif" font-size="11" fill="#2DD4BF" text-anchor="middle" font-weight="500">Deep Learning</text>
+    <text x="290" y="16" font-family="'Inter', sans-serif" font-size="11" fill="#C4B5FD" text-anchor="middle" font-weight="500">Deep Learning</text>
   </g>
 
   <!-- Info row: Education + Status side by side -->
@@ -221,13 +218,13 @@
   <text x="220" y="289" font-family="'Inter', sans-serif" font-size="11" fill="#64748B">aadityabhure03@gmail.com</text>
 
   <!-- Bottom bar right: status indicator -->
-  <circle cx="742" cy="286" r="3" fill="#2DD4BF">
+  <circle cx="742" cy="286" r="3" fill="#8B5CF6">
     <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </circle>
   <text x="750" y="289" font-family="'Inter', sans-serif" font-size="11" fill="#64748B">Open for opportunities</text>
 
   <!-- Pulsing cursor at far right -->
-  <rect x="975" y="276" width="6" height="16" rx="1" fill="#38BDF8" opacity="0.6">
+  <rect x="975" y="276" width="6" height="16" rx="1" fill="#6366F1" opacity="0.6">
     <animate attributeName="opacity" values="0.6;0;0.6" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 </svg>
