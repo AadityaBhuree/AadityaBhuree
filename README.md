@@ -1,85 +1,105 @@
-<!-- 
-╔══════════════════════════════════════════════════════════════════╗
-║              ADITYA BHURE — AI/ML Engineer                     ║
-║  Terminal-inspired professional profile                        ║
-╚══════════════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/banner.svg" alt="Aditya Bhure — AI/ML Engineer" />
 </div>
 
-<!-- ── Typing Animation ────────────────────────────────────────── -->
-
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=800&color=00FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=70&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Actively+seeking+Internships+%F0%9F%9A%80" alt="Typing Animation" />
-  </a>
-</p>
-
-<!-- ── Contact Badges ──────────────────────────────────────────── -->
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:aadityabhure03@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/AadityaBhuree?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/AadityaBhuree">
-    <img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=for-the-badge&color=00ffff&label=VISITS" alt="Profile Views" />
-  </a>
+  <a href="./resume.pdf"><strong>📄 Resume</strong></a>
+  <span> &bull; </span>
+  <a href="mailto:aadityabhure03@gmail.com?subject=Internship%20Opportunity%202026"><strong>📬 Open to Internships 2026</strong></a>
+  <span> &bull; </span>
+  <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank"><strong>💼 LinkedIn</strong></a>
+  <span> &bull; </span>
+  <a href="https://github.com/AadityaBhuree?tab=repositories" target="_blank"><strong>📦 Portfolio</strong></a>
 </p>
 
 ---
 
-<!-- ── System Profile ──────────────────────────────────────────── -->
-
-<h2>
-  <code>~/.profile</code>
-</h2>
+## `boot.json`
 
 ```json
 {
   "name": "Aditya Bhure",
   "role": "AI/ML Engineer & Backend Developer",
-  "status": "Actively seeking ML / CV / Full-Stack Internships",
-  "core_competencies": [
-    "Machine Learning & Deep Learning",
-    "Computer Vision (CNNs, OpenCV)",
-    "Reinforcement Learning (Q-Learning, DQN)",
-    "Backend APIs (FastAPI, Flask)",
-    "Python Desktop GUI Architectures"
+  "status": "Actively seeking ML / CV / Full-Stack Internships (2026)",
+  "building": [
+    "intelligent retrieval systems",
+    "computer vision pipelines",
+    "production ML workflows",
+    "LLM-powered applications"
   ],
-  "currently_learning": [
-    "System Design for AI",
-    "LLM Inference & Optimization",
-    "RAG Architecture & Vector DBs",
-    "MLOps (Docker, MLflow)"
-  ],
-  "future_focus": [
-    "Agentic Workflows",
-    "Voice AI Systems",
-    "Recommender Systems"
-  ]
+  "status_line": "shipping from research experiments toward reliable AI products"
 }
 ```
 
+I turn good ideas into great intelligent systems.
+
 ---
 
-<!-- ── Stats ───────────────────────────────────────────────────── -->
+## `journey`
 
-<h2>
-  <code>~/.stats</code>
-</h2>
+`Python` &nbsp;&rarr;&nbsp; `Statistics` &nbsp;&rarr;&nbsp; `Machine Learning` &nbsp;&rarr;&nbsp; `Deep Learning` &nbsp;&rarr;&nbsp; `Reinforcement Learning` &nbsp;&rarr;&nbsp; `Transformers` &nbsp;&rarr;&nbsp; `Generative AI` &nbsp;&rarr;&nbsp; `LLMs + RAG` &nbsp;&rarr;&nbsp; `Production AI`
 
-<br />
+---
+
+## `current_learning`
+
+- `System Design for AI Applications`
+- `LLM Inference & Optimization`
+- `RAG Architecture and Evaluation`
+- `AI Agents & Tool Calling`
+- `MLOps and Production Pipelines`
+- `Vector Databases & Retrieval Systems`
+- `Scaling Deep Learning Models`
+- `Model Deployment with FastAPI & Docker`
+- `Transformer Fine-tuning & PEFT`
+- `Multi-Agent AI Systems`
+- `Real-time AI Applications`
+- `Prompt Engineering & Context Design`
+
+---
+
+## `exploring`
+
+- `Agentic Workflows`
+- `Reasoning Models`
+- `Voice AI Systems`
+- `Memory-Augmented AI`
+- `AI + Web Automation`
+- `Personalized Recommendation Systems`
+- `Computer Vision + LLM Integrations`
+- `Edge AI & On-device Models`
+
+---
+
+## `focus`
+
+Building AI systems that move from experimentation to usable products.
+
+---
+
+## `mindset`
+
+Learn deeply. Build consistently. Ship intelligently.
+
+---
+
+## `currently_building`
+
+- `LLM-powered applications`
+- `RAG-based assistants`
+- `AI workflow automation`
+- `ML/DL side projects`
+- `Experimental GenAI systems`
+
+---
+
+## `interests`
+
+`LLMs | Reinforcement Learning | System Design | AI Infrastructure | Open Source | Research-driven Development`
+
+---
+
+## `stats`
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=C7D2FE&icon_color=8B5CF6&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
@@ -90,201 +110,98 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AadityaBhuree&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=C7D2FE&card_width=750&langs_count=8" alt="Top Languages" width="60%" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AadityaBhuree&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" width="100%" />
-</p>
+---
+
+## `build_tracks`
+
+> Public repos are still early, so this section highlights the ML systems, LLM workflows, and deployment pipelines currently being shaped.
+
+| `RAG Workbench` | |
+|---|---|
+| **What it does** | Converts raw PDFs, notes, and structured documents into grounded AI responses using retrieval pipelines, embeddings, and source-aware generation. |
+| **Badges** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFCC4D?style=flat-square&logo=huggingface&logoColor=black) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **Status** | `In Build` |
+| **Result** | First end-to-end LLM + retrieval workflow designed as a production-style public case study with modular ingestion and semantic search support. |
+
+| `ModelOps Starter` | |
+|---|---|
+| **What it does** | Converts ML experiments into reproducible train, test, version, and deployment workflows with automation-first infrastructure. |
+| **Badges** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) |
+| **Status** | `Scoping` |
+| **Result** | Clear CI/CD pipeline mapped from dataset ingestion and model artifacts to containerized inference APIs and automated deployment workflows. |
+
+| `Inference Console` | |
+|---|---|
+| **What it does** | Makes model predictions observable through interactive demos, evaluation dashboards, visualization layers, and feedback-focused interfaces. |
+| **Badges** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
+| **Status** | `Prototype` |
+| **Result** | Faster experimentation loop for analyzing predictions, monitoring edge cases, visualizing metrics, and improving user-facing ML interactions. |
+
+| `VisionLab` | |
+|---|---|
+| **What it does** | Experiments with computer vision workflows including image classification, emotion detection, preprocessing pipelines, and real-time inference. |
+| **Badges** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
+| **Status** | `Research` |
+| **Result** | Modular computer vision playground for testing CNN-based pipelines, live camera inference, and deployable AI demos. |
 
 ---
 
-<!-- ── Tech Journey ────────────────────────────────────────────── -->
+## `stack`
 
-<h2>
-  <code>~/.journey</code>
-</h2>
+### ML Core
 
-<p align="center">
-  <code>Python</code> &nbsp;➔&nbsp; <code>Statistics</code> &nbsp;➔&nbsp; <code>ML</code> &nbsp;➔&nbsp; <code>Deep Learning</code> &nbsp;➔&nbsp; <code>RL</code> &nbsp;➔&nbsp; <code>Transformers</code> &nbsp;➔&nbsp; <code>GenAI</code> &nbsp;➔&nbsp; <code>LLMs + RAG</code> &nbsp;➔&nbsp; <code>Production AI</code>
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square&logo=xgboost&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square&logo=lightgbm&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white)
 
----
+### Frameworks
 
-<!-- ── Current Learning ────────────────────────────────────────── -->
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFCC4D?style=flat-square&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-111827?style=flat-square&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-<h2>
-  <code>~/.learning</code>
-</h2>
+### Data & Infra
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 Currently Learning</h4>
-      <ul>
-        <li><code>System Design for AI</code></li>
-        <li><code>LLM Inference & Optimization</code></li>
-        <li><code>RAG Architecture & Vector DBs</code></li>
-        <li><code>MLOps (Docker, MLflow)</code></li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔭 Future Focus</h4>
-      <ul>
-        <li><code>Agentic Workflows</code></li>
-        <li><code>Voice AI Systems</code></li>
-        <li><code>Recommender Systems</code></li>
-        <li><code>Edge AI & On-device Models</code></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
----
+### Dev Workflow
 
-<!-- ── Projects ────────────────────────────────────────────────── -->
-
-<h2>
-  <code>~/.projects</code>
-</h2>
-
-<br />
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>&#128640; RAG Workbench</h3>
-      <p><em>Intelligent document retrieval system using LLMs with vector search and citation-grounded responses.</em></p>
-      <p>
-        <img src="https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain" />
-        <img src="https://img.shields.io/badge/Hugging%20Face-FFCC4D?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-        <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" alt="FAISS" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      </p>
-      <p><b>Status:</b> <code>In Build</code></p>
-      <p>
-        <a href="https://github.com/AadityaBhuree"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>&#9881;&#65039; ModelOps Starter</h3>
-      <p><em>Automated CI/CD pipeline for training, evaluating, and deploying ML models as production APIs.</em></p>
-      <p>
-        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-        <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow" />
-      </p>
-      <p><b>Status:</b> <code>Scoping</code></p>
-      <p>
-        <a href="https://github.com/AadityaBhuree"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>&#128065;&#65039; VisionLab</h3>
-      <p><em>Real-time computer vision playground — face detection, tracking, and custom CNN inference.</em></p>
-      <p>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-      </p>
-      <p><b>Status:</b> <code>Research</code></p>
-      <p>
-        <a href="https://github.com/AadityaBhuree"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>&#129504; Inference Console</h3>
-      <p><em>Local ML inference dashboard with custom PyTorch models, real-time predictions, and SQLite-backed history.</em></p>
-      <p>
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-      </p>
-      <p><b>Status:</b> <code>Prototype</code></p>
-      <p>
-        <a href="https://github.com/AadityaBhuree"><img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
-      </p>
-    </td>
-  </tr>
-</table>
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 
-<!-- ── Skills ──────────────────────────────────────────────────── -->
+## `when_im_not_training_models`
 
-<h2>
-  <code>~/.skills</code>
-</h2>
-
-<br />
-
-<h3 align="center">Languages & Environments</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,bash,linux&theme=dark" alt="Languages" />
-</p>
-
-<h3 align="center">AI / ML / Data</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark" alt="ML Stack" />
-  <br />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square&logo=xgboost&logoColor=white" alt="XGBoost" />
-  <img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square&logo=lightgbm&logoColor=white" alt="LightGBM" />
-  <img src="https://img.shields.io/badge/HuggingFace-F9AB00?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-</p>
-
-<h3 align="center">Backend & Web</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Flask-111827?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-</p>
-
-<h3 align="center">Databases & Infrastructure</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,docker,kubernetes&theme=dark" alt="Databases & Infra" />
-</p>
-
-<h3 align="center">Developer Workflow</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,postman&theme=dark" alt="Dev Tools" />
-  <br />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow" />
-  <img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat-square&logo=gradio&logoColor=white" alt="Gradio" />
-</p>
+- **Book:** `Designing Machine Learning Systems` — Chip Huyen
+- **Goal:** Ship an LLM + RAG project with clean evaluation, API design, and CI/CD around it
+- **Belief:** Better AI products come from clear data flow, honest metrics, and dependable tooling
 
 ---
 
-<!-- ── Coding Ethos ────────────────────────────────────────────── -->
-
-<h2>
-  <code>~/.ethos</code>
-</h2>
-
-<br />
-
-<blockquote>
-  <p><strong>&#127919; Unwavering Dedication</strong> — Coding is my craft. I write clean, reliable, high-performance code by solving problems methodically and iterating on quality.</p>
-  <p><strong>&#9889; Extreme Ownership</strong> — From database constraints to UI pixel alignment and API validation, I own every layer of the software I ship.</p>
-  <p><strong>&#128200; Continuous Optimization</strong> — I profile execution times, optimize algorithms, and build clean interfaces — never settling for a rough prototype.</p>
-</blockquote>
-
----
-
-<!-- ── Activity ────────────────────────────────────────────────── -->
-
-<h2>
-  <code>~/.activity</code>
-</h2>
-
-<br />
+## `activity`
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=0D1117&color=00FFFF&line=8B5CF6&point=00FFFF&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
@@ -296,43 +213,21 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" />
-    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake-dark.svg" />
+    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake-dark.svg" />
   </picture>
 </div>
-
----
-
-<!-- ── Dev Quote ───────────────────────────────────────────────── -->
-
-<h2>
-  <code>~/.quote</code>
-</h2>
-
-<br />
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="600px" />
-</div>
-
-<br />
-
-<div align="center">
-  <sub><i>Thanks for stopping by! Feel free to connect or collaborate.</i></sub>
-  <br /><br />
-  <sub>⚡ <code>print("Hello, World!")</code> — Let's build something awesome.</sub>
-</div>
-
----
-
-<h2>
-  <code>~/.collab</code>
-</h2>
 
 <br />
 
 <p align="center">
-  If you are building LLM tools, retrieval systems, or AI pipelines — I'm open to collaborating on scoped work where clean engineering and honest evaluation matter.
+  <img src="https://github-profile-trophy.vercel.app/?username=AadityaBhuree&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="Trophies" width="100%" />
 </p>
+
+---
+
+## `collab`
+
+If you are building LLM tools, retrieval systems, or AI pipelines — I'm open to collaborating on scoped work where clean engineering and honest evaluation matter.
 
 <p align="center">
   <a href="mailto:aadityabhure03@gmail.com">
@@ -343,3 +238,9 @@
     <img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect" />
   </a>
 </p>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=for-the-badge&color=00ffff&label=VISITS" alt="Visits" />
+  <br /><br />
+  <sub>⚡ <code>print("Hello, World!")</code> — Let's build something awesome.</sub>
+</div>
