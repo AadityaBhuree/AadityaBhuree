@@ -1,33 +1,32 @@
-<div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/banner.svg" alt="Aditya Bhure — AI/ML Engineer" />
-</div>
+<p align="center">
+  <!-- Minimalist Premium Header -->
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0f172a&height=180&section=header&text=Aaditya%20Bhure&fontSize=42&fontColor=f8fafc&animation=fadeIn" width="100%" />
+</p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=00FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=75&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Open+for+Internships+2026+%F0%9F%9A%80" alt="Typing Animation" />
+  <!-- Professional Dynamic Typing Text -->
+  <a href="https://github.com/AadityaBhuree">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=20&duration=3500&pause=1000&color=64748B&center=true&vCenter=true&width=500&lines=Python+%7C+Deep+Learning+Engineer;Full+Stack+Developer;AI+%26+Machine+Learning+Researcher" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:aadityabhure03@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/AadityaBhuree?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="./resume.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-00C853?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" />
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=for-the-badge&color=00ffff&label=VISITS" alt="Visits" />
+  <!-- Deep Analytics & Core Tech Stack -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tkinter-0052CC?style=flat-square&logo=scipy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
 
+---
+
+### 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=dark&bg_color=0f172a&title_color=f8fafc&text_color=94a3b8&icon_color=38bdf8&hide_border=true" alt="Aaditya's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AadityaBhuree&layout=compact&theme=dark&bg_color=0f172a&title_color=f8fafc&text_color=94a3b8&hide_border=true" alt="Top Languages" width="48%" />
+</p>
 ---
 
 ## `~/.system`
