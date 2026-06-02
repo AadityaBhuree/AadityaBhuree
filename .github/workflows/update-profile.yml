@@ -1,0 +1,25 @@
+name: 📊 Update Profile README
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # Every Sunday
+  workflow_dispatch:      # Manual trigger
+
+jobs:
+  update-readme:
+    name: Refresh Profile Stats
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 📅 Update last-active timestamp
+        run: |
+          echo "Profile last refreshed: $(date -u '+%Y-%m-%d %H:%M UTC')" > .last-updated
+
+      - name: ⏫ Commit & Push
+        run: |
+          git config user.name "Aditya Bhure"
+          git config user.email "aadityabhure03@gmail.com"
+          git add .last-updated
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: refresh profile stats [automated]"
+          git push
