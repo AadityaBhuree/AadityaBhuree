@@ -236,9 +236,10 @@
   </a>
 </p>
 
-<sub>🔧 <b>To enable:</b> Replace <code>YOUR_SPOTIFY_UID</code> with your Spotify username, then deploy a Spotify Now Playing service (e.g., <a href="https://github.com/novatorem/novatorem">novatorem</a>) and update the image URL.</sub>
-
-<sub>ℹ️ <b>Troubleshooting:</b> If the Spotify card doesn't render, your deployed service may use a different URL format — check the service's docs and swap the <code>img src</code> accordingly.</sub>
+<sub>🔧 <b>To enable:</b> You'll need to:
+1. Replace <code>YOUR_SPOTIFY_UID</code> with your Spotify username
+2. Deploy your own <a href="https://github.com/novatorem/novatorem">novatorem</a> instance on Vercel (free)
+3. Swap the <code>img src</code> URL with your deployed instance's URL</sub>
 
 ---
 
@@ -248,6 +249,16 @@
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+
+---
+
+## `~/.metrics`
+
+> 📊 Weekly GitHub analytics — auto-generated metrics dashboard.
+
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+</p>
 
 ---
 
@@ -263,16 +274,6 @@
   <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-</p>
-
----
-
-## `~/.metrics`
-
-> 📊 Weekly GitHub analytics — auto-generated metrics dashboard.
-
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
 </p>
 
 ---
