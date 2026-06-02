@@ -16,13 +16,17 @@
       <stop offset="0%" stop-color="#A855F7"/>
       <stop offset="100%" stop-color="#6B21A8"/>
     </linearGradient>
-    <!-- Node glow filter -->
+    <!-- Node glow filters -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="glowStrong" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <!-- Grid pattern -->
@@ -34,6 +38,12 @@
       <stop offset="0%" stop-color="#1E293B"/>
       <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
+    <!-- Matrix rain gradient -->
+    <linearGradient id="matrixGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00FFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#00FFFF" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <!-- Background -->
@@ -43,28 +53,82 @@
   <!-- Top accent line -->
   <rect x="0" y="0" width="1000" height="3" fill="url(#cyanGrad)" opacity="0.8"/>
 
+  <!-- Matrix rain column effects -->
+  <rect x="50" y="0" width="2" height="300" fill="url(#matrixGrad)">
+    <animate attributeName="y" from="-300" to="0" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="180" y="0" width="1.5" height="300" fill="url(#matrixGrad)">
+    <animate attributeName="y" from="-300" to="0" dur="12s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="350" y="0" width="2" height="300" fill="url(#matrixGrad)">
+    <animate attributeName="y" from="-300" to="0" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="920" y="0" width="1.5" height="300" fill="url(#matrixGrad)">
+    <animate attributeName="y" from="-300" to="0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
   <!-- ===== NEURAL NETWORK NODES & EDGES (left side) ===== -->
   <!-- Layer 1 (input) - 4 nodes -->
-  <circle cx="80" cy="80" r="6" fill="#00FFFF" filter="url(#glow)" opacity="0.9"/>
-  <circle cx="80" cy="130" r="6" fill="#00FFFF" filter="url(#glow)" opacity="0.9"/>
-  <circle cx="80" cy="180" r="6" fill="#00FFFF" filter="url(#glow)" opacity="0.7"/>
+  <circle cx="80" cy="80" r="6" fill="#00FFFF" filter="url(#glow)" opacity="0.9">
+    <animate attributeName="r" values="6;7;6" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.6;0.9" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="80" cy="130" r="6" fill="#00FFFF" filter="url(#glow)" opacity="0.9">
+    <animate attributeName="r" values="6;7;6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="80" cy="180" r="6" fill="#00FFFF" filter="url(#glow)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.4;0.7" dur="4s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="80" cy="230" r="6" fill="#00FFFF" filter="url(#glow)" opacity="0.6"/>
 
   <!-- Layer 2 (hidden) - 5 nodes -->
-  <circle cx="170" cy="60" r="5" fill="#8B5CF6" filter="url(#glow)" opacity="0.8"/>
-  <circle cx="170" cy="110" r="5" fill="#A855F7" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="170" cy="60" r="5" fill="#8B5CF6" filter="url(#glow)" opacity="0.8">
+    <animate attributeName="r" values="5;6;5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="170" cy="110" r="5" fill="#A855F7" filter="url(#glow)" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="170" cy="160" r="5" fill="#8B5CF6" filter="url(#glow)" opacity="0.9"/>
-  <circle cx="170" cy="210" r="5" fill="#A855F7" filter="url(#glow)" opacity="0.7"/>
+  <circle cx="170" cy="210" r="5" fill="#A855F7" filter="url(#glow)" opacity="0.7">
+    <animate attributeName="r" values="5;6;5" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="170" cy="255" r="5" fill="#8B5CF6" filter="url(#glow)" opacity="0.6"/>
 
   <!-- Layer 3 (hidden) - 4 nodes -->
-  <circle cx="260" cy="90" r="5" fill="#00FFFF" filter="url(#glow)" opacity="0.7"/>
-  <circle cx="260" cy="145" r="6" fill="#8B5CF6" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="260" cy="90" r="5" fill="#00FFFF" filter="url(#glow)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.4;0.7" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="260" cy="145" r="6" fill="#8B5CF6" filter="url(#glow)" opacity="0.9">
+    <animate attributeName="r" values="6;7;6" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="260" cy="200" r="5" fill="#00FFFF" filter="url(#glow)" opacity="0.7"/>
 
   <!-- Layer 4 (output) - 2 nodes -->
-  <circle cx="340" cy="110" r="6" fill="#00FFFF" filter="url(#glowStrong)" opacity="0.9"/>
-  <circle cx="340" cy="190" r="6" fill="#A855F7" filter="url(#glowStrong)" opacity="0.9"/>
+  <circle cx="340" cy="110" r="6" fill="#00FFFF" filter="url(#glowStrong)" opacity="0.9">
+    <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="340" cy="190" r="6" fill="#A855F7" filter="url(#glowStrong)" opacity="0.9">
+    <animate attributeName="r" values="6;8;6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Data pulse particles traveling along edges -->
+  <circle r="2.5" fill="#00FFFF" filter="url(#glowSoft)" opacity="0.9">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M86,130 L164,110"/>
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#A855F7" filter="url(#glowSoft)" opacity="0.8">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M86,180 L164,210"/>
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.5" fill="#8B5CF6" filter="url(#glowSoft)" opacity="0.9">
+    <animateMotion dur="3.5s" repeatCount="indefinite" path="M175,110 L254,145"/>
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#00FFFF" filter="url(#glowSoft)" opacity="0.8">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M265,145 L334,110"/>
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="6s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- Edges between layers (only a subset for visual clarity) -->
   <!-- L1->L2 -->
@@ -101,16 +165,25 @@
   <line x1="265" y1="200" x2="334" y2="190" stroke="#00FFFF" stroke-width="0.5" opacity="0.2"/>
 
   <!-- Floating data particles -->
-  <circle cx="120" cy="40" r="2" fill="#00FFFF" opacity="0.4" filter="url(#glow)"/>
-  <circle cx="210" cy="35" r="1.5" fill="#A855F7" opacity="0.3"/>
-  <circle cx="300" cy="55" r="2" fill="#00FFFF" opacity="0.3"/>
+  <circle cx="120" cy="40" r="2" fill="#00FFFF" opacity="0.4" filter="url(#glow)">
+    <animate attributeName="cy" values="40;35;40" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="210" cy="35" r="1.5" fill="#A855F7" opacity="0.3">
+    <animate attributeName="cy" values="35;30;35" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="55" r="2" fill="#00FFFF" opacity="0.3">
+    <animate attributeName="cy" values="55;50;55" dur="5s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="130" cy="270" r="1.5" fill="#A855F7" opacity="0.3"/>
   <circle cx="230" cy="280" r="1.5" fill="#00FFFF" opacity="0.2"/>
-  <circle cx="55" cy="160" r="2" fill="#8B5CF6" opacity="0.3" filter="url(#glow)"/>
+  <circle cx="55" cy="160" r="2" fill="#8B5CF6" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- ===== NAME & TITLE (center-right) ===== -->
   <text x="420" y="75" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="32" font-weight="700" fill="#00FFFF" filter="url(#glowStrong)">
     ───  ADITYA BHURE  ───
+    <animate attributeName="opacity" values="1;0.85;1" dur="4s" repeatCount="indefinite"/>
   </text>
   <text x="420" y="110" font-family="'Inter', 'Segoe UI', sans-serif" font-size="17" fill="#C7D2FE" letter-spacing="1">
     AI / ML Engineer ⚡ Backend Developer
@@ -119,9 +192,15 @@
   <!-- Code snippet block -->
   <rect x="420" y="130" width="530" height="75" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
   <rect x="420" y="130" width="530" height="24" rx="6" fill="url(#termHeader)"/>
-  <circle cx="436" cy="142" r="5" fill="#EF4444"/>
-  <circle cx="452" cy="142" r="5" fill="#F59E0B"/>
-  <circle cx="468" cy="142" r="5" fill="#10B981"/>
+  <circle cx="436" cy="142" r="5" fill="#EF4444">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="452" cy="142" r="5" fill="#F59E0B">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="468" cy="142" r="5" fill="#10B981">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
   <text x="485" y="147" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6B7280">profile.sh</text>
 
   <text x="434" y="175" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6B7280">$</text>
@@ -134,16 +213,24 @@
 
   <!-- ===== SKILL TAGS (bottom right) ===== -->
   <g transform="translate(420, 220)">
-    <rect x="0" y="0" width="110" height="24" rx="12" fill="#00FFFF15" stroke="#00FFFF" stroke-width="1"/>
+    <rect x="0" y="0" width="110" height="24" rx="12" fill="#00FFFF15" stroke="#00FFFF" stroke-width="1">
+      <animate attributeName="opacity" values="1;0.7;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
     <text x="15" y="16" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00FFFF">ML/DL</text>
 
-    <rect x="120" y="0" width="110" height="24" rx="12" fill="#A855F715" stroke="#A855F7" stroke-width="1"/>
+    <rect x="120" y="0" width="110" height="24" rx="12" fill="#A855F715" stroke="#A855F7" stroke-width="1">
+      <animate attributeName="opacity" values="1;0.7;1" dur="5s" repeatCount="indefinite" begin="1.25s"/>
+    </rect>
     <text x="132" y="16" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A855F7">Computer Vision</text>
 
-    <rect x="240" y="0" width="110" height="24" rx="12" fill="#00FFFF15" stroke="#00FFFF" stroke-width="1"/>
+    <rect x="240" y="0" width="110" height="24" rx="12" fill="#00FFFF15" stroke="#00FFFF" stroke-width="1">
+      <animate attributeName="opacity" values="1;0.7;1" dur="5s" repeatCount="indefinite" begin="2.5s"/>
+    </rect>
     <text x="255" y="16" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00FFFF">Backend APIs</text>
 
-    <rect x="360" y="0" width="130" height="24" rx="12" fill="#A855F715" stroke="#A855F7" stroke-width="1"/>
+    <rect x="360" y="0" width="130" height="24" rx="12" fill="#A855F715" stroke="#A855F7" stroke-width="1">
+      <animate attributeName="opacity" values="1;0.7;1" dur="5s" repeatCount="indefinite" begin="3.75s"/>
+    </rect>
     <text x="375" y="16" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A855F7">LLMs + RAG</text>
   </g>
 

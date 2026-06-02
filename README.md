@@ -50,29 +50,31 @@
   "current_learning": [
     "LLM Inference & Optimization",
     "RAG Architecture & Vector DBs (FAISS, Chroma)",
-    "MLOps & Production Pipelines (Docker, MLflow)",
-    "System Design for AI Applications",
     "AI Agents & Tool Calling",
     "Transformer Fine-tuning & PEFT (LoRA, QLoRA)",
-    "Multi-Agent AI Systems",
-    "Model Serving & Deployment (FastAPI, Docker)",
-    "Vector Databases & Retrieval Systems",
-    "Evaluation, Monitoring & Observability",
-    "Open-source LLM Ecosystem (HuggingFace, vLLM)",
-    "Real-time AI Applications"
+    "MLOps & Production Pipelines",
+    "Model Serving & Deployment (FastAPI, Docker)"
   ],
   "exploring": [
     "Agentic Workflows & Autonomous Systems",
     "Reasoning Models & Chain-of-Thought",
-    "Voice AI & Speech Processing",
-    "Memory-Augmented Architectures",
-    "Edge AI & On-device Model Deployment",
     "Computer Vision + LLM Integrations",
-    "Personalized Recommendation Systems",
-    "AI-powered Web Automation"
+    "Memory-Augmented Architectures"
   ]
 }
 ```
+
+<details>
+<summary>📚 <b>Extended Learning &amp; Exploration</b> — <code>+10 topics</code></summary>
+
+<br />
+
+| Category | Topics |
+|---|---|
+| 📖 Learning | Multi-Agent AI Systems · System Design for AI Applications · Vector Databases &amp; Retrieval Systems · Evaluation, Monitoring &amp; Observability · Open-source LLM Ecosystem (HuggingFace, vLLM) · Real-time AI Applications |
+| 🔭 Exploring | Edge AI &amp; On-device Model Deployment · Voice AI &amp; Speech Processing · Personalized Recommendation Systems · AI-powered Web Automation |
+
+</details>
 
 ---
 
@@ -99,11 +101,19 @@
   <img src="https://github-profile-trophy.vercel.app/?username=AadityaBhuree&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="Trophies" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/followers/AadityaBhuree?style=for-the-badge&color=00FFFF&label=Followers&labelColor=0D1117" alt="Followers" />
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/AadityaBhuree?style=for-the-badge&color=00FFFF&label=Stars&labelColor=0D1117" alt="Stars" />
+  &nbsp;
+  <img src="https://img.shields.io/github/last-commit/AadityaBhuree/AadityaBhuree?style=for-the-badge&color=8B5CF6&label=Updated&labelColor=0D1117" alt="Last Updated" />
+</p>
+
 ---
 
 ## `~/.spotlight`
 
-> **🚀 BookRecommender** — A production-grade book recommendation system with 3 ML engines (Popularity, Content-Based, Collaborative Filtering). 10K books, 6M ratings — live on Streamlit Cloud.
+> **🚀 Featured Projects** — production-grade systems I've built and shipped.
 
 <p align="center">
   <a href="https://github.com/AadityaBhuree/Goodbook-Recommender">
@@ -117,28 +127,28 @@
 
 > Public repos are still maturing — this section highlights the ML systems, LLM workflows, and deployment pipelines currently being shaped and prepared for production-ready releases.
 
-| `RAG Workbench` | |
+| `RAG Workbench` | [![Repo](https://img.shields.io/badge/Repo-121212?style=flat-square&logo=github&logoColor=white)](https://github.com/AadityaBhuree/RAG-Workbench) |
 |---|---|
 | **What it does** | Converts raw PDFs, notes, and structured documents into grounded AI responses using retrieval pipelines, embeddings, and source-aware generation. |
 | **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFCC4D?style=flat-square&logo=huggingface&logoColor=black) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-111827?style=flat-square&logo=flask&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 | **Status** | `In Build` |
 | **Result** | First end-to-end LLM + retrieval workflow designed as a production-style public case study with modular ingestion and semantic search. |
 
-| `ModelOps Starter` | |
+| `ModelOps Starter` | [![Repo](https://img.shields.io/badge/Repo-121212?style=flat-square&logo=github&logoColor=white)](https://github.com/AadityaBhuree/ModelOps-Starter) |
 |---|---|
 | **What it does** | Converts ML experiments into reproducible train, test, version, and deploy workflows with automation-first infrastructure. |
 | **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) |
 | **Status** | `Scoping` |
 | **Result** | Clear CI/CD pipeline mapped from dataset ingestion and model artifacts to containerized inference APIs and automated deployments. |
 
-| `Inference Console` | |
+| `Inference Console` | [![Repo](https://img.shields.io/badge/Repo-121212?style=flat-square&logo=github&logoColor=white)](https://github.com/AadityaBhuree/Inference-Console) |
 |---|---|
 | **What it does** | Makes model predictions observable through interactive demos, evaluation dashboards, and visualization layers with feedback-focused interfaces. |
 | **Stack** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
 | **Status** | `Prototype` |
 | **Result** | Faster experimentation loop for analyzing predictions, monitoring edge cases, visualizing metrics, and improving user-facing ML interactions. |
 
-| `VisionLab` | |
+| `VisionLab` | [![Repo](https://img.shields.io/badge/Repo-121212?style=flat-square&logo=github&logoColor=white)](https://github.com/AadityaBhuree/VisionLab) |
 |---|---|
 | **What it does** | Experiments with computer vision workflows including image classification, emotion detection, preprocessing pipelines, and real-time inference. |
 | **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
@@ -149,48 +159,21 @@
 
 ## `~/.stack`
 
-### 🧠 ML Core
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square&logo=xgboost&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square&logo=lightgbm&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,numpy,pandas,sklearn,opencv,plotly&perline=14&theme=dark" alt="ML Core" />
+</p>
 
-### 🔧 Frameworks
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFCC4D?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-111827?style=flat-square&logo=flask&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=flat-square&logo=gradio&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,langchain,fastapi,flask,streamlit&perline=14&theme=dark" alt="Frameworks" />
+</p>
 
-### 🗄️ Data & Infra
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,docker,kubernetes&perline=14&theme=dark" alt="Data & Infra" />
+</p>
 
-### 🛠️ Dev Workflow
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,jupyter,postman,vercel&perline=14&theme=dark" alt="Dev Workflow" />
+</p>
 
 ---
 
@@ -234,6 +217,40 @@
 
 ---
 
+## `~/.blog`
+
+> 📝 Latest thoughts from my writing — auto-updated every day.
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+## `~/.now_playing`
+
+> 🎧 What I'm listening to — updates in real time.
+
+<p align="center">
+  <a href="https://open.spotify.com/user/YOUR_SPOTIFY_UID">
+    <img src="https://novatorem.vercel.app/api/now-playing?username=YOUR_SPOTIFY_UID&theme=dark&bg_color=0D1117&border_color=1E293B&text_color=C7D2FE&title_color=00FFFF&icon_color=8B5CF6&width=540" alt="Spotify" width="75%" />
+  </a>
+</p>
+
+<sub>🔧 <b>To enable:</b> Replace <code>YOUR_SPOTIFY_UID</code> with your Spotify username, then deploy a Spotify Now Playing service (e.g., <a href="https://github.com/novatorem/novatorem">novatorem</a>) and update the image URL.</sub>
+
+<sub>ℹ️ <b>Troubleshooting:</b> If the Spotify card doesn't render, your deployed service may use a different URL format — check the service's docs and swap the <code>img src</code> accordingly.</sub>
+
+---
+
+## `~/.coding`
+
+> ⏱ Weekly coding breakdown — powered by WakaTime.
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 ## `~/.collab`
 
 <p align="center">
@@ -247,6 +264,18 @@
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
+
+---
+
+## `~/.metrics`
+
+> 📊 Weekly GitHub analytics — auto-generated metrics dashboard.
+
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+</p>
+
+---
 
 <div align="center">
   <sub>⚡ <code>print("Hello, World!")</code> — Let's build something awesome.</sub>
