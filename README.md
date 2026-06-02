@@ -3,18 +3,32 @@
 </div>
 
 <p align="center">
-  <a href="./resume.pdf"><strong>📄 Resume</strong></a>
-  <span> &bull; </span>
-  <a href="mailto:aadityabhure03@gmail.com?subject=Internship%20Opportunity%202026"><strong>📬 Open to Internships 2026</strong></a>
-  <span> &bull; </span>
-  <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank"><strong>💼 LinkedIn</strong></a>
-  <span> &bull; </span>
-  <a href="https://github.com/AadityaBhuree?tab=repositories" target="_blank"><strong>📦 Portfolio</strong></a>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=800&color=00FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=70&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Open+for+Internships+2026+%F0%9F%9A%80" alt="Typing Animation" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:aadityabhure03@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/AadityaBhuree?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/AadityaBhuree">
+    <img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=for-the-badge&color=00ffff&label=VISITS" alt="Profile Views" />
+  </a>
 </p>
 
 ---
 
-## `boot.json`
+## `~/.boot`
 
 ```json
 {
@@ -27,7 +41,7 @@
     "production ML workflows",
     "LLM-powered applications"
   ],
-  "status_line": "shipping from research experiments toward reliable AI products"
+  "ethos": "shipping from research experiments toward reliable AI products"
 }
 ```
 
@@ -35,13 +49,13 @@ I turn good ideas into great intelligent systems.
 
 ---
 
-## `journey`
+## `~/.journey`
 
-`Python` &nbsp;&rarr;&nbsp; `Statistics` &nbsp;&rarr;&nbsp; `Machine Learning` &nbsp;&rarr;&nbsp; `Deep Learning` &nbsp;&rarr;&nbsp; `Reinforcement Learning` &nbsp;&rarr;&nbsp; `Transformers` &nbsp;&rarr;&nbsp; `Generative AI` &nbsp;&rarr;&nbsp; `LLMs + RAG` &nbsp;&rarr;&nbsp; `Production AI`
+`Python` → `Statistics` → `Machine Learning` → `Deep Learning` → `Reinforcement Learning` → `Transformers` → `Generative AI` → `LLMs + RAG` → `Production AI`
 
 ---
 
-## `current_learning`
+## `~/.learning`
 
 - `System Design for AI Applications`
 - `LLM Inference & Optimization`
@@ -58,7 +72,7 @@ I turn good ideas into great intelligent systems.
 
 ---
 
-## `exploring`
+## `~/.exploring`
 
 - `Agentic Workflows`
 - `Reasoning Models`
@@ -71,19 +85,15 @@ I turn good ideas into great intelligent systems.
 
 ---
 
-## `focus`
+## `~/.focus`
 
 Building AI systems that move from experimentation to usable products.
 
----
-
-## `mindset`
-
-Learn deeply. Build consistently. Ship intelligently.
+> **Mindset:** Learn deeply. Build consistently. Ship intelligently.
 
 ---
 
-## `currently_building`
+## `~/.building`
 
 - `LLM-powered applications`
 - `RAG-based assistants`
@@ -93,13 +103,13 @@ Learn deeply. Build consistently. Ship intelligently.
 
 ---
 
-## `interests`
+## `~/.interests`
 
 `LLMs | Reinforcement Learning | System Design | AI Infrastructure | Open Source | Research-driven Development`
 
 ---
 
-## `stats`
+## `~/.stats`
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=C7D2FE&icon_color=8B5CF6&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
@@ -110,9 +120,13 @@ Learn deeply. Build consistently. Ship intelligently.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AadityaBhuree&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=C7D2FE&card_width=750&langs_count=8" alt="Top Languages" width="60%" />
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AadityaBhuree&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" width="100%" />
+</p>
+
 ---
 
-## `build_tracks`
+## `~/.build_tracks`
 
 > Public repos are still early, so this section highlights the ML systems, LLM workflows, and deployment pipelines currently being shaped.
 
@@ -146,7 +160,7 @@ Learn deeply. Build consistently. Ship intelligently.
 
 ---
 
-## `stack`
+## `~/.stack`
 
 ### ML Core
 
@@ -193,7 +207,17 @@ Learn deeply. Build consistently. Ship intelligently.
 
 ---
 
-## `when_im_not_training_models`
+## `~/.ethos`
+
+> **🎯 Unwavering Dedication** — Coding is my craft. I write clean, reliable, high-performance code by solving problems methodically and iterating on quality.
+>
+> **⚡ Extreme Ownership** — From database constraints to UI pixel alignment and API validation, I own every layer of the software I ship.
+>
+> **📈 Continuous Optimization** — I profile execution times, optimize algorithms, and build clean interfaces — never settling for a rough prototype.
+
+---
+
+## `~/.offline`
 
 - **Book:** `Designing Machine Learning Systems` — Chip Huyen
 - **Goal:** Ship an LLM + RAG project with clean evaluation, API design, and CI/CD around it
@@ -201,7 +225,7 @@ Learn deeply. Build consistently. Ship intelligently.
 
 ---
 
-## `activity`
+## `~/.activity`
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=0D1117&color=00FFFF&line=8B5CF6&point=00FFFF&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
@@ -217,30 +241,24 @@ Learn deeply. Build consistently. Ship intelligently.
   </picture>
 </div>
 
-<br />
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AadityaBhuree&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="Trophies" width="100%" />
-</p>
-
 ---
 
-## `collab`
+## `~/.collab`
 
-If you are building LLM tools, retrieval systems, or AI pipelines — I'm open to collaborating on scoped work where clean engineering and honest evaluation matter.
+<p align="center">
+  If you are building LLM tools, retrieval systems, or AI pipelines — I'm open to collaborating on scoped work where clean engineering and honest evaluation matter.
+</p>
 
 <p align="center">
   <a href="mailto:aadityabhure03@gmail.com">
-    <img src="https://img.shields.io/badge/Let's_Talk!-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Let's Talk" />
+    <img src="https://img.shields.io/badge/Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Me" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
-    <img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=for-the-badge&color=00ffff&label=VISITS" alt="Visits" />
-  <br /><br />
   <sub>⚡ <code>print("Hello, World!")</code> — Let's build something awesome.</sub>
 </div>
