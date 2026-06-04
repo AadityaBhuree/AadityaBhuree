@@ -1,95 +1,247 @@
 <div align="center">
 <img width="100%" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/banner.svg" alt="Aditya Bhure — AI/ML Engineer" />
-</div>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=50&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Open+for+Internships+2026+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=800&color=2563EB&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=50&lines=AI/ML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Open+for+Internships+2026" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:aadityabhure03@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/AadityaBhuree?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="./resume.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-00C853?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" />
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=for-the-badge&color=6366F1&label=VISITS" alt="Visits" />
-</p>
-
----
-
-## `~/.system`
-
-```json
-{
-  "name": "Aditya Bhure",
-  "role": "AI/ML Engineer & Backend Developer",
-  "location": "India",
-  "education": "B.Tech in AI & Data Science",
-  "status": "Seeking ML / CV / Full-Stack Internships (2026)",
-  "ask_me_about": ["Python", "Deep Learning", "Computer Vision", "LLMs + RAG", "FastAPI"],
-  "core_stack": ["Python", "PyTorch", "TensorFlow", "OpenCV", "scikit-learn", "FastAPI", "Docker"],
-  "fun_fact": "I believe clean data pipelines matter more than fancy model architectures",
-  "current_learning": [
-    "LLM Inference & Optimization",
-    "RAG Architecture & Vector DBs (FAISS, Chroma)",
-    "AI Agents & Tool Calling",
-    "Transformer Fine-tuning & PEFT (LoRA, QLoRA)",
-    "MLOps & Production Pipelines",
-    "Model Serving & Deployment (FastAPI, Docker)"
-  ],
-  "exploring": [
-    "Agentic Workflows & Autonomous Systems",
-    "Reasoning Models & Chain-of-Thought",
-    "Computer Vision + LLM Integrations",
-    "Memory-Augmented Architectures"
-  ]
-}
-```
-
-<details>
-<summary>📚 <b>Extended Learning &amp; Exploration</b> — <code>+10 topics</code></summary>
+<a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="mailto:aadityabhure03@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+</a>
+&nbsp;
+<a href="https://github.com/AadityaBhuree?tab=repositories" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
+</a>
+&nbsp;
+<a href="./resume.pdf" target="_blank">
+  <img src="https://img.shields.io/badge/Resume-00C853?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" />
+</a>
 
 <br />
 
-| Category | Topics |
+<img src="https://komarev.com/ghpvc/?username=AadityaBhuree&style=flat-square&color=2563EB&label=Profile+Views" alt="Profile Views" />
+
+</div>
+
+---
+
+## About Me
+
+I am **Aditya Bhure**, a B.Tech AI & Data Science student building a career at the intersection of **Machine Learning**, **Computer Vision**, and **Backend Engineering**. I care about clean data pipelines, reliable model deployment, and software that actually ships.
+
+- Currently seeking **AI/ML Internship opportunities in 2026**
+- Building production-grade AI systems — not just notebooks
+- Strong belief: *better AI comes from honest metrics, clean data flow, and dependable tooling*
+
+---
+
+## Current Learning
+
+<details>
+<summary><b>What I'm learning right now</b></summary>
+
+<br />
+
+| Focus Area | Details |
 |---|---|
-| 📖 Learning | Multi-Agent AI Systems · System Design for AI Applications · Vector Databases &amp; Retrieval Systems · Evaluation, Monitoring &amp; Observability · Open-source LLM Ecosystem (HuggingFace, vLLM) · Real-time AI Applications |
-| 🔭 Exploring | Edge AI &amp; On-device Model Deployment · Voice AI &amp; Speech Processing · Personalized Recommendation Systems · AI-powered Web Automation |
+| LLM Inference & Optimization | Understanding efficient serving, quantization, and latency reduction |
+| RAG Architecture | Vector DBs (FAISS, Chroma), retrieval pipelines, grounded generation |
+| AI Agents & Tool Calling | Building autonomous systems with structured tool use |
+| Transformer Fine-tuning | PEFT methods — LoRA, QLoRA, adapter-based approaches |
+| MLOps & Production Pipelines | CI/CD for models, experiment tracking, containerized deployment |
+| Model Serving | FastAPI, Docker, and scalable inference APIs |
+
+</details>
+
+<details>
+<summary><b>Exploring next</b></summary>
+
+<br />
+
+- Agentic Workflows & Autonomous Systems
+- Reasoning Models & Chain-of-Thought prompting
+- Computer Vision + LLM integrations
+- Edge AI & on-device model deployment
+- Voice AI & Speech Processing
 
 </details>
 
 ---
 
-## `~/.journey`
+## AI/ML Journey
 
-`Python → Statistics → Machine Learning → Deep Learning → Reinforcement Learning → Transformers → Generative AI → LLMs + RAG → Production AI`
+```
+Python → Statistics → Machine Learning → Deep Learning → Transformers → Generative AI → LLMs + RAG → Production AI
+```
 
 > **Core belief:** *Better AI products come from clean data flow, honest metrics, and dependable tooling.*
 
 ---
 
-## `~/.stats`
+## Tech Stack
+
+**ML & Data Science**
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=C7D2FE&icon_color=8B5CF6&count_private=true&include_all_commits=true" alt="Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AadityaBhuree&hide_border=true&background=0D1117&stroke=8B5CF6&ring=00FFFF&fire=00FFFF&currStreakNum=C7D2FE&sideNums=C7D2FE&currStreakLabel=8B5CF6&sideLabels=C7D2FE&dates=6B7280" alt="Streak" width="48%" />
+  <img src="https://skillicons.dev/icons?i=py,numpy,pandas,sklearn,opencv,plotly&perline=14" alt="ML Core" />
+</p>
+
+**Frameworks & Libraries**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,langchain,fastapi,flask,streamlit&perline=14" alt="Frameworks" />
+</p>
+
+**Data & Infrastructure**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,docker,kubernetes&perline=14" alt="Data & Infra" />
+</p>
+
+**Developer Workflow**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,jupyter,postman,vercel&perline=14" alt="Dev Workflow" />
+</p>
+
+---
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### AI Task Manager
+AI-powered task management application with intelligent scheduling and NLP-based parsing.
+
+**Stack:** `Python` `Streamlit` `SQLite` `NLP`
+
+[![Repo](https://img.shields.io/badge/View_Project-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AadityaBhuree/AI-Task-Manager)
+
+</td>
+<td width="50%">
+
+### GoodBook Recommender
+Machine learning-based book recommendation system using collaborative and content-based filtering.
+
+**Stack:** `Python` `Scikit-Learn` `Pandas` `NumPy`
+
+[![Repo](https://img.shields.io/badge/View_Project-06B6D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AadityaBhuree/Goodbook-Recommender)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### Vehicle Number Plate Recognition
+Real-time number plate detection and recognition using computer vision and OCR pipelines.
+
+**Stack:** `Python` `OpenCV` `OCR`
+
+[![Repo](https://img.shields.io/badge/View_Project-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AadityaBhuree/Vehicle-hand-written-no-recognizer)
+
+</td>
+<td width="50%">
+
+### Hand Gesture Recognition System
+Real-time hand gesture recognition using CNN architectures and OpenCV video streams.
+
+**Stack:** `Python` `TensorFlow` `OpenCV` `CNN`
+
+[![Repo](https://img.shields.io/badge/View_Project-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AadityaBhuree/-Hand-Gesture-Recognition-System-using-CNN-and-OpenCV-)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>More Projects</b></summary>
+
+<br />
+
+| Project | Stack | Description |
+|---|---|---|
+| **Used Car Price Prediction** | Python, FastAPI, React, Scikit-Learn | End-to-end ML web app predicting used car resale values with model training and API serving |
+| **WellCare Hospital System** | Python, CustomTkinter | Clinic management system with real-time analytics, automated PDF prescriptions, and role-based access |
+| **Institute Management System** | Python | Student, staff, and admin operations with role-based login, enquiry handling, and CRUD functionality |
+
+</details>
+
+---
+
+## Building in Public
+
+<details>
+<summary><b>AI Systems</b></summary>
+
+<br />
+
+- RAG pipelines with retrieval-augmented generation and vector search
+- AI agent frameworks with tool calling and structured outputs
+- LLM-powered applications with evaluation and monitoring
+
+</details>
+
+<details>
+<summary><b>Computer Vision Projects</b></summary>
+
+<br />
+
+- Real-time emotion detection with CNN architectures
+- Vehicle number plate recognition with OCR pipelines
+- Image classification and preprocessing experiments in VisionLab
+
+</details>
+
+<details>
+<summary><b>LLM Applications</b></summary>
+
+<br />
+
+- Document ingestion and grounded generation systems
+- Fine-tuning experiments with LoRA and QLoRA
+- Prompt engineering and evaluation frameworks
+
+</details>
+
+<details>
+<summary><b>MLOps Experiments</b></summary>
+
+<br />
+
+- CI/CD pipelines for model training and deployment
+- Experiment tracking and model versioning with MLflow
+- Containerized inference APIs with Docker and FastAPI
+
+</details>
+
+<details>
+<summary><b>Open Source Contributions</b></summary>
+
+<br />
+
+- Contributing to ML tooling and developer experience projects
+- Building reusable components for the AI engineering community
+- Sharing learnings through project documentation and code
+
+</details>
+
+---
+
+## GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=ffffff&title_color=2563EB&text_color=1e293b&icon_color=7C3AED&count_private=true&include_all_commits=true" alt="Stats" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=AadityaBhuree&hide_border=true&background=ffffff&stroke=7C3AED&ring=2563EB&fire=06B6D4&currStreakNum=1e293b&sideNums=1e293b&currStreakLabel=7C3AED&sideLabels=1e293b&dates=6b7280" alt="Streak" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AadityaBhuree&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=C7D2FE&card_width=750&langs_count=8" alt="Languages" width="60%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AadityaBhuree&layout=compact&hide_border=true&bg_color=ffffff&title_color=2563EB&text_color=1e293b&card_width=750&langs_count=8" alt="Languages" width="60%" />
 </p>
 
 <p align="center">
@@ -97,159 +249,107 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/AadityaBhuree?style=for-the-badge&color=00FFFF&label=Followers&labelColor=0D1117" alt="Followers" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AadityaBhuree&theme=transparent&bg_color=ffffff&color=2563EB" alt="Profile Summary" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/AadityaBhuree?style=flat-square&color=2563EB&label=Followers&labelColor=ffffff" alt="Followers" />
   &nbsp;
-  <img src="https://img.shields.io/github/stars/AadityaBhuree?style=for-the-badge&color=00FFFF&label=Stars&labelColor=0D1117" alt="Stars" />
+  <img src="https://img.shields.io/github/stars/AadityaBhuree?style=flat-square&color=06B6D4&label=Stars&labelColor=ffffff" alt="Stars" />
   &nbsp;
-  <img src="https://img.shields.io/github/last-commit/AadityaBhuree/AadityaBhuree?style=for-the-badge&color=8B5CF6&label=Updated&labelColor=0D1117" alt="Last Updated" />
+  <img src="https://img.shields.io/github/last-commit/AadityaBhuree/AadityaBhuree?style=flat-square&color=7C3AED&label=Last+Commit&labelColor=ffffff" alt="Last Commit" />
 </p>
 
 ---
 
-## `~/.spotlight`
-
-> **🚀 Featured Projects** — production-grade systems I've built and shipped.
+## Activity Graph
 
 <p align="center">
-  <a href="https://github.com/AadityaBhuree/Goodbook-Recommender">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AadityaBhuree&repo=Goodbook-Recommender&bg_color=161B22&title_color=00FFFF&icon_color=8B5CF6&text_color=C7D2FE&hide_border=true&show_owner=false" alt="BookRecommender" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=ffffff&color=2563EB&line=7C3AED&point=06B6D4&area=true&hide_border=true" alt="Activity Graph" width="100%" />
 </p>
 
 ---
 
-## `~/.build_tracks`
-
-> Public repos are still maturing — this section highlights the ML systems, LLM workflows, and deployment pipelines currently being shaped and prepared for production-ready releases.
-
-| `RAG Workbench` | [![Repo](https://img.shields.io/badge/Repo-121212?style=flat-square&logo=github&logoColor=white)](https://github.com/AadityaBhuree/RAG-Workbench) |
-|---|---|
-| **What it does** | Converts raw PDFs, notes, and structured documents into grounded AI responses using retrieval pipelines, embeddings, and source-aware generation. |
-| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFCC4D?style=flat-square&logo=huggingface&logoColor=black) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-111827?style=flat-square&logo=flask&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| **Status** | `In Build` |
-| **Result** | First end-to-end LLM + retrieval workflow designed as a production-style public case study with modular ingestion and semantic search. |
-
-| `ModelOps Starter` | [![Repo](https://img.shields.io/badge/Repo-121212?style=flat-square&logo=github&logoColor=white)](https://github.com/AadityaBhuree/ModelOps-Starter) |
-|---|---|
-| **What it does** | Converts ML experiments into reproducible train, test, version, and deploy workflows with automation-first infrastructure. |
-| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) |
-| **Status** | `Scoping` |
-| **Result** | Clear CI/CD pipeline mapped from dataset ingestion and model artifacts to containerized inference APIs and automated deployments. |
-
-| `Inference Console` | [![Repo](https://img.shields.io/badge/Repo-121212?style=flat-square&logo=github&logoColor=white)](https://github.com/AadityaBhuree/Inference-Console) |
-|---|---|
-| **What it does** | Makes model predictions observable through interactive demos, evaluation dashboards, and visualization layers with feedback-focused interfaces. |
-| **Stack** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
-| **Status** | `Prototype` |
-| **Result** | Faster experimentation loop for analyzing predictions, monitoring edge cases, visualizing metrics, and improving user-facing ML interactions. |
-
-| `VisionLab` | [![Repo](https://img.shields.io/badge/Repo-121212?style=flat-square&logo=github&logoColor=white)](https://github.com/AadityaBhuree/VisionLab) |
-|---|---|
-| **What it does** | Experiments with computer vision workflows including image classification, emotion detection, preprocessing pipelines, and real-time inference. |
-| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
-| **Status** | `Research` |
-| **Result** | Modular computer vision playground for testing CNN-based pipelines, live camera inference, and deployable AI demos. |
-
----
-
-## `~/.stack`
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,numpy,pandas,sklearn,opencv,plotly&perline=14&theme=dark" alt="ML Core" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,langchain,fastapi,flask,streamlit&perline=14&theme=dark" alt="Frameworks" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,docker,kubernetes&perline=14&theme=dark" alt="Data & Infra" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,jupyter,postman,vercel&perline=14&theme=dark" alt="Dev Workflow" />
-</p>
-
----
-
-## `~/.activity`
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=0D1117&color=00FFFF&line=8B5CF6&point=00FFFF&area=true&hide_border=true" alt="Activity Graph" width="100%" />
-</p>
-
-<br />
+## Contribution Snake
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" />
-    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake-dark.svg" />
+    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" />
   </picture>
 </div>
 
 ---
 
-## `~/.ethos`
+## Achievements & Goals
 
-> **🎯 Dedication** — Clean, reliable code through methodical problem-solving. Every project deserves intentional architecture.
->
-> **⚡ Ownership** — Every layer, from database design to user interface, is my responsibility. I own the full stack of the systems I build.
->
-> **📈 Optimization** — Profile. Iterate. Never settle for a prototype. Production-quality means every detail has been questioned and refined.
->
-> **🔬 Curiosity** — The best ML engineers aren't afraid to read the paper, understand the math, and re-implement from scratch.
+<details>
+<summary><b>2026 Goals</b></summary>
 
----
+<br />
 
-## `~/.offline`
+- [x] Build a production-grade RAG system with clean evaluation
+- [x] Ship 5+ ML projects with proper documentation
+- [ ] Secure an AI/ML internship at a research-focused company
+- [ ] Contribute to a well-known open-source ML project
+- [ ] Deploy a fine-tuned model with FastAPI + Docker
+- [ ] Build an AI agent with multi-tool orchestration
+- [ ] Write 10+ technical blog posts on ML engineering
 
-- **📖 Reading:** `Designing Machine Learning Systems` — Chip Huyen
-- **🎯 Goal:** Ship an LLM + RAG project with clean evaluation, API design, and CI/CD
-- **🎮 Wind down:** Strategy games, chess, or tinkering with open-source tools
-- **🧠 Belief:** Better AI comes from clear data, honest metrics, and dependable tooling
-- **💡 Mantra:** *"Learn deeply. Build consistently. Ship intelligently."*
+</details>
 
----
+<details>
+<summary><b>Milestones</b></summary>
 
-## `~/.blog`
+<br />
 
-> 📝 Latest thoughts from my writing — auto-updated every day.
+| Milestone | Status |
+|---|---|
+| B.Tech AI & Data Science — 6th Semester | In Progress |
+| Data Science & ML Certification (Binary Brains) | Completed |
+| Python & Data Analytics Certification (Binary Brains) | Completed |
+| First end-to-end ML project shipped | Done |
+| First RAG workflow designed and documented | Done |
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
----
-
-## `~/.now_playing`
-
-> 🎧 What I'm listening to — updates in real time.
-
-<p align="center">
-  <a href="https://open.spotify.com/user/YOUR_SPOTIFY_UID">
-    <img src="https://novatorem.vercel.app/api/now-playing?username=YOUR_SPOTIFY_UID&theme=dark&bg_color=0D1117&border_color=1E293B&text_color=C7D2FE&title_color=00FFFF&icon_color=8B5CF6&width=540" alt="Spotify" width="75%" />
-  </a>
-</p>
-
-<sub>🔧 <b>To enable:</b> You'll need to:
-1. Replace <code>YOUR_SPOTIFY_UID</code> with your Spotify username
-2. Deploy your own <a href="https://github.com/novatorem/novatorem">novatorem</a> instance on Vercel (free)
-3. Swap the <code>img src</code> URL with your deployed instance's URL</sub>
+</details>
 
 ---
 
-## `~/.coding`
+## Open Source Journey
 
-> ⏱ Weekly coding breakdown — powered by WakaTime.
+I believe in building in public and contributing back to the community. My open-source work focuses on:
+
+- **ML Engineering Tools** — making model training and deployment more accessible
+- **Computer Vision Utilities** — reusable preprocessing and inference pipelines
+- **RAG Frameworks** — modular retrieval-augmented generation components
+- **Developer Experience** — tools that make AI engineering more productive
+
+> Every project is an opportunity to learn, teach, and improve the ecosystem.
+
+---
+
+## Weekly Coding
+
+> Weekly coding breakdown — powered by WakaTime.
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
 ---
 
-## `~/.metrics`
+## Latest Blog Posts
 
-> 📊 Weekly GitHub analytics — auto-generated metrics dashboard.
+> Auto-updated every day.
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+## GitHub Metrics
+
+> Auto-generated weekly analytics dashboard.
 
 <p align="center">
   <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
@@ -257,22 +357,35 @@
 
 ---
 
-## `~/.collab`
+## What I Read
+
+- **Currently Reading:** *Designing Machine Learning Systems* — Chip Huyen
+- **Mantra:** *"Learn deeply. Build consistently. Ship intelligently."*
+
+---
+
+## Contact
 
 <p align="center">
   Building LLM tools, retrieval systems, or AI pipelines? Let's collaborate.
+
   <br /><br />
+
   <a href="mailto:aadityabhure03@gmail.com">
-    <img src="https://img.shields.io/badge/Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/aditya-bhure-466638249" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/AadityaBhuree" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
 ---
 
 <div align="center">
-  <sub>⚡ <code>print("Hello, World!")</code> — Let's build something awesome.</sub>
+  <sub>Let's build something awesome.</sub>
 </div>
