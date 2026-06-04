@@ -10,7 +10,6 @@
 <a href="https://www.linkedin.com/in/aditya-bhure-466638249"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:aadityabhure03@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
 <a href="https://github.com/AadityaBhuree?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-6C63FF?style=flat-square&logo=github&logoColor=white" alt="Portfolio" /></a>
-<a href="./resume.pdf"><img src="https://img.shields.io/badge/Resume-00C853?style=flat-square&logo=googledrive&logoColor=white" alt="Resume" /></a>
 
 </div>
 
@@ -22,18 +21,17 @@ B.Tech AI & Data Science student building at the intersection of **Machine Learn
 
 Currently seeking **AI/ML Internship opportunities in 2026**.
 
+> Currently learning: RAG pipelines, AI Agents, LLM fine-tuning, MLOps & Production deployment.
+
 ---
 
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,pandas,numpy,sklearn&perline=14" alt="Core" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,pandas,numpy,sklearn,fastapi,flask,streamlit&perline=14" alt="Core" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,streamlit,docker,huggingface,langchain&perline=14" alt="Frameworks" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,git,github,githubactions,jupyter&perline=14" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=docker,huggingface,mysql,postgres,git,github,githubactions,jupyter&perline=14" alt="Tools" />
 </p>
 
 ---
@@ -61,21 +59,13 @@ Currently seeking **AI/ML Internship opportunities in 2026**.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=ffffff&color=2563EB&line=7C3AED&point=06B6D4&area=true&hide_border=true" alt="Activity Graph" width="100%" />
 </p>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" />
-    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" />
-  </picture>
-</div>
-
 ---
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+## Metrics
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+</p>
 
 ---
 
