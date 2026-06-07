@@ -1,78 +1,141 @@
-<div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/banner.svg" alt="Aditya Bhure — AI/ML Engineer" />
-
-<br />
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=800&color=2563EB&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=50&lines=AI/ML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Open+for+Internships+2026" alt="Typing SVG" />
-
-<br />
-
-<a href="https://www.linkedin.com/in/aditya-bhure-466638249"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:aadityabhure03@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
-<a href="https://github.com/AadityaBhuree?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-6C63FF?style=flat-square&logo=github&logoColor=white" alt="Portfolio" /></a>
-
-</div>
-
----
-
-## About Me
-
-B.Tech AI & Data Science student building at the intersection of **Machine Learning**, **Computer Vision**, and **Backend Engineering**. I care about clean data pipelines, reliable model deployment, and software that ships.
-
-Currently seeking **AI/ML Internship opportunities in 2026**.
-
-> Currently learning: RAG pipelines, AI Agents, LLM fine-tuning, MLOps & Production deployment.
-
----
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,pandas,numpy,sklearn,fastapi,flask,streamlit&perline=14" alt="Core" />
+<p align="left">
+  <img src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/banner.svg" alt="Aditya Bhure banner" width="100%" />
 </p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,huggingface,mysql,postgres,git,github,githubactions,jupyter&perline=14" alt="Tools" />
+
+<p align="left">
+  <a href="https://github.com/AadityaBhuree?tab=repositories"><strong>Portfolio</strong></a>
+  <span> &bull; </span>
+  <a href="https://www.linkedin.com/in/aditya-bhure-466638249"><strong>LinkedIn</strong></a>
+  <span> &bull; </span>
+  <a href="mailto:aadityabhure03@gmail.com?subject=Work%20Opportunity%20for%20Aditya"><strong>Available for work</strong></a>
+  <span> &bull; </span>
+  <a href="mailto:aadityabhure03@gmail.com?subject=Internship%20Opportunity%202026"><strong>Open to Internships 2026</strong></a>
 </p>
 
 ---
 
-## Projects
+## `boot.json`
 
-| # | Project | Stack | |
-|---|---|---|---|
-| 1 | [**AI Task Manager**](https://github.com/AadityaBhuree/AI-Task-Manager) | Python, Streamlit, SQLite, NLP | [View](https://github.com/AadityaBhuree/AI-Task-Manager) |
-| 2 | [**GoodBook Recommender**](https://github.com/AadityaBhuree/Goodbook-Recommender) | Python, Scikit-Learn, Pandas, Streamlit | [View](https://github.com/AadityaBhuree/Goodbook-Recommender) |
-| 3 | [**Hand Gesture Recognition**](https://github.com/AadityaBhuree/-Hand-Gesture-Recognition-System-using-CNN-and-OpenCV-) | Python, TensorFlow, OpenCV, CNN | [View](https://github.com/AadityaBhuree/-Hand-Gesture-Recognition-System-using-CNN-and-OpenCV-) |
-| 4 | [**Vehicle Plate Recognition**](https://github.com/AadityaBhuree/Vehicle-hand-written-no-recognizer) | Python, OpenCV, OCR | [View](https://github.com/AadityaBhuree/Vehicle-hand-written-no-recognizer) |
-| 5 | [**Used Car Price Prediction**](https://github.com/AadityaBhuree/used-car-price-prediction) | Python, FastAPI, React, Scikit-Learn | [View](https://github.com/AadityaBhuree/used-car-price-prediction) |
+```json
+{
+  "name": "Aditya Bhure",
+  "role": "AI/ML Engineer & Backend Developer",
+  "status": "seeking AI/ML Internship opportunities in 2026",
+  "building": [
+    "machine learning models",
+    "computer vision systems",
+    "scalable backend APIs",
+    "clean data pipelines"
+  ],
+  "learning": [
+    "RAG pipelines",
+    "AI Agents",
+    "LLM fine-tuning",
+    "MLOps & Production deployment"
+  ]
+}
+```
 
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=ffffff&title_color=2563EB&text_color=1e293b&icon_color=7C3AED&count_private=true&include_all_commits=true" alt="Stats" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=AadityaBhuree&hide_border=true&background=ffffff&stroke=7C3AED&ring=2563EB&fire=06B6D4&currStreakNum=1e293b&sideNums=1e293b&currStreakLabel=7C3AED&sideLabels=1e293b&dates=6b7280" alt="Streak" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=ffffff&color=2563EB&line=7C3AED&point=06B6D4&area=true&hide_border=true" alt="Activity Graph" width="100%" />
-</p>
-
----
-
-## Metrics
-
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
-</p>
+Building intelligent systems that scale and software that ships.
 
 ---
 
-## Connect
+## `journey`
 
-<p align="center">
-<a href="mailto:aadityabhure03@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/aditya-bhure-466638249"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/AadityaBhuree"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
+`B.Tech AI & Data Science -> Python -> Statistics -> Machine Learning -> Computer Vision -> Backend Engineering -> LLMs & MLOps`
+
+---
+
+## `core_stack`
+
+- `Python`
+- `PyTorch & TensorFlow`
+- `OpenCV`
+- `Pandas, NumPy, Scikit-Learn`
+- `FastAPI, Flask & Streamlit`
+- `Docker`
+- `MySQL & PostgreSQL`
+- `Hugging Face`
+
+---
+
+## `mindset`
+
+Learn deeply. Build consistently. Ship intelligently.
+
+---
+
+## `build_tracks`
+
+| `AI Task Manager` | |
+| --- | --- |
+| **What it does** | An intelligent task manager leveraging natural language processing to organize, prioritize, and manage daily workflows efficiently. |
+| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-121212?style=flat-square&logoColor=white) |
+| **Link** | [View Source](https://github.com/AadityaBhuree/AI-Task-Manager) |
+
+<br/>
+
+| `Used Car Price Prediction` | |
+| --- | --- |
+| **What it does** | A full-stack application that estimates used car prices using trained machine learning regression models served via a robust backend. |
+| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **Link** | [View Source](https://github.com/AadityaBhuree/used-car-price-prediction) |
+
+<br/>
+
+| `Hand Gesture Recognition` | |
+| --- | --- |
+| **What it does** | A real-time computer vision system that interprets hand gestures using Convolutional Neural Networks and OpenCV. |
+| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![CNN](https://img.shields.io/badge/CNN-121212?style=flat-square&logoColor=white) |
+| **Link** | [View Source](https://github.com/AadityaBhuree/-Hand-Gesture-Recognition-System-using-CNN-and-OpenCV-) |
+
+<br/>
+
+| `GoodBook Recommender` | |
+| --- | --- |
+| **What it does** | A personalized book recommendation engine utilizing collaborative and content-based filtering algorithms. |
+| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
+| **Link** | [View Source](https://github.com/AadityaBhuree/Goodbook-Recommender) |
+
+<br/>
+
+| `Vehicle Plate Recognition` | |
+| --- | --- |
+| **What it does** | Automatically detects and reads text from vehicle license plates using OpenCV and Optical Character Recognition (OCR). |
+| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![OCR](https://img.shields.io/badge/OCR-121212?style=flat-square&logoColor=white) |
+| **Link** | [View Source](https://github.com/AadityaBhuree/Vehicle-hand-written-no-recognizer) |
+
+---
+
+## `latest_logs.rss`
+
+<!-- BLOG-POST-LIST:START -->
+*Awaiting the first run of the Blog Post Action...*
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+## `github_metrics.log`
+
+<img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=0d1117&title_color=2563EB&text_color=c9d1d9&icon_color=7C3AED&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
+<img src="https://streak-stats.demolab.com/?user=AadityaBhuree&hide_border=true&background=0d1117&stroke=7C3AED&ring=2563EB&fire=06B6D4&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=6b7280" alt="GitHub Streak" width="48%" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=0d1117&color=2563EB&line=7C3AED&point=06B6D4&area=true&hide_border=true" alt="Activity Graph" width="100%" />
+
+<br/><br/>
+
+<img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+
+---
+
+## `git_activity.svg`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/dist/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/dist/github-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/dist/github-snake-dark.svg" width="100%">
+</picture>
+
+---
