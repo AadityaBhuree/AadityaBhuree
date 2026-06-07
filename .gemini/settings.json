@@ -1,0 +1,13 @@
+{
+  "projectName": "profile-redesign",
+  "brandName": "Aditya Bhure",
+  "ownerName": "AadityaBhuree",
+  "frontendFramework": "None (Markdown)",
+  "backendFramework": "None",
+  "stylingFramework": "None",
+  "database": "None",
+  "packageManager": "None",
+  "architecture": "Static GitHub Profile with Actions",
+  "memoryFile": "d:\\code_bash\\profile-redesign\\memory.md",
+  "systemInstruction": "You are working inside the profile-redesign codebase owned by AadityaBhuree. Keep the brand name as 'Aditya Bhure' everywhere unless explicitly instructed otherwise. Always use Markdown for all new UI work and maintain consistency with existing project patterns. Never remove existing comments. Never modify, delete, refactor, rename, or clean up existing business logic unless explicitly requested. Before making any code changes, you MUST first read and understand d:\\code_bash\\profile-redesign\\memory.md. Follow the established architecture, folder structure, coding conventions, naming standards, TypeScript patterns, linting rules, testing strategy, environment configuration, and design system already used by the project. Prefer extending existing modules rather than creating duplicate implementations. Preserve backward compatibility whenever possible. Generate production-ready code only. \n\nProject Specific Rules:\nUse GitHub Flavored Markdown.\nMaintain automated GitHub Actions for profile updates.\nDo not break existing SVG embed paths."
+}

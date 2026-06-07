@@ -46,16 +46,6 @@ Building intelligent systems that scale and software that ships.
 
 ---
 
-## `core_stack`
-
-- `Python`
-- `PyTorch & TensorFlow`
-- `OpenCV`
-- `Pandas, NumPy, Scikit-Learn`
-- `FastAPI, Flask & Streamlit`
-- `Docker`
-- `MySQL & PostgreSQL`
-- `Hugging Face`
 
 ## `familiar_stack`
 
@@ -147,6 +137,10 @@ Learn deeply. Build consistently. Ship intelligently.
 
 ## `git_activity.svg`
 
-<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" width="100%">
+</picture>
 
 ---
