@@ -5,6 +5,11 @@
 <p align="left">
   <a href="https://github.com/AadityaBhuree?tab=repositories"><strong>Portfolio</strong></a>
   <span> &bull; </span>
+<<<<<<< HEAD
+=======
+  <a href="./resume.pdf"><strong>Resume</strong></a>
+  <span> &bull; </span>
+>>>>>>> fab719a (style: Redesign profile README and update workflows)
   <a href="https://www.linkedin.com/in/aditya-bhure-466638249"><strong>LinkedIn</strong></a>
   <span> &bull; </span>
   <a href="mailto:aadityabhure03@gmail.com?subject=Work%20Opportunity%20for%20Aditya"><strong>Available for work</strong></a>
@@ -46,6 +51,7 @@ Building intelligent systems that scale and software that ships.
 
 ---
 
+<<<<<<< HEAD
 ## `core_stack`
 
 - `Python`
@@ -56,6 +62,21 @@ Building intelligent systems that scale and software that ships.
 - `Docker`
 - `MySQL & PostgreSQL`
 - `Hugging Face`
+=======
+## `familiar_stack`
+
+### `ml_core`
+`Python` • `NumPy` • `Pandas` • `Polars` • `SciPy` • `scikit-learn` • `XGBoost` • `LightGBM` • `OpenCV` • `Matplotlib` • `Seaborn` • `Plotly`
+
+### `frameworks`
+`PyTorch` • `TensorFlow` • `Keras` • `Hugging Face` • `LangChain` • `Flask` • `FastAPI` • `Streamlit` • `Gradio`
+
+### `data_infra`
+`MySQL` • `PostgreSQL` • `MongoDB` • `SQLite` • `Redis` • `Docker` • `Kubernetes`
+
+### `dev_workflow`
+`Git` • `GitHub` • `GitHub Actions` • `VS Code` • `Jupyter` • `Anaconda` • `Vercel` • `Render`
+>>>>>>> fab719a (style: Redesign profile README and update workflows)
 
 ---
 
@@ -117,12 +138,12 @@ Learn deeply. Build consistently. Ship intelligently.
 
 ## `github_metrics.log`
 
-<img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&hide_border=true&bg_color=0d1117&title_color=2563EB&text_color=c9d1d9&icon_color=7C3AED&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
-<img src="https://streak-stats.demolab.com/?user=AadityaBhuree&hide_border=true&background=0d1117&stroke=7C3AED&ring=2563EB&fire=06B6D4&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=6b7280" alt="GitHub Streak" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
+<img src="https://streak-stats.demolab.com/?user=AadityaBhuree&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&bg_color=0d1117&color=2563EB&line=7C3AED&point=06B6D4&area=true&hide_border=true" alt="Activity Graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&theme=github-light&hide_border=true" alt="Activity Graph" width="100%" />
 
 <br/><br/>
 
@@ -132,10 +153,6 @@ Learn deeply. Build consistently. Ship intelligently.
 
 ## `git_activity.svg`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/dist/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/dist/github-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/dist/github-snake-dark.svg" width="100%">
-</picture>
+<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" width="100%">
 
 ---
