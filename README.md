@@ -5,14 +5,9 @@
 <p align="left">
   <a href="https://github.com/AadityaBhuree?tab=repositories"><strong>Portfolio</strong></a>
   <span> &bull; </span>
-<<<<<<< HEAD
-=======
   <a href="./resume.pdf"><strong>Resume</strong></a>
   <span> &bull; </span>
->>>>>>> fab719a (style: Redesign profile README and update workflows)
   <a href="https://www.linkedin.com/in/aditya-bhure-466638249"><strong>LinkedIn</strong></a>
-  <span> &bull; </span>
-  <a href="mailto:aadityabhure03@gmail.com?subject=Work%20Opportunity%20for%20Aditya"><strong>Available for work</strong></a>
   <span> &bull; </span>
   <a href="mailto:aadityabhure03@gmail.com?subject=Internship%20Opportunity%202026"><strong>Open to Internships 2026</strong></a>
 </p>
