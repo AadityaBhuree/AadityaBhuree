@@ -46,7 +46,6 @@ Building intelligent systems that scale and software that ships.
 
 ---
 
-<<<<<<< HEAD
 ## `core_stack`
 
 - `Python`
