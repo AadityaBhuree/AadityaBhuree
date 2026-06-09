@@ -71,7 +71,7 @@ Building intelligent systems that scale and software that ships.
 
 ### `dev_workflow`
 `Git` • `GitHub` • `GitHub Actions` • `VS Code` • `Jupyter` • `Anaconda` • `Vercel` • `Render`
->>>>>>> fab719a (style: Redesign profile README and update workflows)
+
 
 ---
 
