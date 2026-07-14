@@ -1,11 +1,11 @@
 <p align="left">
-  <img src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/banner.svg" alt="Aditya Bhure banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/assets/banner.svg" alt="Aditya Bhure banner" width="100%" />
 </p>
 
 <p align="left">
   <a href="https://github.com/AadityaBhuree?tab=repositories"><strong>Portfolio</strong></a>
   <span> &bull; </span>
-  <a href="./resume.pdf"><strong>Resume</strong></a>
+  <a href="./assets/resume.pdf"><strong>Resume</strong></a>
   <span> &bull; </span>
   <a href="https://www.linkedin.com/in/aditya-bhure-466638249"><strong>LinkedIn</strong></a>
   <span> &bull; </span>

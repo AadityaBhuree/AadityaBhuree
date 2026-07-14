@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    ".gemini": true,
+    "memory.md": true,
+    "nul": true
+  }
+}
