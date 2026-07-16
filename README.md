@@ -1,20 +1,29 @@
-<p align="left">
+<div align="center">
   <img src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/main/assets/banner.svg" alt="Aditya Bhure banner" width="100%" />
-</p>
 
-<p align="left">
-  <a href="https://github.com/AadityaBhuree?tab=repositories"><strong>Portfolio</strong></a>
-  <span> &bull; </span>
-  <a href="./assets/resume.pdf"><strong>Resume</strong></a>
-  <span> &bull; </span>
-  <a href="https://www.linkedin.com/in/aditya-bhure-466638249"><strong>LinkedIn</strong></a>
-  <span> &bull; </span>
-  <a href="mailto:aadityabhure03@gmail.com?subject=Internship%20Opportunity%202026"><strong>Open to Internships 2026</strong></a>
-</p>
+  <br/>
+  <br/>
+
+  <a href="https://github.com/AadityaBhuree?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-282c34?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
+  <a href="./assets/resume.pdf"><img src="https://img.shields.io/badge/Resume-e34f26?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>
+  <a href="https://www.linkedin.com/in/aditya-bhure-466638249"><img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:aadityabhure03@gmail.com?subject=Internship%20Opportunity%202026"><img src="https://img.shields.io/badge/Open_to_Internships_2026-0a66c2?style=for-the-badge&logo=gmail&logoColor=white" alt="Internships" /></a>
+
+  <br/>
+  <br/>
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Crafting+clean+data+pipelines;Seeking+Internships+in+2026" alt="Typing SVG" />
+  </a>
+</div>
 
 ---
 
-## `boot.json`
+<div align="center">
+
+## 👨‍💻 `boot.json`
+
+</div>
 
 ```json
 {
@@ -36,106 +45,170 @@
 }
 ```
 
-Building intelligent systems that scale and software that ships.
+<div align="center">
+  <i>Building intelligent systems that scale and software that ships.</i>
+</div>
 
 ---
 
-## `journey`
+<div align="center">
 
-`B.Tech AI & Data Science -> Python -> Statistics -> Machine Learning -> Computer Vision -> Backend Engineering -> LLMs & MLOps`
+## 🚀 `journey`
 
----
+`B.Tech AI & Data Science` ➔ `Python` ➔ `Statistics` ➔ `Machine Learning` ➔ `Computer Vision` ➔ `Backend Engineering` ➔ `LLMs & MLOps`
 
-
-## `familiar_stack`
-
-### `ml_core`
-`Python` • `NumPy` • `Pandas` • `Polars` • `SciPy` • `scikit-learn` • `XGBoost` • `LightGBM` • `OpenCV` • `Matplotlib` • `Seaborn` • `Plotly`
-
-### `frameworks`
-`PyTorch` • `TensorFlow` • `Keras` • `Hugging Face` • `LangChain` • `Flask` • `FastAPI` • `Streamlit` • `Gradio`
-
-### `data_infra`
-`MySQL` • `PostgreSQL` • `MongoDB` • `SQLite` • `Redis` • `Docker` • `Kubernetes`
-
-### `dev_workflow`
-`Git` • `GitHub` • `GitHub Actions` • `VS Code` • `Jupyter` • `Anaconda` • `Vercel` • `Render`
-
+</div>
 
 ---
 
-## `mindset`
+<div align="center">
 
-Learn deeply. Build consistently. Ship intelligently.
-
----
-
-## `build_tracks`
-
-| `AI Task Manager` | |
-| --- | --- |
-| **What it does** | An intelligent task manager leveraging natural language processing to organize, prioritize, and manage daily workflows efficiently. |
-| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-121212?style=flat-square&logoColor=white) |
-| **Link** | [View Source](https://github.com/AadityaBhuree/AI-Task-Manager) |
+## 🛠️ `familiar_stack`
 
 <br/>
 
-| `Used Car Price Prediction` | |
-| --- | --- |
-| **What it does** | A full-stack application that estimates used car prices using trained machine learning regression models served via a robust backend. |
-| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
-| **Link** | [View Source](https://github.com/AadityaBhuree/used-car-price-prediction) |
+### 🧠 `ml_core`
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Polars-024282?style=for-the-badge&logo=polars&logoColor=white" />
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/XGBoost-121212?style=for-the-badge&logo=xgboost&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
 
-<br/>
+### 🏗️ `frameworks`
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 
-| `Hand Gesture Recognition` | |
-| --- | --- |
-| **What it does** | A real-time computer vision system that interprets hand gestures using Convolutional Neural Networks and OpenCV. |
-| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![CNN](https://img.shields.io/badge/CNN-121212?style=flat-square&logoColor=white) |
-| **Link** | [View Source](https://github.com/AadityaBhuree/-Hand-Gesture-Recognition-System-using-CNN-and-OpenCV-) |
+### 💾 `data_infra`
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 
-<br/>
+### ⚙️ `dev_workflow`
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 
-| `GoodBook Recommender` | |
-| --- | --- |
-| **What it does** | A personalized book recommendation engine utilizing collaborative and content-based filtering algorithms. |
-| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
-| **Link** | [View Source](https://github.com/AadityaBhuree/Goodbook-Recommender) |
-
-<br/>
-
-| `Vehicle Plate Recognition` | |
-| --- | --- |
-| **What it does** | Automatically detects and reads text from vehicle license plates using OpenCV and Optical Character Recognition (OCR). |
-| **Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![OCR](https://img.shields.io/badge/OCR-121212?style=flat-square&logoColor=white) |
-| **Link** | [View Source](https://github.com/AadityaBhuree/Vehicle-hand-written-no-recognizer) |
+</div>
 
 ---
 
-## `latest_logs.rss`
+<div align="center">
 
-<!-- BLOG-POST-LIST:START -->
-*Awaiting the first run of the Blog Post Action...*
-<!-- BLOG-POST-LIST:END -->
+## 💡 `mindset`
+
+**Learn deeply. Build consistently. Ship intelligently.**
+
+</div>
 
 ---
 
-## `github_metrics.log`
+<div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
-<img src="https://streak-stats.demolab.com/?user=AadityaBhuree&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
+## 🔨 `build_tracks`
+
+<table bordercolor="#30363d">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/AadityaBhuree/AI-Task-Manager">🤖 AI Task Manager</a></h3>
+      <p>An intelligent task manager leveraging natural language processing to organize, prioritize, and manage daily workflows efficiently.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/AadityaBhuree/used-car-price-prediction">🚗 Used Car Price Prediction</a></h3>
+      <p>A full-stack application that estimates used car prices using trained machine learning regression models served via a robust backend.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/AadityaBhuree/-Hand-Gesture-Recognition-System-using-CNN-and-OpenCV-">✋ Hand Gesture Recognition</a></h3>
+      <p>A real-time computer vision system that interprets hand gestures using Convolutional Neural Networks and OpenCV.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/AadityaBhuree/Goodbook-Recommender">📚 GoodBook Recommender</a></h3>
+      <p>A personalized book recommendation engine utilizing collaborative and content-based filtering algorithms.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/AadityaBhuree/Vehicle-hand-written-no-recognizer">🚙 Vehicle Plate Recognition</a></h3>
+      <p>Automatically detects and reads text from vehicle license plates using OpenCV and Optical Character Recognition (OCR).</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📈 `github_metrics`
+
+<br/>
+
+<a href="https://github.com/AadityaBhuree">
+  <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true&title_color=0ea5e9&icon_color=0ea5e9&text_color=718096" alt="GitHub Stats" width="48%" />
+</a>
+<a href="https://github.com/AadityaBhuree">
+  <img src="https://streak-stats.demolab.com/?user=AadityaBhuree&theme=transparent&hide_border=true&ring=0ea5e9&fire=0ea5e9&currStreakNum=718096&sideNums=718096&currStreakLabel=718096&sideLabels=718096&dates=718096" alt="GitHub Streak" width="48%" />
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&theme=github-light&hide_border=true" alt="Activity Graph" width="100%" />
+<a href="https://github.com/AadityaBhuree">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&theme=transparent&hide_border=true&color=0ea5e9&line=0ea5e9&point=ffffff" alt="Activity Graph" width="100%" />
+</a>
 
-<br/><br/>
-
-<img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+</div>
 
 ---
 
-## `git_activity.svg`
+<div align="center">
+
+## 🐍 `git_activity`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake-dark.svg">
@@ -143,4 +216,4 @@ Learn deeply. Build consistently. Ship intelligently.
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AadityaBhuree/AadityaBhuree/output/github-snake.svg" width="100%">
 </picture>
 
----
+</div>
