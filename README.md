@@ -175,6 +175,12 @@
       </p>
     </td>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/AadityaBhuree/Paper-Pilot">✈️ Paper-Pilot</a></h3>
+      <p>An innovative project building scalable and intelligent solutions.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+      </p>
     </td>
   </tr>
 </table>
