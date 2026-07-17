@@ -13,7 +13,11 @@
   <br/>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Crafting+clean+data+pipelines;Seeking+Internships+in+2026" alt="Typing SVG" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Crafting+clean+data+pipelines;Seeking+Internships+in+2026">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0284C7&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Crafting+clean+data+pipelines;Seeking+Internships+in+2026">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%26+Backend+Developer;Building+intelligent+systems+that+scale;Crafting+clean+data+pipelines;Seeking+Internships+in+2026" alt="Typing SVG" />
+    </picture>
   </a>
 </div>
 
@@ -122,7 +126,7 @@
 
 ## 🔨 `build_tracks`
 
-<table bordercolor="#30363d">
+<table border="0">
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/AadityaBhuree/AI-Task-Manager">🤖 AI Task Manager</a></h3>
@@ -196,16 +200,28 @@
 <br/>
 
 <a href="https://github.com/AadityaBhuree">
-  <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true&title_color=0ea5e9&icon_color=0ea5e9&text_color=718096" alt="GitHub Stats" width="48%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true">
+    <img src="https://github-readme-stats.vercel.app/api?username=AadityaBhuree&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
+  </picture>
 </a>
 <a href="https://github.com/AadityaBhuree">
-  <img src="https://streak-stats.demolab.com/?user=AadityaBhuree&theme=transparent&hide_border=true&ring=0ea5e9&fire=0ea5e9&currStreakNum=718096&sideNums=718096&currStreakLabel=718096&sideLabels=718096&dates=718096" alt="GitHub Streak" width="48%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=AadityaBhuree&theme=github-dark&hide_border=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=AadityaBhuree&theme=default&hide_border=true">
+    <img src="https://streak-stats.demolab.com/?user=AadityaBhuree&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
+  </picture>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/AadityaBhuree">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&theme=transparent&hide_border=true&color=0ea5e9&line=0ea5e9&point=ffffff" alt="Activity Graph" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&theme=github-dark&hide_border=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&theme=github&hide_border=true">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AadityaBhuree&theme=github&hide_border=true" alt="Activity Graph" width="100%" />
+  </picture>
 </a>
 
 </div>
