@@ -1,6 +1,6 @@
 # 🔧 Setup Guide — Profile v2 Integrations
 
-This guide covers the manual setup required to enable all dynamic sections in your GitHub profile README.
+This guide covers the setup required to enable all dynamic sections, secret parameters, and workflow integrations in your GitHub profile README.
 
 ---
 
