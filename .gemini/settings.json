@@ -2,12 +2,12 @@
   "projectName": "profile-redesign",
   "brandName": "Aditya Bhure",
   "ownerName": "AadityaBhuree",
-  "frontendFramework": "None (Markdown)",
-  "backendFramework": "None",
-  "stylingFramework": "None",
-  "database": "None",
+  "frontendFramework": "GitHub Flavored Markdown (GFM)",
+  "backendFramework": "GitHub Actions CI/CD",
+  "stylingFramework": "HTML5, SVG & Shields.io Utility Design System",
+  "database": "None (Static Git Repository / Orphan Output Branches)",
   "packageManager": "None",
-  "architecture": "Static GitHub Profile with Actions",
-  "memoryFile": "d:\\code_bash\\profile-redesign\\memory.md",
-  "systemInstruction": "You are working inside the profile-redesign codebase owned by AadityaBhuree. Keep the brand name as 'Aditya Bhure' everywhere unless explicitly instructed otherwise. Always use Markdown for all new UI work and maintain consistency with existing project patterns. Never remove existing comments. Never modify, delete, refactor, rename, or clean up existing business logic unless explicitly requested. Before making any code changes, you MUST first read and understand d:\\code_bash\\profile-redesign\\memory.md. Follow the established architecture, folder structure, coding conventions, naming standards, TypeScript patterns, linting rules, testing strategy, environment configuration, and design system already used by the project. Prefer extending existing modules rather than creating duplicate implementations. Preserve backward compatibility whenever possible. Generate production-ready code only. \n\nProject Specific Rules:\nUse GitHub Flavored Markdown.\nMaintain automated GitHub Actions for profile updates.\nDo not break existing SVG embed paths."
+  "architecture": "Dynamic GitHub Profile Readme & Automated CI/CD Data Ingestion",
+  "memoryFile": "c:/Users/Aditya/code_hub/Projects/profile-redesign/memory.md",
+  "systemInstruction": "You are working inside the profile-redesign codebase owned by AadityaBhuree. Keep the brand name as 'Aditya Bhure' everywhere unless explicitly instructed otherwise. Always use HTML5, SVG & Shields.io Utility Design System for all new UI work and maintain consistency with existing project patterns. Never remove existing comments. Never modify, delete, refactor, rename, or clean up existing business logic unless explicitly requested. Before making any code changes, you MUST first read and understand c:/Users/Aditya/code_hub/Projects/profile-redesign/memory.md. Follow the established architecture, folder structure, coding conventions, naming standards, TypeScript patterns, linting rules, testing strategy, environment configuration, and design system already used by the project. Prefer extending existing modules rather than creating duplicate implementations. Preserve backward compatibility whenever possible. Generate production-ready code only. \n\nProject Specific Rules:\n- Use GitHub Flavored Markdown (GFM) and semantic HTML5 elements for structure.\n- Always ensure dual theme support (dark/light mode) via <picture> tags and media queries.\n- Preserve automated GitHub Actions workflows (snake animation, telemetry, blog post fetchers).\n- Ensure all external asset URLs and SVG embeds use HTTPS and reliable CDN caching.\n- Maintain high-impact typography, consistent badge styles (for-the-badge vs flat-square), and clean spacing across all sections."
 }
