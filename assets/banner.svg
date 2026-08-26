@@ -1,129 +1,209 @@
-<svg width="100%" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Dark Mode Gradients -->
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0e131f" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="15%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowIndigo" cx="85%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="titleGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="borderGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.5" />
+    </linearGradient>
+
+    <linearGradient id="cardGradDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161e2e" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.7" />
+    </linearGradient>
+
+    <!-- Light Mode Gradients -->
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="50%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <linearGradient id="titleGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+
   <style>
-    :root {
-      --bg-color: #0d1117;
-      --card-border: #30363d;
-      --accent-color: #38bdf8;
-      --accent-secondary: #818cf8;
-      --text-main: #f0f6fc;
-      --text-muted: #8b949e;
-      --tag-bg: rgba(56, 189, 248, 0.08);
-      --tag-border: rgba(56, 189, 248, 0.25);
-      --tag-text: #bae6fd;
-      --stat-bg: rgba(22, 27, 34, 0.85);
-      --grid-stroke: rgba(255, 255, 255, 0.03);
-    }
+    .banner-bg { fill: url(#bgGradDark); stroke: url(#borderGradDark); stroke-width: 1.5; }
+    .glow-cyan { fill: url(#glowCyan); }
+    .glow-indigo { fill: url(#glowIndigo); }
+    .title-text { fill: url(#titleGradDark); }
+    .main-text { fill: #f8fafc; }
+    .sub-text { fill: #94a3b8; }
+    .card-bg { fill: url(#cardGradDark); stroke: rgba(56, 189, 248, 0.2); stroke-width: 1.2; }
+    .card-num { fill: #f8fafc; }
+    .card-label { fill: #38bdf8; }
+    .tag-bg { fill: rgba(15, 23, 42, 0.8); stroke: rgba(56, 189, 248, 0.25); stroke-width: 1; }
+    .tag-text { fill: #e2e8f0; }
+    .grid-line { stroke: rgba(255, 255, 255, 0.035); }
+    .circuit-node { fill: #38bdf8; opacity: 0.7; }
+    .circuit-line { stroke: rgba(56, 189, 248, 0.2); stroke-width: 1; stroke-dasharray: 4 4; }
+
     @media (prefers-color-scheme: light) {
-      :root {
-        --bg-color: #f8fafc;
-        --card-border: #e2e8f0;
-        --accent-color: #0284c7;
-        --accent-secondary: #6366f1;
-        --text-main: #0f172a;
-        --text-muted: #64748b;
-        --tag-bg: rgba(2, 132, 199, 0.06);
-        --tag-border: rgba(2, 132, 199, 0.2);
-        --tag-text: #0369a1;
-        --stat-bg: rgba(255, 255, 255, 0.9);
-        --grid-stroke: rgba(0, 0, 0, 0.03);
-      }
+      .banner-bg { fill: url(#bgGradLight); stroke: #cbd5e1; stroke-width: 1.5; }
+      .glow-cyan { fill: #e0f2fe; opacity: 0.6; }
+      .glow-indigo { fill: #e0e7ff; opacity: 0.6; }
+      .title-text { fill: url(#titleGradLight); }
+      .main-text { fill: #0f172a; }
+      .sub-text { fill: #475569; }
+      .card-bg { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.2; }
+      .card-num { fill: #0f172a; }
+      .card-label { fill: #0284c7; }
+      .tag-bg { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
+      .tag-text { fill: #334155; }
+      .grid-line { stroke: rgba(0, 0, 0, 0.04); }
+      .circuit-node { fill: #0284c7; opacity: 0.8; }
+      .circuit-line { stroke: rgba(2, 132, 199, 0.25); }
     }
   </style>
 
-  <!-- Container Box with Rounded Corners and Subtle Border -->
-  <rect width="1280" height="320" rx="16" fill="var(--bg-color)" stroke="var(--card-border)" stroke-width="1.5"/>
+  <!-- Banner Outer Box -->
+  <rect width="1280" height="340" rx="18" class="banner-bg"/>
 
-  <!-- Background Decorative Cyber/Grid Pattern -->
-  <g stroke="var(--grid-stroke)" stroke-width="1">
-    <line x1="0" y1="64" x2="1280" y2="64"/>
-    <line x1="0" y1="128" x2="1280" y2="128"/>
-    <line x1="0" y1="192" x2="1280" y2="192"/>
-    <line x1="0" y1="256" x2="1280" y2="256"/>
-    <line x1="160" y1="0" x2="160" y2="320"/>
-    <line x1="320" y1="0" x2="320" y2="320"/>
-    <line x1="480" y1="0" x2="480" y2="320"/>
-    <line x1="640" y1="0" x2="640" y2="320"/>
-    <line x1="800" y1="0" x2="800" y2="320"/>
-    <line x1="960" y1="0" x2="960" y2="320"/>
-    <line x1="1120" y1="0" x2="1120" y2="320"/>
+  <!-- Radial Glow Accents -->
+  <rect width="1280" height="340" rx="18" class="glow-cyan"/>
+  <rect width="1280" height="340" rx="18" class="glow-indigo"/>
+
+  <!-- Subtle Cybernetic Grid Pattern -->
+  <g class="grid-line" stroke-width="1">
+    <line x1="0" y1="68" x2="1280" y2="68"/>
+    <line x1="0" y1="136" x2="1280" y2="136"/>
+    <line x1="0" y1="204" x2="1280" y2="204"/>
+    <line x1="0" y1="272" x2="1280" y2="272"/>
+    <line x1="160" y1="0" x2="160" y2="340"/>
+    <line x1="320" y1="0" x2="320" y2="340"/>
+    <line x1="480" y1="0" x2="480" y2="340"/>
+    <line x1="640" y1="0" x2="640" y2="340"/>
+    <line x1="800" y1="0" x2="800" y2="340"/>
+    <line x1="960" y1="0" x2="960" y2="340"/>
+    <line x1="1120" y1="0" x2="1120" y2="340"/>
   </g>
 
-  <!-- Left Header Identity -->
-  <g transform="translate(60, 50)">
-    <!-- Terminal Breadcrumb Tag -->
-    <rect width="210" height="26" rx="6" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
-    <circle cx="14" cy="13" r="4" fill="var(--accent-color)"/>
-    <text x="26" y="17" fill="var(--tag-text)" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" font-weight="600" letter-spacing="1.5">ADITYA BHURE // AI-CORE</text>
+  <!-- Constellation Circuit Connectors -->
+  <path d="M 640 68 L 740 68 L 780 108 L 810 108" class="circuit-line"/>
+  <circle cx="640" cy="68" r="3.5" class="circuit-node"/>
+  <circle cx="780" cy="108" r="3" class="circuit-node"/>
+  <circle cx="810" cy="108" r="3.5" class="circuit-node"/>
 
-    <!-- Main Headline -->
-    <text x="0" y="80" fill="var(--text-main)" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">
+  <!-- Left Content Column -->
+  <g transform="translate(64, 46)">
+    <!-- Terminal Identifier Badge -->
+    <g>
+      <rect width="250" height="28" rx="14" class="tag-bg"/>
+      <circle cx="16" cy="14" r="4.5" fill="#10b981"/>
+      <text x="30" y="19" fill="#10b981" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" font-weight="700" letter-spacing="1.5">ADITYA BHURE // AI CORE</text>
+    </g>
+
+    <!-- Main Headline with Gradient -->
+    <text x="0" y="86" class="main-text" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">
       Building Intelligent Systems
     </text>
-    <text x="0" y="130" fill="var(--accent-color)" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">
+    <text x="0" y="138" class="title-text" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">
       That Scale in Production.
+    </text>
+
+    <!-- Subtitle Description -->
+    <text x="0" y="180" class="sub-text" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="15" font-weight="500" letter-spacing="0.2">
+      Machine Learning Research • Graph RAG • Real-Time Computer Vision • High-Throughput APIs
     </text>
   </g>
 
   <!-- Right Metrics Cards Group -->
-  <g transform="translate(810, 48)">
-    <!-- Metric 1 -->
+  <g transform="translate(805, 46)">
+    <!-- Metric Card 1: Projects -->
     <g transform="translate(0, 0)">
-      <rect width="125" height="110" rx="12" fill="var(--stat-bg)" stroke="var(--card-border)" stroke-width="1.2"/>
-      <text x="62.5" y="52" text-anchor="middle" fill="var(--text-main)" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">12+</text>
-      <text x="62.5" y="78" text-anchor="middle" fill="var(--accent-color)" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2">PROJECTS</text>
-      <text x="62.5" y="94" text-anchor="middle" fill="var(--text-muted)" font-family="'Inter', sans-serif" font-size="9" font-weight="500">Shipped &amp; Live</text>
+      <rect width="130" height="120" rx="14" class="card-bg"/>
+      <!-- Top Accent Bar -->
+      <path d="M 14 0 L 116 0" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+      <text x="65" y="52" text-anchor="middle" class="card-num" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">12+</text>
+      <text x="65" y="78" text-anchor="middle" class="card-label" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">PROJECTS</text>
+      <text x="65" y="98" text-anchor="middle" class="sub-text" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Shipped &amp; Tested</text>
     </g>
 
-    <!-- Metric 2 -->
-    <g transform="translate(140, 0)">
-      <rect width="125" height="110" rx="12" fill="var(--stat-bg)" stroke="var(--card-border)" stroke-width="1.2"/>
-      <text x="62.5" y="52" text-anchor="middle" fill="var(--text-main)" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">950+</text>
-      <text x="62.5" y="78" text-anchor="middle" fill="var(--accent-secondary)" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2">COMMITS</text>
-      <text x="62.5" y="94" text-anchor="middle" fill="var(--text-muted)" font-family="'Inter', sans-serif" font-size="9" font-weight="500">Continuous CI</text>
+    <!-- Metric Card 2: Commits -->
+    <g transform="translate(145, 0)">
+      <rect width="130" height="120" rx="14" class="card-bg"/>
+      <!-- Top Accent Bar -->
+      <path d="M 14 0 L 116 0" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
+      <text x="65" y="52" text-anchor="middle" class="card-num" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">950+</text>
+      <text x="65" y="78" text-anchor="middle" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">COMMITS</text>
+      <text x="65" y="98" text-anchor="middle" class="sub-text" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Active CI/CD</text>
     </g>
 
-    <!-- Metric 3 -->
-    <g transform="translate(280, 0)">
-      <rect width="125" height="110" rx="12" fill="var(--stat-bg)" stroke="var(--card-border)" stroke-width="1.2"/>
-      <text x="62.5" y="54" text-anchor="middle" fill="var(--accent-color)" font-family="'Inter', sans-serif" font-size="36" font-weight="700">∞</text>
-      <text x="62.5" y="78" text-anchor="middle" fill="var(--accent-color)" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2">CURIOSITY</text>
-      <text x="62.5" y="94" text-anchor="middle" fill="var(--text-muted)" font-family="'Inter', sans-serif" font-size="9" font-weight="500">R&amp;D Driven</text>
+    <!-- Metric Card 3: Curiosity -->
+    <g transform="translate(290, 0)">
+      <rect width="130" height="120" rx="14" class="card-bg"/>
+      <!-- Top Accent Bar -->
+      <path d="M 14 0 L 116 0" stroke="#c084fc" stroke-width="3" stroke-linecap="round"/>
+      <text x="65" y="54" text-anchor="middle" fill="#c084fc" font-family="'Inter', sans-serif" font-size="36" font-weight="700">∞</text>
+      <text x="65" y="78" text-anchor="middle" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">CURIOSITY</text>
+      <text x="65" y="98" text-anchor="middle" class="sub-text" font-family="'Inter', sans-serif" font-size="10" font-weight="500">R&amp;D Driven</text>
     </g>
   </g>
 
-  <!-- Divider Line -->
-  <line x1="60" y1="230" x2="1220" y2="230" stroke="var(--card-border)" stroke-width="1"/>
+  <!-- Horizontal Tech Divider -->
+  <line x1="64" y1="248" x2="1216" y2="248" stroke="rgba(56, 189, 248, 0.18)" stroke-width="1"/>
 
-  <!-- Bottom Interactive Focus Area Tags -->
-  <g transform="translate(60, 252)">
-    <!-- Tag 1 -->
+  <!-- Bottom Pills: Tech Specializations -->
+  <g transform="translate(64, 268)">
+    <!-- Pill 1 -->
     <g transform="translate(0, 0)">
-      <rect width="165" height="36" rx="8" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
-      <text x="82.5" y="23" text-anchor="middle" fill="var(--tag-text)" font-family="'Inter', sans-serif" font-size="13" font-weight="600">🧠 LLM &amp; RAG Systems</text>
+      <rect width="170" height="38" rx="10" class="tag-bg"/>
+      <circle cx="16" cy="19" r="4" fill="#38bdf8"/>
+      <text x="96" y="24" text-anchor="middle" class="tag-text" font-family="'Inter', sans-serif" font-size="13" font-weight="600">LLM &amp; RAG Systems</text>
     </g>
 
-    <!-- Tag 2 -->
-    <g transform="translate(180, 0)">
-      <rect width="190" height="36" rx="8" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
-      <text x="95" y="23" text-anchor="middle" fill="var(--tag-text)" font-family="'Inter', sans-serif" font-size="13" font-weight="600">👁️ Computer Vision / CNN</text>
+    <!-- Pill 2 -->
+    <g transform="translate(185, 0)">
+      <rect width="195" height="38" rx="10" class="tag-bg"/>
+      <circle cx="16" cy="19" r="4" fill="#818cf8"/>
+      <text x="108" y="24" text-anchor="middle" class="tag-text" font-family="'Inter', sans-serif" font-size="13" font-weight="600">Computer Vision &amp; CNN</text>
     </g>
 
-    <!-- Tag 3 -->
-    <g transform="translate(385, 0)">
-      <rect width="195" height="36" rx="8" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
-      <text x="97.5" y="23" text-anchor="middle" fill="var(--tag-text)" font-family="'Inter', sans-serif" font-size="13" font-weight="600">⚡ High-Speed Backend APIs</text>
+    <!-- Pill 3 -->
+    <g transform="translate(395, 0)">
+      <rect width="200" height="38" rx="10" class="tag-bg"/>
+      <circle cx="16" cy="19" r="4" fill="#34d399"/>
+      <text x="110" y="24" text-anchor="middle" class="tag-text" font-family="'Inter', sans-serif" font-size="13" font-weight="600">High-Speed FastAPI APIs</text>
     </g>
 
-    <!-- Tag 4 -->
-    <g transform="translate(595, 0)">
-      <rect width="175" height="36" rx="8" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
-      <text x="87.5" y="23" text-anchor="middle" fill="var(--tag-text)" font-family="'Inter', sans-serif" font-size="13" font-weight="600">🐳 MLOps &amp; Dockerization</text>
+    <!-- Pill 4 -->
+    <g transform="translate(610, 0)">
+      <rect width="180" height="38" rx="10" class="tag-bg"/>
+      <circle cx="16" cy="19" r="4" fill="#f59e0b"/>
+      <text x="100" y="24" text-anchor="middle" class="tag-text" font-family="'Inter', sans-serif" font-size="13" font-weight="600">Docker &amp; MLOps Infra</text>
     </g>
 
-    <!-- Tag 5 Location -->
-    <g transform="translate(995, 0)">
-      <rect width="165" height="36" rx="8" fill="var(--stat-bg)" stroke="var(--card-border)" stroke-width="1"/>
-      <text x="82.5" y="23" text-anchor="middle" fill="var(--text-muted)" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">📍 Nagpur, India</text>
+    <!-- Pill 5 Location -->
+    <g transform="translate(980, 0)">
+      <rect width="172" height="38" rx="10" class="tag-bg"/>
+      <circle cx="16" cy="19" r="4" fill="#f43f5e"/>
+      <text x="96" y="24" text-anchor="middle" class="tag-text" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">📍 Nagpur, India</text>
     </g>
   </g>
 </svg>
