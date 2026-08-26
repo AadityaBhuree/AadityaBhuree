@@ -1,217 +1,225 @@
 <svg width="100%" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradients -->
+    <!-- Dark Mode Deep Tech Gradients -->
     <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19" />
-      <stop offset="50%" stop-color="#111827" />
-      <stop offset="100%" stop-color="#070a12" />
-    </linearGradient>
-    
-    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="50%" stop-color="#f8fafc" />
-      <stop offset="100%" stop-color="#f1f5f9" />
+      <stop offset="0%" stop-color="#060d15" />
+      <stop offset="50%" stop-color="#0a1526" />
+      <stop offset="100%" stop-color="#050912" />
     </linearGradient>
 
-    <!-- Accent Highlights -->
+    <!-- Neon Cyberpunk Title Gradient -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="60%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#a855f7" />
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="50%" stop-color="#00bbf9" />
+      <stop offset="100%" stop-color="#70e000" />
     </linearGradient>
 
+    <!-- Glowing Border Gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#334155" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.5" />
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00bbf9" stop-opacity="0.6" />
     </linearGradient>
 
-    <radialGradient id="meshGlow" cx="20%" cy="25%" r="60%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.14" />
-      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    <!-- Ambient Mesh Lighting -->
+    <radialGradient id="meshCyan" cx="18%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0" />
     </radialGradient>
 
-    <radialGradient id="meshGlowPurple" cx="85%" cy="80%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
+    <radialGradient id="meshBlue" cx="82%" cy="80%" r="55%">
+      <stop offset="0%" stop-color="#00bbf9" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#00bbf9" stop-opacity="0" />
     </radialGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e1e33" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#091424" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Light Mode Gradient -->
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdfa" />
+      <stop offset="50%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
   </defs>
 
   <style>
     .bg-main { fill: url(#bgDark); stroke: url(#borderGrad); stroke-width: 1.5; }
-    .glow-1 { fill: url(#meshGlow); }
-    .glow-2 { fill: url(#meshGlowPurple); }
-    .text-title { fill: url(#nameGrad); }
-    .text-primary { fill: #f8fafc; }
-    .text-secondary { fill: #94a3b8; }
-    .text-muted { fill: #64748b; }
-    .card-panel { fill: #131b2e; stroke: #1e293b; stroke-width: 1.2; }
-    .status-badge { fill: rgba(16, 185, 129, 0.1); stroke: rgba(16, 185, 129, 0.35); stroke-width: 1; }
-    .tech-pill { fill: #0f172a; stroke: rgba(56, 189, 248, 0.25); stroke-width: 1; }
-    .grid-mesh { stroke: rgba(255, 255, 255, 0.025); }
+    .glow-cyan { fill: url(#meshCyan); }
+    .glow-blue { fill: url(#meshBlue); }
+    .title-gradient { fill: url(#nameGrad); }
+    .text-white { fill: #f8fafc; }
+    .text-sub { fill: #94a3b8; }
+    .text-cyan { fill: #00f5d4; }
+    .card-box { fill: url(#cardBg); stroke: rgba(0, 245, 212, 0.22); stroke-width: 1.2; }
+    .badge-status { fill: rgba(0, 245, 212, 0.1); stroke: rgba(0, 245, 212, 0.4); stroke-width: 1; }
+    .pill-box { fill: #0a1628; stroke: rgba(0, 187, 249, 0.25); stroke-width: 1; }
+    .grid-lines { stroke: rgba(0, 245, 212, 0.035); }
 
     @media (prefers-color-scheme: light) {
-      .bg-main { fill: url(#bgLight); stroke: #cbd5e1; stroke-width: 1.5; }
-      .glow-1 { fill: #e0f2fe; opacity: 0.5; }
-      .glow-2 { fill: #f3e8ff; opacity: 0.5; }
-      .text-title { fill: #0284c7; }
-      .text-primary { fill: #0f172a; }
-      .text-secondary { fill: #475569; }
-      .text-muted { fill: #94a3b8; }
-      .card-panel { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.2; }
-      .status-badge { fill: rgba(16, 185, 129, 0.08); stroke: rgba(16, 185, 129, 0.4); stroke-width: 1; }
-      .tech-pill { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
-      .grid-mesh { stroke: rgba(0, 0, 0, 0.035); }
+      .bg-main { fill: url(#bgLight); stroke: #99f6e4; stroke-width: 1.5; }
+      .glow-cyan { fill: #ccfbf1; opacity: 0.6; }
+      .glow-blue { fill: #e0f2fe; opacity: 0.6; }
+      .title-gradient { fill: #0d9488; }
+      .text-white { fill: #0f172a; }
+      .text-sub { fill: #475569; }
+      .text-cyan { fill: #0f766e; }
+      .card-box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.2; }
+      .badge-status { fill: rgba(13, 148, 136, 0.08); stroke: rgba(13, 148, 136, 0.4); stroke-width: 1; }
+      .pill-box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
+      .grid-lines { stroke: rgba(0, 0, 0, 0.035); }
     }
   </style>
 
-  <!-- Base Canvas -->
+  <!-- Outer Frame -->
   <rect width="1280" height="340" rx="16" class="bg-main"/>
-  <rect width="1280" height="340" rx="16" class="glow-1"/>
-  <rect width="1280" height="340" rx="16" class="glow-2"/>
+  <rect width="1280" height="340" rx="16" class="glow-cyan"/>
+  <rect width="1280" height="340" rx="16" class="glow-blue"/>
 
-  <!-- Minimal Grid Accents -->
-  <g class="grid-mesh" stroke-width="1">
+  <!-- Background Tech Mesh -->
+  <g class="grid-lines" stroke-width="1">
     <line x1="0" y1="68" x2="1280" y2="68"/>
     <line x1="0" y1="136" x2="1280" y2="136"/>
     <line x1="0" y1="204" x2="1280" y2="204"/>
     <line x1="0" y1="272" x2="1280" y2="272"/>
-    <line x1="200" y1="0" x2="200" y2="340"/>
-    <line x1="420" y1="0" x2="420" y2="340"/>
-    <line x1="640" y1="0" x2="640" y2="340"/>
-    <line x1="860" y1="0" x2="860" y2="340"/>
-    <line x1="1080" y1="0" x2="1080" y2="340"/>
+    <line x1="180" y1="0" x2="180" y2="340"/>
+    <line x1="390" y1="0" x2="390" y2="340"/>
+    <line x1="600" y1="0" x2="600" y2="340"/>
+    <line x1="810" y1="0" x2="810" y2="340"/>
+    <line x1="1020" y1="0" x2="1020" y2="340"/>
   </g>
 
-  <!-- Left Header: Identity & Role -->
+  <!-- Left Content Area -->
   <g transform="translate(60, 44)">
-    <!-- Practical Status Badge -->
+    <!-- Availability Pill -->
     <g>
-      <rect width="365" height="28" rx="14" class="status-badge"/>
-      <circle cx="16" cy="14" r="4.5" fill="#10b981"/>
-      <text x="28" y="19" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">OPEN FOR AI/ML &amp; BACKEND ROLES (2026)</text>
+      <rect width="365" height="28" rx="14" class="badge-status"/>
+      <circle cx="16" cy="14" r="4.5" fill="#00f5d4"/>
+      <text x="28" y="19" fill="#00f5d4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">OPEN FOR AI/ML &amp; BACKEND ROLES (2026)</text>
     </g>
 
-    <!-- Name & Professional Title -->
-    <text x="0" y="80" class="text-primary" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="42" font-weight="800" letter-spacing="-1.2">
+    <!-- Name and Gradient Title -->
+    <text x="0" y="80" class="text-white" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="42" font-weight="800" letter-spacing="-1.2">
       Aditya Bhure
     </text>
-    <text x="295" y="80" class="text-title" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="42" font-weight="800" letter-spacing="-1.2">
+    <text x="295" y="80" class="title-gradient" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="42" font-weight="800" letter-spacing="-1.2">
       // AI &amp; Backend Engineer
     </text>
 
-    <!-- Practical Subtitle: What I build -->
-    <text x="0" y="122" class="text-secondary" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="500" letter-spacing="-0.2">
+    <!-- Subtitle Summary -->
+    <text x="0" y="122" class="text-sub" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="500" letter-spacing="-0.2">
       Building Production RAG Systems • Real-Time Computer Vision • High-Throughput FastAPI Backends
     </text>
 
-    <!-- Core Stack Pills Row -->
+    <!-- Core Stack Chips -->
     <g transform="translate(0, 146)">
       <!-- Python -->
       <g transform="translate(0, 0)">
-        <rect width="90" height="28" rx="6" class="tech-pill"/>
-        <text x="45" y="18" text-anchor="middle" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Python 3.12</text>
+        <rect width="90" height="28" rx="6" class="pill-box"/>
+        <text x="45" y="18" text-anchor="middle" fill="#00f5d4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Python 3.12</text>
       </g>
       <!-- PyTorch -->
       <g transform="translate(98, 0)">
-        <rect width="78" height="28" rx="6" class="tech-pill"/>
-        <text x="39" y="18" text-anchor="middle" fill="#f97316" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PyTorch</text>
+        <rect width="78" height="28" rx="6" class="pill-box"/>
+        <text x="39" y="18" text-anchor="middle" fill="#ff6b6b" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PyTorch</text>
       </g>
       <!-- FastAPI -->
       <g transform="translate(184, 0)">
-        <rect width="78" height="28" rx="6" class="tech-pill"/>
-        <text x="39" y="18" text-anchor="middle" fill="#14b8a6" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">FastAPI</text>
+        <rect width="78" height="28" rx="6" class="pill-box"/>
+        <text x="39" y="18" text-anchor="middle" fill="#00bbf9" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">FastAPI</text>
       </g>
       <!-- OpenCV -->
       <g transform="translate(270, 0)">
-        <rect width="78" height="28" rx="6" class="tech-pill"/>
-        <text x="39" y="18" text-anchor="middle" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">OpenCV</text>
+        <rect width="78" height="28" rx="6" class="pill-box"/>
+        <text x="39" y="18" text-anchor="middle" fill="#a78bfa" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">OpenCV</text>
       </g>
       <!-- Docker -->
       <g transform="translate(356, 0)">
-        <rect width="75" height="28" rx="6" class="tech-pill"/>
-        <text x="37.5" y="18" text-anchor="middle" fill="#0ea5e9" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Docker</text>
+        <rect width="75" height="28" rx="6" class="pill-box"/>
+        <text x="37.5" y="18" text-anchor="middle" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Docker</text>
       </g>
       <!-- PostgreSQL -->
       <g transform="translate(439, 0)">
-        <rect width="95" height="28" rx="6" class="tech-pill"/>
+        <rect width="95" height="28" rx="6" class="pill-box"/>
         <text x="47.5" y="18" text-anchor="middle" fill="#60a5fa" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PostgreSQL</text>
       </g>
       <!-- CUDA -->
       <g transform="translate(542, 0)">
-        <rect width="80" height="28" rx="6" class="tech-pill"/>
-        <text x="40" y="18" text-anchor="middle" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">CUDA 12</text>
+        <rect width="80" height="28" rx="6" class="pill-box"/>
+        <text x="40" y="18" text-anchor="middle" fill="#70e000" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">CUDA 12</text>
       </g>
     </g>
   </g>
 
-  <!-- Right Practical Stats Panel -->
+  <!-- Right Metrics Cards -->
   <g transform="translate(840, 42)">
-    <!-- Stat Box 1: Repos -->
+    <!-- Card 1: Projects -->
     <g transform="translate(0, 0)">
-      <rect width="115" height="135" rx="12" class="card-panel"/>
-      <path d="M 12 0 L 103 0" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
-      <text x="57.5" y="52" text-anchor="middle" class="text-primary" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">12+</text>
-      <text x="57.5" y="80" text-anchor="middle" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">PROJECTS</text>
-      <text x="57.5" y="102" text-anchor="middle" class="text-muted" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Shipped &amp; Tested</text>
-      <text x="57.5" y="118" text-anchor="middle" fill="#10b981" font-family="'Inter', sans-serif" font-size="9" font-weight="600">● 100% Open</text>
+      <rect width="115" height="135" rx="12" class="card-box"/>
+      <path d="M 12 0 L 103 0" stroke="#00f5d4" stroke-width="3" stroke-linecap="round"/>
+      <text x="57.5" y="52" text-anchor="middle" class="text-white" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">12+</text>
+      <text x="57.5" y="80" text-anchor="middle" fill="#00f5d4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">PROJECTS</text>
+      <text x="57.5" y="102" text-anchor="middle" class="text-sub" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Shipped &amp; Tested</text>
+      <text x="57.5" y="118" text-anchor="middle" fill="#00f5d4" font-family="'Inter', sans-serif" font-size="9" font-weight="600">● 100% Open</text>
     </g>
 
-    <!-- Stat Box 2: Commits -->
+    <!-- Card 2: Commits -->
     <g transform="translate(130, 0)">
-      <rect width="115" height="135" rx="12" class="card-panel"/>
-      <path d="M 12 0 L 103 0" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
-      <text x="57.5" y="52" text-anchor="middle" class="text-primary" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">950+</text>
-      <text x="57.5" y="80" text-anchor="middle" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">COMMITS</text>
-      <text x="57.5" y="102" text-anchor="middle" class="text-muted" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Continuous CI</text>
+      <rect width="115" height="135" rx="12" class="card-box"/>
+      <path d="M 12 0 L 103 0" stroke="#00bbf9" stroke-width="3" stroke-linecap="round"/>
+      <text x="57.5" y="52" text-anchor="middle" class="text-white" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">950+</text>
+      <text x="57.5" y="80" text-anchor="middle" fill="#00bbf9" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">COMMITS</text>
+      <text x="57.5" y="102" text-anchor="middle" class="text-sub" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Continuous CI</text>
       <text x="57.5" y="118" text-anchor="middle" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="9" font-weight="600">● Active 2026</text>
     </g>
 
-    <!-- Stat Box 3: Experience/Focus -->
+    <!-- Card 3: Academic / Focus -->
     <g transform="translate(260, 0)">
-      <rect width="115" height="135" rx="12" class="card-panel"/>
-      <path d="M 12 0 L 103 0" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
-      <text x="57.5" y="52" text-anchor="middle" class="text-primary" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">2026</text>
-      <text x="57.5" y="80" text-anchor="middle" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">B.TECH GRAD</text>
-      <text x="57.5" y="102" text-anchor="middle" class="text-muted" font-family="'Inter', sans-serif" font-size="10" font-weight="500">AI &amp; Data Science</text>
-      <text x="57.5" y="118" text-anchor="middle" fill="#f59e0b" font-family="'Inter', sans-serif" font-size="9" font-weight="600">● Top Tier R&amp;D</text>
+      <rect width="115" height="135" rx="12" class="card-box"/>
+      <path d="M 12 0 L 103 0" stroke="#70e000" stroke-width="3" stroke-linecap="round"/>
+      <text x="57.5" y="52" text-anchor="middle" class="text-white" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">2026</text>
+      <text x="57.5" y="80" text-anchor="middle" fill="#70e000" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">B.TECH GRAD</text>
+      <text x="57.5" y="102" text-anchor="middle" class="text-sub" font-family="'Inter', sans-serif" font-size="10" font-weight="500">AI &amp; Data Science</text>
+      <text x="57.5" y="118" text-anchor="middle" fill="#facc15" font-family="'Inter', sans-serif" font-size="9" font-weight="600">● Top Tier R&amp;D</text>
     </g>
   </g>
 
-  <!-- Bottom Divider -->
-  <line x1="60" y1="244" x2="1220" y2="244" stroke="#1e293b" stroke-width="1"/>
+  <!-- Horizontal Divider -->
+  <line x1="60" y1="244" x2="1220" y2="244" stroke="rgba(0, 245, 212, 0.18)" stroke-width="1"/>
 
-  <!-- Footer Focus Badges -->
+  <!-- Bottom Badges -->
   <g transform="translate(60, 264)">
-    <!-- Practical Key Strengths -->
     <g transform="translate(0, 0)">
-      <rect width="190" height="38" rx="8" class="card-panel"/>
-      <circle cx="16" cy="19" r="4" fill="#38bdf8"/>
-      <text x="105" y="24" text-anchor="middle" class="text-secondary" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Multi-Modal GenAI &amp; RAG</text>
+      <rect width="190" height="38" rx="8" class="card-box"/>
+      <circle cx="16" cy="19" r="4" fill="#00f5d4"/>
+      <text x="105" y="24" text-anchor="middle" class="text-sub" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Multi-Modal GenAI &amp; RAG</text>
     </g>
 
     <g transform="translate(205, 0)">
-      <rect width="215" height="38" rx="8" class="card-panel"/>
-      <circle cx="16" cy="19" r="4" fill="#818cf8"/>
-      <text x="118" y="24" text-anchor="middle" class="text-secondary" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Real-Time OpenCV / CNN Pipelines</text>
+      <rect width="215" height="38" rx="8" class="card-box"/>
+      <circle cx="16" cy="19" r="4" fill="#00bbf9"/>
+      <text x="118" y="24" text-anchor="middle" class="text-sub" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Real-Time OpenCV / CNN Pipelines</text>
     </g>
 
     <g transform="translate(435, 0)">
-      <rect width="225" height="38" rx="8" class="card-panel"/>
-      <circle cx="16" cy="19" r="4" fill="#10b981"/>
-      <text x="123" y="24" text-anchor="middle" class="text-secondary" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Low-Latency Async Microservices</text>
+      <rect width="225" height="38" rx="8" class="card-box"/>
+      <circle cx="16" cy="19" r="4" fill="#70e000"/>
+      <text x="123" y="24" text-anchor="middle" class="text-sub" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Low-Latency Async Microservices</text>
     </g>
 
     <g transform="translate(675, 0)">
-      <rect width="205" height="38" rx="8" class="card-panel"/>
+      <rect width="205" height="38" rx="8" class="card-box"/>
       <circle cx="16" cy="19" r="4" fill="#f59e0b"/>
-      <text x="113" y="24" text-anchor="middle" class="text-secondary" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Containerized MLOps &amp; Docker</text>
+      <text x="113" y="24" text-anchor="middle" class="text-sub" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Containerized MLOps &amp; Docker</text>
     </g>
 
-    <!-- Location & Contact -->
+    <!-- Location -->
     <g transform="translate(980, 0)">
-      <rect width="180" height="38" rx="8" class="status-badge"/>
-      <text x="90" y="24" text-anchor="middle" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">📍 Nagpur, India 🇮🇳</text>
+      <rect width="180" height="38" rx="8" class="badge-status"/>
+      <text x="90" y="24" text-anchor="middle" fill="#00f5d4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">📍 Nagpur, India 🇮🇳</text>
     </g>
   </g>
 </svg>
