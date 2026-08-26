@@ -1,209 +1,217 @@
 <svg width="100%" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Dark Mode Gradients -->
-    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16" />
-      <stop offset="50%" stop-color="#0e131f" />
-      <stop offset="100%" stop-color="#080c14" />
+    <!-- Background Gradients -->
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+    
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f1f5f9" />
     </linearGradient>
 
-    <radialGradient id="glowCyan" cx="15%" cy="30%" r="50%">
-      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="glowIndigo" cx="85%" cy="70%" r="60%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.16" />
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
-    </radialGradient>
-
-    <linearGradient id="titleGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Accent Highlights -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#c084fc" />
+      <stop offset="60%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#a855f7" />
     </linearGradient>
 
-    <linearGradient id="borderGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.4" />
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.3" />
       <stop offset="100%" stop-color="#818cf8" stop-opacity="0.5" />
     </linearGradient>
 
-    <linearGradient id="cardGradDark" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#161e2e" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.7" />
-    </linearGradient>
+    <radialGradient id="meshGlow" cx="20%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
 
-    <!-- Light Mode Gradients -->
-    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f8fafc" />
-      <stop offset="50%" stop-color="#f1f5f9" />
-      <stop offset="100%" stop-color="#e2e8f0" />
-    </linearGradient>
-
-    <linearGradient id="titleGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" />
-      <stop offset="50%" stop-color="#4f46e5" />
-      <stop offset="100%" stop-color="#7c3aed" />
-    </linearGradient>
+    <radialGradient id="meshGlowPurple" cx="85%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
   <style>
-    .banner-bg { fill: url(#bgGradDark); stroke: url(#borderGradDark); stroke-width: 1.5; }
-    .glow-cyan { fill: url(#glowCyan); }
-    .glow-indigo { fill: url(#glowIndigo); }
-    .title-text { fill: url(#titleGradDark); }
-    .main-text { fill: #f8fafc; }
-    .sub-text { fill: #94a3b8; }
-    .card-bg { fill: url(#cardGradDark); stroke: rgba(56, 189, 248, 0.2); stroke-width: 1.2; }
-    .card-num { fill: #f8fafc; }
-    .card-label { fill: #38bdf8; }
-    .tag-bg { fill: rgba(15, 23, 42, 0.8); stroke: rgba(56, 189, 248, 0.25); stroke-width: 1; }
-    .tag-text { fill: #e2e8f0; }
-    .grid-line { stroke: rgba(255, 255, 255, 0.035); }
-    .circuit-node { fill: #38bdf8; opacity: 0.7; }
-    .circuit-line { stroke: rgba(56, 189, 248, 0.2); stroke-width: 1; stroke-dasharray: 4 4; }
+    .bg-main { fill: url(#bgDark); stroke: url(#borderGrad); stroke-width: 1.5; }
+    .glow-1 { fill: url(#meshGlow); }
+    .glow-2 { fill: url(#meshGlowPurple); }
+    .text-title { fill: url(#nameGrad); }
+    .text-primary { fill: #f8fafc; }
+    .text-secondary { fill: #94a3b8; }
+    .text-muted { fill: #64748b; }
+    .card-panel { fill: #131b2e; stroke: #1e293b; stroke-width: 1.2; }
+    .status-badge { fill: rgba(16, 185, 129, 0.1); stroke: rgba(16, 185, 129, 0.35); stroke-width: 1; }
+    .tech-pill { fill: #0f172a; stroke: rgba(56, 189, 248, 0.25); stroke-width: 1; }
+    .grid-mesh { stroke: rgba(255, 255, 255, 0.025); }
 
     @media (prefers-color-scheme: light) {
-      .banner-bg { fill: url(#bgGradLight); stroke: #cbd5e1; stroke-width: 1.5; }
-      .glow-cyan { fill: #e0f2fe; opacity: 0.6; }
-      .glow-indigo { fill: #e0e7ff; opacity: 0.6; }
-      .title-text { fill: url(#titleGradLight); }
-      .main-text { fill: #0f172a; }
-      .sub-text { fill: #475569; }
-      .card-bg { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.2; }
-      .card-num { fill: #0f172a; }
-      .card-label { fill: #0284c7; }
-      .tag-bg { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
-      .tag-text { fill: #334155; }
-      .grid-line { stroke: rgba(0, 0, 0, 0.04); }
-      .circuit-node { fill: #0284c7; opacity: 0.8; }
-      .circuit-line { stroke: rgba(2, 132, 199, 0.25); }
+      .bg-main { fill: url(#bgLight); stroke: #cbd5e1; stroke-width: 1.5; }
+      .glow-1 { fill: #e0f2fe; opacity: 0.5; }
+      .glow-2 { fill: #f3e8ff; opacity: 0.5; }
+      .text-title { fill: #0284c7; }
+      .text-primary { fill: #0f172a; }
+      .text-secondary { fill: #475569; }
+      .text-muted { fill: #94a3b8; }
+      .card-panel { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.2; }
+      .status-badge { fill: rgba(16, 185, 129, 0.08); stroke: rgba(16, 185, 129, 0.4); stroke-width: 1; }
+      .tech-pill { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
+      .grid-mesh { stroke: rgba(0, 0, 0, 0.035); }
     }
   </style>
 
-  <!-- Banner Outer Box -->
-  <rect width="1280" height="340" rx="18" class="banner-bg"/>
+  <!-- Base Canvas -->
+  <rect width="1280" height="340" rx="16" class="bg-main"/>
+  <rect width="1280" height="340" rx="16" class="glow-1"/>
+  <rect width="1280" height="340" rx="16" class="glow-2"/>
 
-  <!-- Radial Glow Accents -->
-  <rect width="1280" height="340" rx="18" class="glow-cyan"/>
-  <rect width="1280" height="340" rx="18" class="glow-indigo"/>
-
-  <!-- Subtle Cybernetic Grid Pattern -->
-  <g class="grid-line" stroke-width="1">
+  <!-- Minimal Grid Accents -->
+  <g class="grid-mesh" stroke-width="1">
     <line x1="0" y1="68" x2="1280" y2="68"/>
     <line x1="0" y1="136" x2="1280" y2="136"/>
     <line x1="0" y1="204" x2="1280" y2="204"/>
     <line x1="0" y1="272" x2="1280" y2="272"/>
-    <line x1="160" y1="0" x2="160" y2="340"/>
-    <line x1="320" y1="0" x2="320" y2="340"/>
-    <line x1="480" y1="0" x2="480" y2="340"/>
+    <line x1="200" y1="0" x2="200" y2="340"/>
+    <line x1="420" y1="0" x2="420" y2="340"/>
     <line x1="640" y1="0" x2="640" y2="340"/>
-    <line x1="800" y1="0" x2="800" y2="340"/>
-    <line x1="960" y1="0" x2="960" y2="340"/>
-    <line x1="1120" y1="0" x2="1120" y2="340"/>
+    <line x1="860" y1="0" x2="860" y2="340"/>
+    <line x1="1080" y1="0" x2="1080" y2="340"/>
   </g>
 
-  <!-- Constellation Circuit Connectors -->
-  <path d="M 640 68 L 740 68 L 780 108 L 810 108" class="circuit-line"/>
-  <circle cx="640" cy="68" r="3.5" class="circuit-node"/>
-  <circle cx="780" cy="108" r="3" class="circuit-node"/>
-  <circle cx="810" cy="108" r="3.5" class="circuit-node"/>
-
-  <!-- Left Content Column -->
-  <g transform="translate(64, 46)">
-    <!-- Terminal Identifier Badge -->
+  <!-- Left Header: Identity & Role -->
+  <g transform="translate(60, 44)">
+    <!-- Practical Status Badge -->
     <g>
-      <rect width="250" height="28" rx="14" class="tag-bg"/>
+      <rect width="365" height="28" rx="14" class="status-badge"/>
       <circle cx="16" cy="14" r="4.5" fill="#10b981"/>
-      <text x="30" y="19" fill="#10b981" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" font-weight="700" letter-spacing="1.5">ADITYA BHURE // AI CORE</text>
+      <text x="28" y="19" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">OPEN FOR AI/ML &amp; BACKEND ROLES (2026)</text>
     </g>
 
-    <!-- Main Headline with Gradient -->
-    <text x="0" y="86" class="main-text" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">
-      Building Intelligent Systems
+    <!-- Name & Professional Title -->
+    <text x="0" y="80" class="text-primary" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="42" font-weight="800" letter-spacing="-1.2">
+      Aditya Bhure
     </text>
-    <text x="0" y="138" class="title-text" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">
-      That Scale in Production.
+    <text x="295" y="80" class="text-title" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="42" font-weight="800" letter-spacing="-1.2">
+      // AI &amp; Backend Engineer
     </text>
 
-    <!-- Subtitle Description -->
-    <text x="0" y="180" class="sub-text" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="15" font-weight="500" letter-spacing="0.2">
-      Machine Learning Research • Graph RAG • Real-Time Computer Vision • High-Throughput APIs
+    <!-- Practical Subtitle: What I build -->
+    <text x="0" y="122" class="text-secondary" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="500" letter-spacing="-0.2">
+      Building Production RAG Systems • Real-Time Computer Vision • High-Throughput FastAPI Backends
     </text>
+
+    <!-- Core Stack Pills Row -->
+    <g transform="translate(0, 146)">
+      <!-- Python -->
+      <g transform="translate(0, 0)">
+        <rect width="90" height="28" rx="6" class="tech-pill"/>
+        <text x="45" y="18" text-anchor="middle" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Python 3.12</text>
+      </g>
+      <!-- PyTorch -->
+      <g transform="translate(98, 0)">
+        <rect width="78" height="28" rx="6" class="tech-pill"/>
+        <text x="39" y="18" text-anchor="middle" fill="#f97316" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PyTorch</text>
+      </g>
+      <!-- FastAPI -->
+      <g transform="translate(184, 0)">
+        <rect width="78" height="28" rx="6" class="tech-pill"/>
+        <text x="39" y="18" text-anchor="middle" fill="#14b8a6" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">FastAPI</text>
+      </g>
+      <!-- OpenCV -->
+      <g transform="translate(270, 0)">
+        <rect width="78" height="28" rx="6" class="tech-pill"/>
+        <text x="39" y="18" text-anchor="middle" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">OpenCV</text>
+      </g>
+      <!-- Docker -->
+      <g transform="translate(356, 0)">
+        <rect width="75" height="28" rx="6" class="tech-pill"/>
+        <text x="37.5" y="18" text-anchor="middle" fill="#0ea5e9" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Docker</text>
+      </g>
+      <!-- PostgreSQL -->
+      <g transform="translate(439, 0)">
+        <rect width="95" height="28" rx="6" class="tech-pill"/>
+        <text x="47.5" y="18" text-anchor="middle" fill="#60a5fa" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PostgreSQL</text>
+      </g>
+      <!-- CUDA -->
+      <g transform="translate(542, 0)">
+        <rect width="80" height="28" rx="6" class="tech-pill"/>
+        <text x="40" y="18" text-anchor="middle" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">CUDA 12</text>
+      </g>
+    </g>
   </g>
 
-  <!-- Right Metrics Cards Group -->
-  <g transform="translate(805, 46)">
-    <!-- Metric Card 1: Projects -->
+  <!-- Right Practical Stats Panel -->
+  <g transform="translate(840, 42)">
+    <!-- Stat Box 1: Repos -->
     <g transform="translate(0, 0)">
-      <rect width="130" height="120" rx="14" class="card-bg"/>
-      <!-- Top Accent Bar -->
-      <path d="M 14 0 L 116 0" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
-      <text x="65" y="52" text-anchor="middle" class="card-num" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">12+</text>
-      <text x="65" y="78" text-anchor="middle" class="card-label" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">PROJECTS</text>
-      <text x="65" y="98" text-anchor="middle" class="sub-text" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Shipped &amp; Tested</text>
+      <rect width="115" height="135" rx="12" class="card-panel"/>
+      <path d="M 12 0 L 103 0" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+      <text x="57.5" y="52" text-anchor="middle" class="text-primary" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">12+</text>
+      <text x="57.5" y="80" text-anchor="middle" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">PROJECTS</text>
+      <text x="57.5" y="102" text-anchor="middle" class="text-muted" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Shipped &amp; Tested</text>
+      <text x="57.5" y="118" text-anchor="middle" fill="#10b981" font-family="'Inter', sans-serif" font-size="9" font-weight="600">● 100% Open</text>
     </g>
 
-    <!-- Metric Card 2: Commits -->
-    <g transform="translate(145, 0)">
-      <rect width="130" height="120" rx="14" class="card-bg"/>
-      <!-- Top Accent Bar -->
-      <path d="M 14 0 L 116 0" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
-      <text x="65" y="52" text-anchor="middle" class="card-num" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">950+</text>
-      <text x="65" y="78" text-anchor="middle" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">COMMITS</text>
-      <text x="65" y="98" text-anchor="middle" class="sub-text" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Active CI/CD</text>
+    <!-- Stat Box 2: Commits -->
+    <g transform="translate(130, 0)">
+      <rect width="115" height="135" rx="12" class="card-panel"/>
+      <path d="M 12 0 L 103 0" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
+      <text x="57.5" y="52" text-anchor="middle" class="text-primary" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">950+</text>
+      <text x="57.5" y="80" text-anchor="middle" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">COMMITS</text>
+      <text x="57.5" y="102" text-anchor="middle" class="text-muted" font-family="'Inter', sans-serif" font-size="10" font-weight="500">Continuous CI</text>
+      <text x="57.5" y="118" text-anchor="middle" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="9" font-weight="600">● Active 2026</text>
     </g>
 
-    <!-- Metric Card 3: Curiosity -->
-    <g transform="translate(290, 0)">
-      <rect width="130" height="120" rx="14" class="card-bg"/>
-      <!-- Top Accent Bar -->
-      <path d="M 14 0 L 116 0" stroke="#c084fc" stroke-width="3" stroke-linecap="round"/>
-      <text x="65" y="54" text-anchor="middle" fill="#c084fc" font-family="'Inter', sans-serif" font-size="36" font-weight="700">∞</text>
-      <text x="65" y="78" text-anchor="middle" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">CURIOSITY</text>
-      <text x="65" y="98" text-anchor="middle" class="sub-text" font-family="'Inter', sans-serif" font-size="10" font-weight="500">R&amp;D Driven</text>
+    <!-- Stat Box 3: Experience/Focus -->
+    <g transform="translate(260, 0)">
+      <rect width="115" height="135" rx="12" class="card-panel"/>
+      <path d="M 12 0 L 103 0" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+      <text x="57.5" y="52" text-anchor="middle" class="text-primary" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">2026</text>
+      <text x="57.5" y="80" text-anchor="middle" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">B.TECH GRAD</text>
+      <text x="57.5" y="102" text-anchor="middle" class="text-muted" font-family="'Inter', sans-serif" font-size="10" font-weight="500">AI &amp; Data Science</text>
+      <text x="57.5" y="118" text-anchor="middle" fill="#f59e0b" font-family="'Inter', sans-serif" font-size="9" font-weight="600">● Top Tier R&amp;D</text>
     </g>
   </g>
 
-  <!-- Horizontal Tech Divider -->
-  <line x1="64" y1="248" x2="1216" y2="248" stroke="rgba(56, 189, 248, 0.18)" stroke-width="1"/>
+  <!-- Bottom Divider -->
+  <line x1="60" y1="244" x2="1220" y2="244" stroke="#1e293b" stroke-width="1"/>
 
-  <!-- Bottom Pills: Tech Specializations -->
-  <g transform="translate(64, 268)">
-    <!-- Pill 1 -->
+  <!-- Footer Focus Badges -->
+  <g transform="translate(60, 264)">
+    <!-- Practical Key Strengths -->
     <g transform="translate(0, 0)">
-      <rect width="170" height="38" rx="10" class="tag-bg"/>
+      <rect width="190" height="38" rx="8" class="card-panel"/>
       <circle cx="16" cy="19" r="4" fill="#38bdf8"/>
-      <text x="96" y="24" text-anchor="middle" class="tag-text" font-family="'Inter', sans-serif" font-size="13" font-weight="600">LLM &amp; RAG Systems</text>
+      <text x="105" y="24" text-anchor="middle" class="text-secondary" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Multi-Modal GenAI &amp; RAG</text>
     </g>
 
-    <!-- Pill 2 -->
-    <g transform="translate(185, 0)">
-      <rect width="195" height="38" rx="10" class="tag-bg"/>
+    <g transform="translate(205, 0)">
+      <rect width="215" height="38" rx="8" class="card-panel"/>
       <circle cx="16" cy="19" r="4" fill="#818cf8"/>
-      <text x="108" y="24" text-anchor="middle" class="tag-text" font-family="'Inter', sans-serif" font-size="13" font-weight="600">Computer Vision &amp; CNN</text>
+      <text x="118" y="24" text-anchor="middle" class="text-secondary" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Real-Time OpenCV / CNN Pipelines</text>
     </g>
 
-    <!-- Pill 3 -->
-    <g transform="translate(395, 0)">
-      <rect width="200" height="38" rx="10" class="tag-bg"/>
-      <circle cx="16" cy="19" r="4" fill="#34d399"/>
-      <text x="110" y="24" text-anchor="middle" class="tag-text" font-family="'Inter', sans-serif" font-size="13" font-weight="600">High-Speed FastAPI APIs</text>
+    <g transform="translate(435, 0)">
+      <rect width="225" height="38" rx="8" class="card-panel"/>
+      <circle cx="16" cy="19" r="4" fill="#10b981"/>
+      <text x="123" y="24" text-anchor="middle" class="text-secondary" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Low-Latency Async Microservices</text>
     </g>
 
-    <!-- Pill 4 -->
-    <g transform="translate(610, 0)">
-      <rect width="180" height="38" rx="10" class="tag-bg"/>
+    <g transform="translate(675, 0)">
+      <rect width="205" height="38" rx="8" class="card-panel"/>
       <circle cx="16" cy="19" r="4" fill="#f59e0b"/>
-      <text x="100" y="24" text-anchor="middle" class="tag-text" font-family="'Inter', sans-serif" font-size="13" font-weight="600">Docker &amp; MLOps Infra</text>
+      <text x="113" y="24" text-anchor="middle" class="text-secondary" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Containerized MLOps &amp; Docker</text>
     </g>
 
-    <!-- Pill 5 Location -->
+    <!-- Location & Contact -->
     <g transform="translate(980, 0)">
-      <rect width="172" height="38" rx="10" class="tag-bg"/>
-      <circle cx="16" cy="19" r="4" fill="#f43f5e"/>
-      <text x="96" y="24" text-anchor="middle" class="tag-text" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">📍 Nagpur, India</text>
+      <rect width="180" height="38" rx="8" class="status-badge"/>
+      <text x="90" y="24" text-anchor="middle" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">📍 Nagpur, India 🇮🇳</text>
     </g>
   </g>
 </svg>
