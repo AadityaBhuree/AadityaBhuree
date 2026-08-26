@@ -1,42 +1,129 @@
-<svg width="100%" viewBox="0 0 1280 315" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 1280px; width: 100%; height: auto; border-radius: 20px;">
-    <rect width="1280" height="315" rx="20" fill="#FAF9F5"/>
+<svg width="100%" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --bg-color: #0d1117;
+      --card-border: #30363d;
+      --accent-color: #38bdf8;
+      --accent-secondary: #818cf8;
+      --text-main: #f0f6fc;
+      --text-muted: #8b949e;
+      --tag-bg: rgba(56, 189, 248, 0.08);
+      --tag-border: rgba(56, 189, 248, 0.25);
+      --tag-text: #bae6fd;
+      --stat-bg: rgba(22, 27, 34, 0.85);
+      --grid-stroke: rgba(255, 255, 255, 0.03);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-color: #f8fafc;
+        --card-border: #e2e8f0;
+        --accent-color: #0284c7;
+        --accent-secondary: #6366f1;
+        --text-main: #0f172a;
+        --text-muted: #64748b;
+        --tag-bg: rgba(2, 132, 199, 0.06);
+        --tag-border: rgba(2, 132, 199, 0.2);
+        --tag-text: #0369a1;
+        --stat-bg: rgba(255, 255, 255, 0.9);
+        --grid-stroke: rgba(0, 0, 0, 0.03);
+      }
+    }
+  </style>
 
-    <text x="50" y="65" fill="#9C9A96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" font-size="14" font-weight="500" letter-spacing="2.5">ADITYA BHURE / GITHUB</text>
-    <rect x="50" y="77" width="68" height="4" rx="1" fill="#D35B35"/>
-    
-    <text x="50" y="145" fill="#1A1A1A" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="600" letter-spacing="-1.5">Building AI for</text>
-    <text x="50" y="195" fill="#1A1A1A" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="600" letter-spacing="-1.5">the real world.</text>
+  <!-- Container Box with Rounded Corners and Subtle Border -->
+  <rect width="1280" height="320" rx="16" fill="var(--bg-color)" stroke="var(--card-border)" stroke-width="1.5"/>
 
-    <g transform="translate(860, 0)">
-      <text x="45" y="90" text-anchor="middle" fill="#1A1A1A" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="38" font-weight="600" letter-spacing="-0.5">12+</text>
-      <text x="45" y="112" text-anchor="middle" fill="#9C9A96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="11" font-weight="500" letter-spacing="1">PROJECTS</text>
+  <!-- Background Decorative Cyber/Grid Pattern -->
+  <g stroke="var(--grid-stroke)" stroke-width="1">
+    <line x1="0" y1="64" x2="1280" y2="64"/>
+    <line x1="0" y1="128" x2="1280" y2="128"/>
+    <line x1="0" y1="192" x2="1280" y2="192"/>
+    <line x1="0" y1="256" x2="1280" y2="256"/>
+    <line x1="160" y1="0" x2="160" y2="320"/>
+    <line x1="320" y1="0" x2="320" y2="320"/>
+    <line x1="480" y1="0" x2="480" y2="320"/>
+    <line x1="640" y1="0" x2="640" y2="320"/>
+    <line x1="800" y1="0" x2="800" y2="320"/>
+    <line x1="960" y1="0" x2="960" y2="320"/>
+    <line x1="1120" y1="0" x2="1120" y2="320"/>
+  </g>
+
+  <!-- Left Header Identity -->
+  <g transform="translate(60, 50)">
+    <!-- Terminal Breadcrumb Tag -->
+    <rect width="210" height="26" rx="6" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
+    <circle cx="14" cy="13" r="4" fill="var(--accent-color)"/>
+    <text x="26" y="17" fill="var(--tag-text)" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" font-weight="600" letter-spacing="1.5">ADITYA BHURE // AI-CORE</text>
+
+    <!-- Main Headline -->
+    <text x="0" y="80" fill="var(--text-main)" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">
+      Building Intelligent Systems
+    </text>
+    <text x="0" y="130" fill="var(--accent-color)" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">
+      That Scale in Production.
+    </text>
+  </g>
+
+  <!-- Right Metrics Cards Group -->
+  <g transform="translate(810, 48)">
+    <!-- Metric 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="125" height="110" rx="12" fill="var(--stat-bg)" stroke="var(--card-border)" stroke-width="1.2"/>
+      <text x="62.5" y="52" text-anchor="middle" fill="var(--text-main)" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">12+</text>
+      <text x="62.5" y="78" text-anchor="middle" fill="var(--accent-color)" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2">PROJECTS</text>
+      <text x="62.5" y="94" text-anchor="middle" fill="var(--text-muted)" font-family="'Inter', sans-serif" font-size="9" font-weight="500">Shipped &amp; Live</text>
     </g>
 
-    <g transform="translate(980, 0)">
-      <text x="45" y="90" text-anchor="middle" fill="#1A1A1A" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="38" font-weight="600" letter-spacing="-0.5">900+</text>
-      <text x="45" y="112" text-anchor="middle" fill="#9C9A96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="11" font-weight="500" letter-spacing="1">COMMITS</text>
+    <!-- Metric 2 -->
+    <g transform="translate(140, 0)">
+      <rect width="125" height="110" rx="12" fill="var(--stat-bg)" stroke="var(--card-border)" stroke-width="1.2"/>
+      <text x="62.5" y="52" text-anchor="middle" fill="var(--text-main)" font-family="'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">950+</text>
+      <text x="62.5" y="78" text-anchor="middle" fill="var(--accent-secondary)" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2">COMMITS</text>
+      <text x="62.5" y="94" text-anchor="middle" fill="var(--text-muted)" font-family="'Inter', sans-serif" font-size="9" font-weight="500">Continuous CI</text>
     </g>
 
-    <g transform="translate(1100, 0)">
-      <text x="45" y="90" text-anchor="middle" fill="#D35B35" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="36" font-weight="400">&#8734;</text>
-      <text x="45" y="112" text-anchor="middle" fill="#9C9A96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="11" font-weight="500" letter-spacing="1">CURIOSITY</text>
+    <!-- Metric 3 -->
+    <g transform="translate(280, 0)">
+      <rect width="125" height="110" rx="12" fill="var(--stat-bg)" stroke="var(--card-border)" stroke-width="1.2"/>
+      <text x="62.5" y="54" text-anchor="middle" fill="var(--accent-color)" font-family="'Inter', sans-serif" font-size="36" font-weight="700">∞</text>
+      <text x="62.5" y="78" text-anchor="middle" fill="var(--accent-color)" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2">CURIOSITY</text>
+      <text x="62.5" y="94" text-anchor="middle" fill="var(--text-muted)" font-family="'Inter', sans-serif" font-size="9" font-weight="500">R&amp;D Driven</text>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="60" y1="230" x2="1220" y2="230" stroke="var(--card-border)" stroke-width="1"/>
+
+  <!-- Bottom Interactive Focus Area Tags -->
+  <g transform="translate(60, 252)">
+    <!-- Tag 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="165" height="36" rx="8" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
+      <text x="82.5" y="23" text-anchor="middle" fill="var(--tag-text)" font-family="'Inter', sans-serif" font-size="13" font-weight="600">🧠 LLM &amp; RAG Systems</text>
     </g>
 
-    <line x1="50" y1="240" x2="1230" y2="240" stroke="#E6E4DF" stroke-width="1"/>
-
-    <g id="tags" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="16" font-weight="400">
-      <text x="50" y="272" fill="#55534F">Computer Vision</text>
-      <text x="192" y="272" fill="#D2D0CB" font-weight="300">|</text>
-      
-      <text x="216" y="272" fill="#55534F">Deep Learning</text>
-      <text x="343" y="272" fill="#D2D0CB" font-weight="300">|</text>
-      
-      <text x="367" y="272" fill="#55534F">Machine Learning</text>
-      <text x="517" y="272" fill="#D2D0CB" font-weight="300">|</text>
-      
-      <text x="541" y="272" fill="#55534F">Fintech AI</text>
-      <text x="633" y="272" fill="#D2D0CB" font-weight="300">|</text>
-      
-      <text x="657" y="272" fill="#55534F">Nagpur, India</text>
+    <!-- Tag 2 -->
+    <g transform="translate(180, 0)">
+      <rect width="190" height="36" rx="8" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
+      <text x="95" y="23" text-anchor="middle" fill="var(--tag-text)" font-family="'Inter', sans-serif" font-size="13" font-weight="600">👁️ Computer Vision / CNN</text>
     </g>
-  </svg>
+
+    <!-- Tag 3 -->
+    <g transform="translate(385, 0)">
+      <rect width="195" height="36" rx="8" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
+      <text x="97.5" y="23" text-anchor="middle" fill="var(--tag-text)" font-family="'Inter', sans-serif" font-size="13" font-weight="600">⚡ High-Speed Backend APIs</text>
+    </g>
+
+    <!-- Tag 4 -->
+    <g transform="translate(595, 0)">
+      <rect width="175" height="36" rx="8" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="1"/>
+      <text x="87.5" y="23" text-anchor="middle" fill="var(--tag-text)" font-family="'Inter', sans-serif" font-size="13" font-weight="600">🐳 MLOps &amp; Dockerization</text>
+    </g>
+
+    <!-- Tag 5 Location -->
+    <g transform="translate(995, 0)">
+      <rect width="165" height="36" rx="8" fill="var(--stat-bg)" stroke="var(--card-border)" stroke-width="1"/>
+      <text x="82.5" y="23" text-anchor="middle" fill="var(--text-muted)" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">📍 Nagpur, India</text>
+    </g>
+  </g>
+</svg>
