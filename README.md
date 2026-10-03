@@ -64,78 +64,86 @@ $ aditya mission-statement
 <table border="0">
   <tr>
     <td width="50%" valign="top">
-      <h3>✈️ <a href="https://github.com/AadityaBhuree/Paper-Pilot">Paper-Pilot</a> <code>AI / RAG Assistant</code></h3>
-      <p><b>Conversational Research Assistant with Multi-Document PDF QA</b></p>
-      <p>An intelligent academic assistant combining advanced text extraction, chunking, and semantic embeddings to enable natural-language conversational queries over multi-page research publications.</p>
+      <h3>🏥 <a href="https://github.com/AadityaBhuree/jeevandata">Jeevandata — Smart Clinical Intake</a> <code>Full-Stack &amp; Biometrics</code></h3>
+      <p><b>Enterprise Clinical Intelligence Intake Engine with WASM Facial Biometrics</b></p>
+      <p>Production-candidate clinical intake system featuring sub-second MediaPipe WASM facial biometric check-in, real-time voice symptom triage (Whisper + Gemini 2.0 Flash), 512-dim Qdrant vector retrieval, zero-trust offline AES-256-GCM encryption, and clinic multi-tenancy.</p>
       <ul>
-        <li>Automated methodology &amp; conclusion summarization pipeline</li>
-        <li>Context-aware citations and hallucination mitigation</li>
-        <li>Sub-second vector retrieval over document chunks</li>
+        <li>478-point client-side facial landmarking with EAR blink anti-spoofing</li>
+        <li>512-dim geometric feature extraction against Qdrant vector database</li>
+        <li>Conversational voice triage pushing live structured briefs to doctors</li>
+        <li>AES-256-GCM encrypted offline IndexedDB cache for zero-downtime intake</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-        <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-        <img src="https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=langchain&logoColor=white" />
+        <img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/NestJS_10-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white" />
+        <img src="https://img.shields.io/badge/Redis_7-DC382D?style=flat-square&logo=redis&logoColor=white" />
+        <img src="https://img.shields.io/badge/1,074_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
       </p>
       <p>
-        <a href="https://github.com/AadityaBhuree/Paper-Pilot"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/AadityaBhuree/jeevandata"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🚗 <a href="https://github.com/AadityaBhuree/used-car-price-prediction">Used Car Valuation Engine</a> <code>ML &amp; Backend</code></h3>
-      <p><b>End-to-End ML Regression Service with High-Speed REST API</b></p>
-      <p>Production-ready vehicle pricing engine trained on extensive multi-feature automotive datasets, delivering instant valuation estimates via an optimized FastAPI backend and reactive client UI.</p>
+      <h3>🎭 <a href="https://github.com/AadityaBhuree/EmotionSense">EmotionSense — Affective Telemetry</a> <code>Affective AI &amp; Edge</code></h3>
+      <p><b>Multimodal Affective Intelligence &amp; Forensic Veracity Sentinel</b></p>
+      <p>Clinically-grounded multimodal emotion recognition and physiological telemetry platform computing continuous 3D VAD affect, 468-point facial Action Units, optical rPPG pulse/HRV, pupillary response, and sub-10ms DirectML/ONNX edge inference.</p>
       <ul>
-        <li>Robust data preprocessing, feature engineering &amp; outlier elimination</li>
-        <li>Ensemble gradient boosting models tuned for minimal mean absolute error</li>
-        <li>Asynchronous REST API endpoints with Pydantic payload validation</li>
+        <li>Ekman 8-emotion classification mapped to continuous 3D VAD space</li>
+        <li>Contactless optical rPPG pulse (BPM) and Heart Rate Variability (HRV)</li>
+        <li>Forensic micro-expression leakage detection &amp; Credibility Risk Index (CDRI)</li>
+        <li>Hardened FastAPI microservice with APIKeyAuthMiddleware &amp; scoped CORS</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+        <img src="https://img.shields.io/badge/MediaPipe_3D-0EA5E9?style=flat-square&logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" />
+        <img src="https://img.shields.io/badge/249_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
       </p>
       <p>
-        <a href="https://github.com/AadityaBhuree/used-car-price-prediction"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/AadityaBhuree/EmotionSense"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>✋ <a href="https://github.com/AadityaBhuree/-Hand-Gesture-Recognition-System-using-CNN-and-OpenCV-">Hand Gesture Vision System</a> <code>Computer Vision</code></h3>
-      <p><b>Real-Time Spatial Gesture Classifier via Custom CNNs</b></p>
-      <p>Low-latency computer vision pipeline that isolates hand landmarks, segments regions of interest, and classifies dynamic user gestures in real time at 30+ frames per second.</p>
+      <h3>🏥 <a href="https://github.com/AadityaBhuree/WellCare-Hospital-System">WellCare Hospital Management</a> <code>Desktop &amp; Security</code></h3>
+      <p><b>HIPAA-Conscious Clinical Management Desktop Suite</b></p>
+      <p>Desktop hospital management architecture with CustomTkinter GUI, SQLite 3 transactional persistence, collision-proof appointment booking, automated PDF billing receipts, and hardened bcrypt authentication.</p>
       <ul>
-        <li>Custom Convolutional Neural Network architecture with data augmentation</li>
-        <li>Background-subtracted frame processing using OpenCV filters</li>
-        <li>Interactive hands-free human-computer interface controls</li>
+        <li>Complete patient registration, profile updates, and consultation timelines</li>
+        <li>Doctor directory with real-time double-booking collision prevention</li>
+        <li>Financial billing module with automated PDF invoice generation via FPDF2</li>
+        <li>Hardened bcrypt authentication with strict password verification and zero backdoors</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+        <img src="https://img.shields.io/badge/CustomTkinter-2B2B2B?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/FPDF2-E11D48?style=flat-square&logo=adobeacrobatreader&logoColor=white" />
+        <img src="https://img.shields.io/badge/166_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
       </p>
       <p>
-        <a href="https://github.com/AadityaBhuree/-Hand-Gesture-Recognition-System-using-CNN-and-OpenCV-"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/AadityaBhuree/WellCare-Hospital-System"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/AadityaBhuree/AI-Task-Manager">AI Task Manager</a> <code>NLP &amp; Productivity</code></h3>
-      <p><b>Intelligent Workflow Scheduler with Natural Language Prioritization</b></p>
-      <p>Smart productivity suite that parses free-form natural language task descriptions, performs automated dependency and urgency extraction, and organizes sprint backlogs.</p>
+      <h3>🤖 <a href="https://github.com/AadityaBhuree/AI-Task-Manager">AI Task Manager</a> <code>Agentic AI &amp; LangGraph</code></h3>
+      <p><b>Intelligent Productivity Copilot with Conversational Tool Agents</b></p>
+      <p>Smart productivity platform featuring LangGraph multi-tool agents, natural language date and priority parsing, Gemini 1.5 Flash tool calling, and SQLite persistence for sprint backlogs.</p>
       <ul>
-        <li>Semantic parsing of deadlines, priority tags, and work domains</li>
-        <li>Persistent SQLite storage with streamlined transactional state</li>
-        <li>Clean, responsive dashboard built with Streamlit</li>
+        <li>Natural language quick-add detecting priority keywords and relative dates</li>
+        <li>LangGraph multi-tool conversational agent powered by Gemini 1.5 Flash</li>
+        <li>Offline fallback heuristic agent when LLM credentials are unavailable</li>
+        <li>Persistent SQLite storage with SQLAlchemy ORM and GitHub Actions CI</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangGraph-121212?style=flat-square&logo=langchain&logoColor=white" />
+        <img src="https://img.shields.io/badge/Gemini_1.5-4285F4?style=flat-square&logo=googlegemini&logoColor=white" />
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-        <img src="https://img.shields.io/badge/NLP-0EA5E9?style=flat-square&logo=openai&logoColor=white" />
       </p>
       <p>
         <a href="https://github.com/AadityaBhuree/AI-Task-Manager"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
@@ -148,6 +156,9 @@ $ aditya mission-statement
   <summary><b>🔍 View Additional Engineering Projects</b></summary>
   <br/>
 
+  - 🌍 **[Press Freedom Geopolitical Classifier](https://github.com/AadityaBhuree/Press-freedom-analysis)** — Geopolitical ML forecasting system predicting press freedom risk tiers across 180 nations using 14 exogenous indicators without target leakage (90.2% Stratified CV, 6 unit tests).
+  - 🔢 **[MNIST Neural Digit Laboratory](https://github.com/AadityaBhuree/Hand-Gesture-recognition-system)** — Microservice running CNN digit inference with dynamic image contrast inversion and Lanczos preprocessing.
+  - 🏏 **[IPL Analytics Platform](https://github.com/AadityaBhuree/ipl-analytics-platform)** — Ball-by-ball cricket analytics and score prediction backend with FastAPI and asynchronous retraining.
   - 📚 **[GoodBook Recommender](https://github.com/AadityaBhuree/Goodbook-Recommender)** — Personalized hybrid recommendation engine using user-item collaborative filtering and TF-IDF content similarity vectors.
   - 🔍 **[Vehicle Number Plate OCR](https://github.com/AadityaBhuree/Vehicle-hand-written-no-recognizer)** — Automated license plate localization, contour segmentation, and character recognition using OpenCV morphology and OCR models.
 </details>
@@ -180,17 +191,22 @@ $ aditya mission-statement
 <br/>
 
 ### 💾 `backend_distributed_systems_&_databases`
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white" />
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
 
 <br/>
 
 ### ⚙️ `cloud_devops_&_development_tooling`
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux_Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
