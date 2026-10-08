@@ -115,6 +115,7 @@ $ aditya mission-statement
         <li>Complete patient registration, profile updates, and consultation timelines</li>
         <li>Doctor directory with real-time double-booking collision prevention</li>
         <li>Financial billing module with automated PDF invoice generation via FPDF2</li>
+        <li>Bidirectional HL7 FHIR R4 clinical intake adapter and JSON export</li>
         <li>Hardened bcrypt authentication with strict password verification and zero backdoors</li>
       </ul>
       <p>
@@ -122,7 +123,7 @@ $ aditya mission-statement
         <img src="https://img.shields.io/badge/CustomTkinter-2B2B2B?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
         <img src="https://img.shields.io/badge/FPDF2-E11D48?style=flat-square&logo=adobeacrobatreader&logoColor=white" />
-        <img src="https://img.shields.io/badge/166_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
+        <img src="https://img.shields.io/badge/176_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
       </p>
       <p>
         <a href="https://github.com/AadityaBhuree/WellCare-Hospital-System"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
@@ -150,15 +151,56 @@ $ aditya mission-statement
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏛️ <a href="https://github.com/AadityaBhuree/Institute-Management-System">Institute Management System</a> <code>Enterprise &amp; FastAPI</code></h3>
+      <p><b>Modular Academic Administration, Admissions &amp; Bursar Financial Ledger</b></p>
+      <p>Full-stack educational enterprise platform engineered with FastAPI, SQLite in WAL mode, and a responsive glassmorphic dashboard automating admissions, course capacity enforcement, session attendance, examinations, and bursar ledger audits.</p>
+      <ul>
+        <li>Sequential institutional enrollment ID generation (<code>IMS-YYYY-DEPT-XXXX</code>)</li>
+        <li>Multi-semester course catalog with automated capacity-enforced enrollment</li>
+        <li>Session attendance registers, exam scheduling, and automated letter grading ($A^+, A, B, C, D, F$)</li>
+        <li>Departmental fee schedules, student invoicing (<code>INV-YYYY-XXXX</code>), and bursar audit ledger</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQLite_WAL-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-Multi--Stage-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/45_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
+      </p>
+      <p>
+        <a href="https://github.com/AadityaBhuree/Institute-Management-System"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏏 <a href="https://github.com/AadityaBhuree/ipl-analytics-platform">IPL Analytics Platform</a> <code>ML &amp; Real-Time API</code></h3>
+      <p><b>Cricket Telemetry, Score Forecasting &amp; Asynchronous Retraining Engine</b></p>
+      <p>Machine learning backend and desktop analytics client forecasting match scores and win probabilities with venue telemetry, explicit API key authentication, and non-blocking background model retraining.</p>
+      <ul>
+        <li>Real-time ball-by-ball score prediction factoring venue, overs, and team match-ups</li>
+        <li>Hardened API key authentication protecting administrative retraining endpoints</li>
+        <li>FastAPI asynchronous retraining jobs using non-blocking BackgroundTasks</li>
+        <li>Production containerized deployment with healthcheck probes and 15 automated tests</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/15_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
+      </p>
+      <p>
+        <a href="https://github.com/AadityaBhuree/ipl-analytics-platform"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
+      </p>
+    </td>
+  </tr>
 </table>
 
 <details>
   <summary><b>🔍 View Additional Engineering Projects</b></summary>
   <br/>
 
-  - 🌍 **[Press Freedom Geopolitical Classifier](https://github.com/AadityaBhuree/Press-freedom-analysis)** — Geopolitical ML forecasting system predicting press freedom risk tiers across 180 nations using 14 exogenous indicators without target leakage (90.2% Stratified CV, 6 unit tests).
-  - 🔢 **[MNIST Neural Digit Laboratory](https://github.com/AadityaBhuree/Hand-Gesture-recognition-system)** — Microservice running CNN digit inference with dynamic image contrast inversion and Lanczos preprocessing.
-  - 🏏 **[IPL Analytics Platform](https://github.com/AadityaBhuree/ipl-analytics-platform)** — Ball-by-ball cricket analytics and score prediction backend with FastAPI and asynchronous retraining.
+  - 🌍 **[Press Freedom Geopolitical Classifier](https://github.com/AadityaBhuree/Press-freedom-analysis)** — Geopolitical ML forecasting system predicting press freedom risk tiers across 180 nations using 14 exogenous indicators without target leakage (90.2% Stratified CV, 6 unit tests, Docker containerized).
+  - 🔢 **[MNIST Neural Digit Laboratory](https://github.com/AadityaBhuree/Hand-Gesture-recognition-system)** — Microservice running CNN digit inference with interactive HTML5 drawing canvas, dynamic image contrast inversion, and Lanczos preprocessing (10 tests passing, Docker ready).
   - 📚 **[GoodBook Recommender](https://github.com/AadityaBhuree/Goodbook-Recommender)** — Personalized hybrid recommendation engine using user-item collaborative filtering and TF-IDF content similarity vectors.
   - 🔍 **[Vehicle Number Plate OCR](https://github.com/AadityaBhuree/Vehicle-hand-written-no-recognizer)** — Automated license plate localization, contour segmentation, and character recognition using OpenCV morphology and OCR models.
 </details>
