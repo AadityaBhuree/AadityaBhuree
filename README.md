@@ -162,13 +162,13 @@ $ aditya mission-statement
         <li>Session attendance registers, exam scheduling, and automated letter grading ($A^+, A, B, C, D, F$)</li>
         <li>Departmental fee schedules, student invoicing (<code>INV-YYYY-XXXX</code>), and bursar audit ledger</li>
         <li>Student &amp; Faculty portals, Library circulation, Hostel allocations, and Corporate Placements</li>
-        <li>Transit fleet logistics, Scholarships, Alumni mentorship, CSV reports engine, and Campus Events Hub</li>
+        <li>Transit fleet logistics, Scholarships, Alumni mentorship, Events Hub, and Campus Lab Equipment & Inventory Hub</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
         <img src="https://img.shields.io/badge/SQLite_WAL-003B57?style=flat-square&logo=sqlite&logoColor=white" />
         <img src="https://img.shields.io/badge/Docker-Multi--Stage-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/132_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
+        <img src="https://img.shields.io/badge/146_Tests_Passing-10B981?style=flat-square&logo=checkmarx&logoColor=white" />
       </p>
       <p>
         <a href="https://github.com/AadityaBhuree/Institute-Management-System"><img src="https://img.shields.io/badge/Source_Code-000000?style=flat&logo=github&logoColor=white" /></a>
